@@ -1,0 +1,14 @@
+---
+title: "Estabilidad / Estática y Resistencia de Materiales"
+subtitle: "Ing. Eléctrica · Ing. Industrial · UTN FRLP · 2026"
+---
+
+**Docente:** Ing. Jorge Ronconi
+
+---
+
+## Clases
+
+| Clase | Unidad | Tema | |
+|---|---|---|---|
+| 1 | UT1 | Fuerzas y Vectores | [Ver](clase1/index.qmd) |

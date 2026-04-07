@@ -1,0 +1,474 @@
+---
+title: "Fuerzas Concurrentes en el Plano"
+subtitle: "UT1 — Semana 1"
+author: "RONCONI, Jorge Ernesto"
+date: today
+lang: es
+format:
+  revealjs:
+    theme: simple
+    scrollable: true
+    slide-number: true
+    progress: true
+    transition: slide
+    width: 1280
+    height: 720
+    footer: "Estabilidad / Estática y Resistencia · UT1 · Semana 1"
+---
+
+## ¿Qué estudia la Estática?
+
+> La Estática estudia las condiciones que deben cumplir las fuerzas que actúan
+> sobre un sistema para que éste permanezca en **estado de equilibrio**.
+
+. . .
+
+Dos problemas centrales en todo sistema de fuerzas:
+
+- **Reducción** — reemplazar el sistema por otro equivalente con el menor número de elementos
+- **Equilibrio** — determinar las condiciones para que la resultante sea nula
+
+---
+
+## Hipótesis de rigidez
+
+El cuerpo rígido es un modelo ideal: bajo la acción de las fuerzas, la distancia
+y posición relativa entre las partículas que lo constituyen permanece invariable.
+
+. . .
+
+Consecuencias:
+- Una fuerza puede **desplazarse sobre su recta de acción** sin alterar su efecto sobre el cuerpo
+- Es válido para cuerpos con **pequeñas deformaciones**, donde la geometría original no cambia sustancialmente
+
+::: {.callout-note}
+Este modelo es la base de toda la UT1. En UT6 lo reemplazaremos por el cuerpo deformable.
+:::
+
+---
+
+## Las cuatro características de una fuerza
+
+Una fuerza queda completamente definida cuando se conocen:
+
+| # | Característica | Descripción |
+|---|---|---|
+| a | **Módulo** | Intensidad — longitud del segmento según la $EF$ adoptada |
+| b | **Dirección** | Recta de acción sobre la que actúa |
+| c | **Sentido** | Indicado por la flecha sobre el segmento |
+| d | **Punto de aplicación** | Indicado con una letra |
+
+. . .
+
+::: {.callout-warning}
+Dar solo la magnitud — "la fuerza es 500 kN" — es una descripción **incompleta**.
+Sin las otras tres características no es posible analizar su efecto.
+:::
+
+---
+
+## Escala de fuerzas
+
+$$EF = \frac{\text{fuerza (kN o t)}}{\text{longitud (cm)}}$$
+
+**Ejemplo:** $EF = 1\,\text{t}/1\,\text{cm}$, fuerza $P = 3\,\text{t}$ → segmento de **3 cm**
+
+. . .
+
+**Ejercicio:** con $EF = 200\,\text{kN/cm}$, ¿cuántos cm para $P = 800\,\text{kN}$ a $30°$?
+
+$$x = \frac{800}{200} = 4\,\text{cm}$$
+
+. . .
+
+::: {.callout-warning}
+La $EF$ es independiente de la escala geométrica del dibujo.
+Ambas coexisten en el mismo gráfico sin interferirse.
+:::
+
+---
+
+## Clasificación según la recta de acción
+
+- **Colineales**: Misma recta de acción
+- **Concurrentes**: Rectas de acción que se cortan en un punto *(el punto puede no coincidir con los puntos de aplicación)*
+- **No concurrentes**: No tienen ningún punto común de concurrencia
+- **Paralelas**: Rectas de acción paralelas
+
+Ejemplos reales:
+- Concurrentes → nudo de reticulado
+- No concurrentes → cabezal de pilotes
+- Paralelas → cargas sobre columnas
+
+---
+
+## Principios fundamentales de la Estática
+
+::: {.incremental}
+a. **Paralelogramo:** el efecto de dos fuerzas concurrentes es equivalente al de su resultante — diagonal del paralelogramo
+b. **Deslizamiento:** una fuerza puede desplazarse sobre su recta de acción sin alterar su efecto
+c. **Sistema nulo:** dos fuerzas iguales y de sentido contrario en la misma recta se equilibran
+d. **Adición de sistema nulo:** agregar o suprimir un sistema nulo no altera el equilibrio
+e. **Resultante única:** un sistema de fuerzas admite una única resultante
+f. **Descomposición:** una fuerza puede reemplazarse por dos o más componentes
+g. **Acción y reacción:** fuerzas de acción y reacción son iguales, colineales y opuestas
+:::
+
+---
+
+## Representación analítica — argumento $\varphi$
+
+Definimos el **argumento** $\varphi$ como el ángulo que forma la dirección de la fuerza
+con el eje $x$ positivo, medido en sentido antihorario.
+
+$$\boxed{P_x = P\cos\varphi} \qquad \boxed{P_y = P\sin\varphi}$$
+
+$$|P| = \sqrt{P_x^2 + P_y^2} \qquad \tan\varphi = \frac{P_y}{P_x}$$
+
+. . .
+
+**Convención de signos:**
+
+| Cuadrante | $\varphi$ | $P_x$ | $P_y$ |
+|---|---|---|---|
+| I ↗ | $0°$–$90°$ | $+$ | $+$ |
+| II ↖ | $90°$–$180°$ | $-$ | $+$ |
+| III ↙ | $180°$–$270°$ | $-$ | $-$ |
+| IV ↘ | $270°$–$360°$ | $+$ | $-$ |
+
+::: {.callout-warning}
+Siempre dibujar los ejes y marcar $\varphi$ antes de calcular.
+El $\arctan$ devuelve valores en $(-90°,\,90°)$ — verificar cuadrante por signo de $P_x$ y $P_y$.
+:::
+
+---
+
+## Momento estático de una fuerza
+
+El **momento** de la fuerza $P$ respecto al punto $O$ es:
+
+$$M = P \times d \quad [\text{kN·m}]$$
+
+donde $d$ es la distancia normal entre la recta de acción y el punto $O$ (**brazo de palanca**).
+
+. . .
+
+El momento es positivo cuando tiende a girar en sentido **antihorario** (+↺).
+
+. . .
+
+Equivalencia geométrica:
+
+$$M = 2 \times \text{Área}(\triangle OAB)$$
+
+::: {.callout-note}
+El momento se representa como un **vector normal al plano** donde actúa la fuerza.
+:::
+
+---
+
+## Expresión analítica del momento
+
+Dada la fuerza $P$ aplicada en $(x_i,\,y_i)$ y el centro de momentos $O = (x_O,\,y_O)$:
+
+$$M^O = P_x \cdot |y_O - y_i| - P_y \cdot |x_O - x_i|$$
+
+donde $P_x$ produce momento antihorario (+) y $P_y$ produce momento horario (−) en
+la configuración estándar.
+
+. . .
+
+::: {.callout-tip}
+Usar siempre el **Teorema de Varignon**: el momento de la resultante respecto a un
+punto es igual a la suma algebraica de los momentos de las componentes respecto al mismo punto.
+
+$$M_R^O = \sum M_{P_i}^O$$
+:::
+
+---
+
+## Pares de fuerzas
+
+Un **par** es un sistema de dos fuerzas de igual intensidad, sentidos contrarios
+y rectas de acción paralelas.
+
+$$M_{par} = P \times d$$
+
+. . .
+
+Propiedades:
+
+::: {.incremental}
+- La resultante de un par es **nula** (no produce traslación)
+- Solo produce **rotación**
+- Es **libre**: puede trasladarse y girar en el plano mientras se mantenga el momento
+- $M = P_1 d_1 = P_2 d_2$ — el efecto no varía si se cambian $P$ y $d$ manteniendo $M$
+- Para sumar pares: $M_R = \sum M_i$
+:::
+
+---
+
+## Traslación de fuerzas
+
+Para trasladar una fuerza $P$ del punto $A$ al punto $B$:
+
+1. Agregar en $B$ un sistema nulo: $P'$ y $-P'$ paralelas a $P$
+2. $P$ y $-P'$ forman un **par** de momento $M = P \cdot d$
+3. El sistema original es equivalente a **$P'$ en $B$ + par $M$**
+
+. . .
+
+$$d = \frac{M}{P}$$
+
+Inversamente: una fuerza + un par coplanar → traslación paralela de la fuerza a distancia $d$.
+
+::: {.callout-note}
+Este resultado es fundamental para reducir sistemas no concurrentes (Semana 2).
+:::
+
+---
+
+## Terna global vs. terna local
+
+**Terna global** $(x, y)$: sistema de referencia fijo para toda la estructura.
+
+**Terna local** $(x', y')$: alineada con un elemento particular, rotada $\theta$ respecto a la global.
+
+. . .
+
+Si la terna local está rotada $\theta$:
+
+$$\begin{pmatrix} P_{x'} \\ P_{y'} \end{pmatrix} =
+\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}
+\begin{pmatrix} P_x \\ P_y \end{pmatrix}$$
+
+. . .
+
+::: {.callout-note}
+El módulo de la fuerza **no cambia** al rotar la terna.  
+Verificar: $\sqrt{P_{x'}^2 + P_{y'}^2} = \sqrt{P_x^2 + P_y^2}$
+:::
+
+---
+
+## Reducción de fuerzas concurrentes — método gráfico
+
+**Polígono de fuerzas:**
+
+::: {.incremental}
+1. Elegir escala de fuerzas $EF$
+2. Llevar los vectores representativos uno a continuación del otro
+3. La **resultante** $R$ une el origen del primero con el extremo del último
+4. El orden de los vectores **no altera** la resultante
+5. Si el polígono **cierra** → resultante nula → sistema en **equilibrio**
+:::
+
+. . .
+
+::: {.callout-note}
+Caso particular — fuerzas colineales: la resultante es la suma algebraica directa.
+:::
+
+---
+
+## Reducción de fuerzas concurrentes — método analítico
+
+Tres formas equivalentes de hallar la resultante:
+
+**a) Dos ecuaciones de proyección** *(más usada)*
+
+$$R_x = \sum P_i \cos\varphi_i \qquad R_y = \sum P_i \sin\varphi_i$$
+
+$$|R| = \sqrt{R_x^2 + R_y^2} \qquad \tan\varphi_R = \frac{R_y}{R_x}$$
+
+. . .
+
+**b) Una proyección + un momento**
+
+$$R_x = \sum P_i \cos\varphi_i \qquad M_R^O = \sum M_i^O$$
+
+. . .
+
+**c) Dos momentos** respecto a puntos no alineados con la concurrencia
+
+---
+
+## Ejemplo resuelto — composición
+
+Tres fuerzas concurrentes en el origen:
+
+| Fuerza | $P$ (kN) | $\varphi$ |
+|---|---|---|
+| $P_1$ | 400 | 0° |
+| $P_2$ | 300 | 90° |
+| $P_3$ | 500 | 217° |
+
+. . .
+
+| | $P_x$ (kN) | $P_y$ (kN) |
+|---|---|---|
+| $P_1$ | $+400{,}0$ | $0{,}0$ |
+| $P_2$ | $0{,}0$ | $+300{,}0$ |
+| $P_3$ | $-399{,}5$ | $-301{,}0$ |
+| **$R$** | **$+0{,}5$** | **$-1{,}0$** |
+
+$$R = \sqrt{0{,}5^2 + 1{,}0^2} \approx 1{,}1\,\text{kN} \qquad \varphi_R \approx 297°$$
+
+---
+
+## Descomposición en dos direcciones concurrentes
+
+**Solución gráfica** — principio del paralelogramo:
+
+1. Ubicar el vector $P$ en escala
+2. Por un extremo trazar paralela a la dirección 1; por el otro, paralela a la dirección 2
+3. Los vectores $P_1$ y $P_2$ son tales que $P_1 + P_2 = P$
+
+. . .
+
+**Solución analítica** — dos ecuaciones de proyección:
+
+$$P_x = P_1\cos\varphi_1 + P_2\cos\varphi_2$$
+$$P_y = P_1\sin\varphi_1 + P_2\sin\varphi_2$$
+
+Sistema de 2 ecuaciones con 2 incógnitas ($P_1$ y $P_2$ si se conocen las direcciones).
+
+. . .
+
+::: {.callout-warning}
+Descomposición en **3 o más** direcciones concurrentes → sistema **indeterminado**.
+Solo 2 ecuaciones disponibles para fuerzas concurrentes.
+:::
+
+---
+
+## Descomposición oblicua — regla del seno
+
+Si las dos direcciones forman ángulos $\alpha$ y $\beta$ con $P$:
+
+$$\frac{P}{\sin(\alpha + \beta)} = \frac{P_1}{\sin\beta} = \frac{P_2}{\sin\alpha}$$
+
+**Ejemplo:** $P = 600\,\text{kN}$, $\alpha = 30°$, $\beta = 45°$
+
+$$P_1 = \frac{600\sin45°}{\sin75°} = \frac{600 \times 0{,}707}{0{,}966} = 439{,}0\,\text{kN}$$
+
+$$P_2 = \frac{600\sin30°}{\sin75°} = \frac{600 \times 0{,}500}{0{,}966} = 310{,}6\,\text{kN}$$
+
+---
+
+## Equilibrio de fuerzas concurrentes
+
+**Condición gráfica:** el polígono de fuerzas debe ser **cerrado**.
+
+**Condición analítica** — tres formas equivalentes:
+
+. . .
+
+**a) Dos proyecciones:**
+$$\sum P_i \cos\varphi_i = 0 \qquad \sum P_i \sin\varphi_i = 0$$
+
+. . .
+
+**b) Una proyección + un momento:**
+$$\sum P_i \cos\varphi_i = 0 \qquad M_R^O = \sum M_i^O = 0$$
+*(el punto $O$ no puede estar sobre la normal al eje trazada por la concurrencia)*
+
+. . .
+
+**c) Dos momentos** respecto a puntos no alineados con la concurrencia:
+$$M_R^O = \sum M_i^O = 0 \qquad M_R^N = \sum M_i^N = 0$$
+
+---
+
+## Práctica — Parte 1 (25 min)
+
+Con $EF = 100\,\text{kN/cm}$, representar gráficamente y calcular componentes:
+
+| Fuerza | $P$ (kN) | $\varphi$ |
+|---|---|---|
+| $P_1$ | 350 | 0° |
+| $P_2$ | 500 | 45° |
+| $P_3$ | 200 | 270° |
+| $P_4$ | 400 | 150° |
+| $P_5$ | 300 | 210° |
+
+Verificar cada resultado reconstruyendo el módulo. Identificar cuadrante.
+
+---
+
+## Solución Parte 1
+
+| Fuerza | $\varphi$ | $P_x$ (kN) | $P_y$ (kN) | Cuadrante |
+|---|---|---|---|---|
+| $P_1$ | 0° | $+350{,}0$ | $0{,}0$ | eje $x^+$ |
+| $P_2$ | 45° | $+353{,}6$ | $+353{,}6$ | I |
+| $P_3$ | 270° | $0{,}0$ | $-200{,}0$ | eje $y^-$ |
+| $P_4$ | 150° | $-346{,}4$ | $+200{,}0$ | II |
+| $P_5$ | 210° | $-259{,}8$ | $-150{,}0$ | III |
+
+---
+
+## Práctica — Parte 2 (25 min)
+
+**Problema 1 ★★☆**  
+Componer las 5 fuerzas de la Parte 1 analítica y gráficamente.  
+Determinar $R$, módulo y argumento $\varphi_R$.
+
+. . .
+
+**Problema 2 ★★☆**  
+$P = 800\,\text{kN}$ a $\varphi = 25°$. Descomponer en dos direcciones:
+una a $10°$ respecto a $P$ y otra a $60°$ respecto a $P$.
+
+. . .
+
+**Problema 3 ★★★**  
+Una terna local está rotada $\theta = 35°$ respecto a la global.  
+Una fuerza tiene $P_x = 300\,\text{kN}$, $P_y = -150\,\text{kN}$ en la terna global.  
+Calcular sus componentes en la terna local. Verificar que el módulo no cambia.
+
+---
+
+## Solución Parte 2
+
+**Problema 1:**
+
+$$R_x = 350{,}0 + 353{,}6 + 0{,}0 - 346{,}4 - 259{,}8 = +97{,}4\,\text{kN}$$
+$$R_y = 0{,}0 + 353{,}6 - 200{,}0 + 200{,}0 - 150{,}0 = +203{,}6\,\text{kN}$$
+$$R = 225{,}8\,\text{kN} \qquad \varphi_R = \arctan\!\left(\frac{203{,}6}{97{,}4}\right) = 64{,}4°$$
+
+. . .
+
+**Problema 3:**
+$$P_{x'} = 300\cos35° + (-150)\sin35° = 245{,}7 - 86{,}0 = 159{,}7\,\text{kN}$$
+$$P_{y'} = -300\sin35° + (-150)\cos35° = -172{,}1 - 122{,}9 = -295{,}0\,\text{kN}$$
+$$|P'| = \sqrt{159{,}7^2 + 295{,}0^2} \approx 335{,}5\,\text{kN} \approx \sqrt{300^2+150^2} \checkmark$$
+
+---
+
+## Síntesis
+
+::: {.incremental}
+- La **hipótesis de rigidez** permite deslizar fuerzas sobre su recta de acción
+- Una fuerza necesita **4 características**: módulo, dirección, sentido, punto de aplicación
+- La **resultante** de fuerzas concurrentes se obtiene gráficamente (polígono) o analíticamente ($\sum P_x$, $\sum P_y$)
+- El **momento** $M = P \times d$ mide el efecto rotacional; el Teorema de Varignon permite calcularlo por componentes
+- El **par** produce solo rotación; su resultante es nula
+- La **terna local** rota el sistema de referencia; el módulo se conserva
+- Condición de equilibrio: $\sum P_x = 0$ y $\sum P_y = 0$
+:::
+
+---
+
+## Para el hogar
+
+| # | Consigna | Nivel |
+|---|---|---|
+| 1 | Representar 4 fuerzas en distintos cuadrantes con $EF$ libre | ★☆☆ |
+| 2 | Componer 4 fuerzas por los tres métodos analíticos | ★★☆ |
+| 3 | Descomponer una fuerza en dos direcciones oblicuas dadas | ★★☆ |
+| 4 | Terna rotada $\theta = 50°$: calcular componentes locales de 3 fuerzas | ★★★ |
+
+::: {.callout-tip}
+Instalar **FTOOL** antes de la Semana 3: <https://webstructural.software/ftool/>
+:::

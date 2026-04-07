@@ -1,0 +1,17 @@
+---
+title: "Clase 1 — Fuerzas y Vectores"
+subtitle: "UT1 · Semana 1"
+lang: es
+---
+
+Material correspondiente a la primera semana de cursada.
+
+| Recurso | Descripción |
+|---|---|
+| [Documento teórico](clase1_documento.qmd) | Desarrollo completo de los contenidos |
+| [Presentación](clase1_presentacion.qmd) | Slides de clase (RevealJS) |
+| [Enunciado TP1](clase1_enunciado.qmd) | Ejercicios para resolver |
+
+**Contenidos:** definición de fuerza, escala de fuerzas, sistemas coplanares,
+representación analítica, componentes cartesianas.
+

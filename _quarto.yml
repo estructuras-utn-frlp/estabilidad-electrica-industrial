@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Estabilidad / Estática y Resistencia"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Clases"
+        menu:
+          - text: "Clase 1 — Fuerzas y Vectores"
+            href: clase1/index.qmd
+  page-footer:
+    center: "Ing. Ronconi · UTN FRLP · 2026"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    lang: es

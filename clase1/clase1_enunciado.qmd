@@ -1,0 +1,94 @@
+---
+title: "Trabajo Práctico N°1"
+subtitle: "Fuerzas y Vectores"
+author: "RONCONI, Jorge Ernesto"
+date: today
+lang: es
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry: margin=2.5cm
+    number-sections: false
+    toc: false
+    fontsize: 11pt
+---
+
+\begin{center}
+\large\textbf{Estabilidad / Estática y Resistencia de Materiales}\\
+\normalsize UT1 — Semana 1 \quad|\quad Fuerzas y Vectores
+\end{center}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+**Instrucciones:** resolver todos los ejercicios mostrando procedimiento completo.
+Verificar cada resultado reconstruyendo la fuerza resultante. Usar $g = 9{,}81\,\text{m/s}^2$
+solo si se indica explícitamente.
+
+---
+
+### Ejercicio 1 ★☆☆
+
+Representar gráficamente las siguientes fuerzas utilizando una escala de fuerzas
+elegida por el estudiante. Indicar la escala adoptada e identificar las cuatro
+características de cada vector.
+
+a) $F_1 = 450\,\text{kN}$ a $0°$, aplicada en el origen.
+b) $F_2 = 300\,\text{kN}$ a $60°$, aplicada en el punto $(4,\,0)$.
+c) $F_3 = 600\,\text{kN}$ a $225°$, aplicada en el punto $(4,\,3)$.
+d) $F_4 = 250\,\text{kN}$ a $315°$, aplicada en el punto $(0,\,3)$.
+
+---
+
+### Ejercicio 2 ★☆☆
+
+Calcular las componentes cartesianas de cada fuerza del Ejercicio 1.
+Verificar cada resultado reconstruyendo el módulo y el ángulo.
+
+---
+
+### Ejercicio 3 ★★☆
+
+Dadas las siguientes componentes, determinar módulo y ángulo de cada fuerza.
+Indicar en qué cuadrante se ubica cada una e indicar el sentido en una figura.
+
+a) $F_{x} = 350\,\text{kN}$, $\quad F_{y} = 350\,\text{kN}$
+b) $F_{x} = -420\,\text{kN}$, $\quad F_{y} = 180\,\text{kN}$
+c) $F_{x} = -260\,\text{kN}$, $\quad F_{y} = -260\,\text{kN}$
+d) $F_{x} = 500\,\text{kN}$, $\quad F_{y} = -200\,\text{kN}$
+
+---
+
+### Ejercicio 4 ★★☆
+
+Una fuerza de $F = 750\,\text{kN}$ forma un ángulo de $\alpha = 130°$ con el eje
+$x$ positivo.
+
+a) Calcular sus componentes cartesianas.
+b) Representar gráficamente la fuerza y sus componentes.
+c) ¿Cambiarían las componentes si el ángulo se midiera como $50°$ desde el eje
+   $y$ negativo? Justificar.
+
+---
+
+### Ejercicio 5 ★★★
+
+Tres fuerzas actúan sobre un nudo de una estructura:
+
+$$F_1 = 400\,\text{kN} \text{ a } 0° \qquad F_2 = 300\,\text{kN} \text{ a } 90° \qquad F_3 = 500\,\text{kN} \text{ a } 217°$$
+
+a) Calcular las componentes cartesianas de cada fuerza.
+b) ¿Es correcto sumar directamente los módulos $F_1 + F_2 + F_3$? Justificar.
+c) Calcular $R_x = \sum F_{xi}$ y $R_y = \sum F_{yi}$.
+d) Determinar el módulo y ángulo de la resultante $R$.
+
+*Nota: este ejercicio anticipa la composición de fuerzas de la Semana 2.*
+
+---
+
+\vspace{1cm}
+\begin{center}
+\textit{Bibliografía: Raffo, C. M. — Introducción a la Estática y Resistencia de Materiales, Cap. II.}
+\end{center}

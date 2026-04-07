@@ -1,0 +1,121 @@
+---
+title: "Fuerzas y Vectores"
+subtitle: "UT1 — Semana 1"
+author: "RONCONI, Jorge Ernesto"
+date: today
+lang: es
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry: margin=2.5cm
+    number-sections: true
+    toc: true
+---
+
+## La fuerza como vector
+
+Toda fuerza queda completamente definida cuando se conocen sus **cuatro características**:
+
+- **Recta de acción** ($a$): línea sobre la que actúa la fuerza.
+- **Magnitud** ($|AB|$): intensidad expresada en kN o t.
+- **Sentido**: orientación sobre la recta, indicada por una flecha.
+- **Punto de aplicación** ($A$): punto donde se aplica la fuerza.
+
+Decir únicamente "la fuerza es 500 kN" es una descripción incompleta. Sin dirección
+y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura.
+
+## Escala de fuerzas
+
+Para representar gráficamente una fuerza se utiliza una **escala de fuerzas** ($EF$),
+definida como la relación entre la magnitud de la fuerza y la longitud con que se la
+representa en el papel:
+
+$$EF = \frac{\text{fuerza (kN)}}{\text{longitud (cm)}}$$
+
+**Ejemplo.** Con $EF = 500\,\text{kN/cm}$, una fuerza de $P = 1300\,\text{kN}$ se
+representa con un segmento de:
+
+$$x = \frac{1300 \times 1}{500} = 2{,}6\,\text{cm}$$
+
+::: {.callout-warning}
+La escala de fuerzas es independiente de la escala geométrica del dibujo. Ambas
+coexisten en el mismo gráfico sin interferirse.
+:::
+
+## Elementos fundamentales de la estática
+
+La estática opera con dos elementos irreductibles:
+
+- **Fuerza**: produce efecto de traslación sobre el cuerpo.
+- **Par o Cupla**: produce efecto de rotación. Es un par de fuerzas iguales, paralelas
+  y de sentido opuesto.
+
+Esta distinción resulta esencial al estudiar el equilibrio de cuerpos rígidos,
+donde tanto la resultante de fuerzas como la resultante de momentos deben ser nulas.
+
+## Sistemas de fuerzas coplanares
+
+Un sistema de fuerzas es **coplanar** cuando todas las fuerzas actúan en un mismo
+plano. Se clasifican según la disposición de sus rectas de acción:
+
+- **Concurrentes**: todas las rectas de acción pasan por un mismo punto.
+- **No concurrentes paralelas**: rectas de acción paralelas entre sí.
+- **No concurrentes no paralelas**: rectas de acción que no convergen en un punto común.
+
+## Representación analítica
+
+Dada una fuerza $F$ con ángulo $\alpha$ medido desde el eje $x$ positivo en sentido
+antihorario, sus **componentes cartesianas** son:
+
+$$F_x = F\cos\alpha \qquad F_y = F\sin\alpha$$
+
+La operación inversa permite reconstruir la fuerza a partir de sus componentes:
+
+$$F = \sqrt{F_x^2 + F_y^2} \qquad \alpha = \arctan\!\left(\frac{F_y}{F_x}\right)$$
+
+### Convención de signos
+
+| Cuadrante | $\alpha$ | $F_x$ | $F_y$ |
+|---|---|---|---|
+| I ↗ | $0°$–$90°$ | $+$ | $+$ |
+| II ↖ | $90°$–$180°$ | $-$ | $+$ |
+| III ↙ | $180°$–$270°$ | $-$ | $-$ |
+| IV ↘ | $270°$–$360°$ | $+$ | $-$ |
+
+::: {.callout-warning}
+Antes de calcular, dibujar siempre los ejes y marcar el ángulo. La mayoría de los
+errores de signo se evitan con este paso previo.
+:::
+
+### Ejemplo
+
+$F = 600\,\text{kN}$ a $53°$ sobre la horizontal:
+
+$$F_x = 600\cos53° = 600 \times 0{,}602 = 361{,}2\,\text{kN}$$
+$$F_y = 600\sin53° = 600 \times 0{,}799 = 479{,}4\,\text{kN}$$
+
+**Verificación:**
+
+$$\sqrt{361{,}2^2 + 479{,}4^2} = \sqrt{360\,289} \approx 600\,\text{kN} \checkmark$$
+
+::: {.callout-tip}
+La verificación por reconstrucción es obligatoria. Si no cierra, hay un error de
+cálculo o de signo.
+:::
+
+## Errores frecuentes
+
+1. **Describir la fuerza solo por su magnitud** — omitir dirección y sentido invalida
+   el análisis.
+2. **Error en el ángulo de referencia** — medir desde el eje incorrecto o usar el
+   ángulo complementario.
+3. **Signo incorrecto en las componentes** — olvidar el negativo para fuerzas en el
+   III° o IV° cuadrante.
+4. **No verificar** — calcular $F_x$ y $F_y$ sin reconstruir $F$.
+5. **Confundir $EF$ con escala geométrica** — son escalas independientes.
