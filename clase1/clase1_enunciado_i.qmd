@@ -1,0 +1,288 @@
+---
+title: "Guía de Ejercicios N°1"
+subtitle: "Fuerzas Concurrentes en el Plano"
+author: "RONCONI, Jorge Ernesto"
+date: today
+lang: es
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry: margin=2.5cm
+    number-sections: false
+    toc: false
+    fontsize: 11pt
+---
+
+\begin{center}
+\large\textbf{Estática y Resistencia de Materiales}\\
+\normalsize UT1 — Semana 1 \quad|\quad Fuerzas Concurrentes en el Plano
+\end{center}
+
+\vspace{0.3cm}
+\hrule
+\vspace{0.4cm}
+
+---
+
+## Parte 1 — Representación y componentes
+
+**Ejercicio 1**
+
+Las siguientes fuerzas actúan sobre componentes de un sistema mecánico industrial.
+Para cada una, indicar el cuadrante, calcular las componentes cartesianas
+y verificar el resultado reconstruyendo el módulo.
+
+| Fuerza | $P$ (kN) | $\varphi$ |
+|--------|---------|-----------|
+| $P_1$  | 420     | 35°       |
+| $P_2$  | 650     | 128°      |
+| $P_3$  | 310     | 243°      |
+| $P_4$  | 780     | 317°      |
+| $P_5$  | 500     | 90°       |
+| $P_6$  | 290     | 180°      |
+
+---
+
+**Ejercicio 2**
+
+Dadas las siguientes componentes de fuerzas que actúan sobre piezas
+de una línea de producción, determinar módulo y argumento $\varphi$
+de cada fuerza. Indicar cuadrante y representar gráficamente.
+
+a) $P_x = +380\,\text{kN}$, $\quad P_y = +380\,\text{kN}$
+
+b) $P_x = -520\,\text{kN}$, $\quad P_y = +300\,\text{kN}$
+
+c) $P_x = -410\,\text{kN}$, $\quad P_y = -410\,\text{kN}$
+
+d) $P_x = +630\,\text{kN}$, $\quad P_y = -220\,\text{kN}$
+
+e) $P_x = 0\,\text{kN}$,     $\quad P_y = -740\,\text{kN}$
+
+---
+
+## Parte 2 — Momento estático
+
+**Ejercicio 3**
+
+Una fuerza de corte $P = 600\,\text{kN}$ con argumento $\varphi = 40°$
+actúa sobre el brazo de una prensa industrial, aplicada en
+$A = (2{,}0;\; 1{,}0)\,\text{m}$.
+
+a) Calcular el momento respecto al pivote $O = (0;\,0)$.
+
+b) Calcular el momento respecto al punto de apoyo $C = (5{,}0;\; 3{,}5)\,\text{m}$.
+
+c) ¿En qué punto sobre el eje $x$ el momento de $P$ es nulo?
+Justificar geométricamente.
+
+---
+
+**Ejercicio 4**
+
+Aplicar el **Teorema de Varignon** para calcular el momento de la fuerza
+$P = 850\,\text{kN}$ a $\varphi = 55°$, aplicada en $A = (1{,}5;\; 0{,}5)\,\text{m}$,
+respecto al eje de giro $O = (4{,}0;\; 3{,}0)\,\text{m}$ de un mecanismo de palanca.
+
+a) Calcular directamente: $M = P \times d$ (hallar $d$ geométricamente).
+
+b) Calcular por Varignon: $M = P_x \cdot |y_O - y_A| - P_y \cdot |x_O - x_A|$.
+
+c) Verificar que ambos resultados coinciden.
+
+---
+
+**Ejercicio 5**
+
+Dos fuerzas actúan sobre el bastidor de una máquina herramienta:
+
+- $P_1 = 400\,\text{kN}$ a $\varphi_1 = 0°$, aplicada en $A_1 = (0;\; 2{,}0)\,\text{m}$
+- $P_2 = 300\,\text{kN}$ a $\varphi_2 = 270°$, aplicada en $A_2 = (3{,}0;\; 0)\,\text{m}$
+
+Calcular el momento de cada fuerza respecto al punto de anclaje $O = (0;\; 0)$.
+¿Cuál tiende a hacer girar el bastidor en sentido horario?
+
+---
+
+## Parte 3 — Pares de fuerzas
+
+**Ejercicio 6**
+
+Un par de fuerzas actúa sobre el volante de una prensa de estampado.
+Las fuerzas tienen intensidad $P = 250\,\text{kN}$ y sus rectas de acción
+están separadas $d = 1{,}8\,\text{m}$.
+
+a) Calcular el momento del par.
+
+b) Si se desea mantener el mismo momento pero con $P' = 400\,\text{kN}$,
+¿cuál debe ser la nueva separación $d'$?
+
+c) ¿Cambia el efecto del par si se traslada a otra posición del volante?
+Justificar con las propiedades del par.
+
+---
+
+**Ejercicio 7**
+
+Identificar cuáles de los siguientes sistemas constituyen un par de fuerzas
+y calcular su momento. Indicar signo según la convención antihoraria positiva.
+
+a) $P_1 = 180\,\text{kN}$ ↑ en $x = 0$; $\quad P_2 = 180\,\text{kN}$ ↓ en $x = 2{,}5\,\text{m}$
+
+b) $P_1 = 180\,\text{kN}$ ↑ en $x = 0$; $\quad P_2 = 180\,\text{kN}$ ↑ en $x = 2{,}5\,\text{m}$
+
+c) $P_1 = 200\,\text{kN}$ → en $y = 1{,}0$; $\quad P_2 = 200\,\text{kN}$ ← en $y = 3{,}5\,\text{m}$
+
+d) $P_1 = 200\,\text{kN}$ → en $y = 1{,}0$; $\quad P_2 = 150\,\text{kN}$ ← en $y = 3{,}5\,\text{m}$
+
+---
+
+## Parte 4 — Composición de fuerzas concurrentes
+
+**Ejercicio 8**
+
+En el pasador de unión de un mecanismo articulado concurren las
+siguientes fuerzas transmitidas por las barras:
+
+| Fuerza | $P$ (kN) | $\varphi$ |
+|--------|---------|-----------|
+| $P_1$  | 480     | 0°        |
+| $P_2$  | 360     | 75°       |
+| $P_3$  | 520     | 195°      |
+| $P_4$  | 290     | 290°      |
+
+a) Calcular la resultante por el método analítico (dos ecuaciones de proyección).
+
+b) Verificar trazando el polígono de fuerzas gráficamente con escala libre.
+
+c) Indicar en qué cuadrante se ubica la resultante y qué significa
+físicamente para el pasador.
+
+---
+
+**Ejercicio 9**
+
+Tres barras de una estructura de soporte de maquinaria se unen en
+un nudo $O$. Los esfuerzos en las barras son:
+
+- $T_1 = 550\,\text{kN}$ a $\varphi_1 = 30°$
+- $T_2 = 420\,\text{kN}$ a $\varphi_2 = 150°$
+- $T_3 = 380\,\text{kN}$ a $\varphi_3 = 270°$
+
+a) Calcular la resultante $R$ por dos ecuaciones de proyección.
+
+b) Recalcular usando una ecuación de proyección y una de momentos
+respecto a $O = (2{,}0;\; 1{,}5)\,\text{m}$. Verificar que coincide.
+
+c) ¿El sistema está en equilibrio? ¿Qué fuerza habría que agregar para lograrlo?
+
+---
+
+## Parte 5 — Descomposición de fuerzas
+
+**Ejercicio 10**
+
+La fuerza resultante sobre el diente de un engranaje es $P = 720\,\text{kN}$
+a $\varphi = 50°$. Se desea descomponerla en dos direcciones:
+la tangencial $\varphi_1 = 10°$ y la radial $\varphi_2 = 110°$.
+
+a) Resolver analíticamente por dos ecuaciones de proyección.
+Hallar $P_1$ (componente tangencial) y $P_2$ (componente radial).
+
+b) Verificar que $P_1$ y $P_2$ tienen como resultante el vector $P$ original.
+
+---
+
+**Ejercicio 11**
+
+La fuerza de empuje sobre el pistón de un compresor es $P = 900\,\text{kN}$.
+La biela forma un ángulo $\alpha = 25°$ con la dirección de $P$,
+y la dirección de la manivela forma $\beta = 40°$ con $P$.
+
+a) Aplicar la regla del seno para hallar las componentes $P_1$ (biela) y
+$P_2$ (manivela).
+
+b) ¿Por qué no se puede usar Pitágoras en este caso?
+
+c) ¿Qué ocurre si $\alpha + \beta = 90°$? Demostrar que la regla del seno
+se reduce al caso cartesiano.
+
+---
+
+## Parte 6 — Terna local y rotación de ejes
+
+**Ejercicio 12**
+
+Una barra de una estructura de soporte de maquinaria pesada forma
+un ángulo $\theta = 40°$ con la horizontal. La terna local $(x', y')$
+está alineada con el eje de la barra.
+
+Una fuerza en la terna global tiene componentes:
+$P_x = 500\,\text{kN}$, $\quad P_y = -300\,\text{kN}$.
+
+a) Calcular las componentes en la terna local $(P_{x'}, P_{y'})$.
+
+b) Verificar que el módulo se conserva: $|P'| = |P|$.
+
+c) Interpretar físicamente: ¿cuál componente produce esfuerzo axial
+en la barra? ¿Cuál produce esfuerzo de corte?
+
+---
+
+**Ejercicio 13**
+
+La fuerza de reacción sobre el cojinete de un eje de transmisión
+es $P = 650\,\text{kN}$ a $\varphi = 70°$ (terna global).
+El eje está inclinado $\theta = 30°$ respecto a la horizontal.
+
+a) Calcular las componentes en la terna local del eje.
+
+b) Repetir para $\theta = 70°$. ¿Qué componente de corte se obtiene?
+¿Tiene sentido físico ese resultado?
+
+---
+
+## Parte 7 — Equilibrio
+
+**Ejercicio 14**
+
+Cuatro fuerzas actúan sobre el pasador central de un mecanismo de
+cuatro barras. Tres son conocidas:
+
+- $P_1 = 600\,\text{kN}$ a $\varphi_1 = 0°$
+- $P_2 = 450\,\text{kN}$ a $\varphi_2 = 90°$
+- $P_3 = 380\,\text{kN}$ a $\varphi_3 = 210°$
+
+Determinar módulo y argumento de la fuerza $P_4$ que pone el sistema
+en equilibrio.
+
+---
+
+**Ejercicio 15**
+
+El gancho de un puente grúa industrial está sometido a tres fuerzas
+en su punto de anclaje:
+
+- Carga suspendida: $W = 800\,\text{kN}$ a $\varphi_1 = 270°$
+- Cable izquierdo: $T_1 = 620\,\text{kN}$ a $\varphi_2 = 125°$
+- Cable derecho: $T_2 = 620\,\text{kN}$ a $\varphi_3 = 55°$
+
+a) Calcular la resultante sobre el punto de anclaje.
+
+b) ¿El sistema está en equilibrio? Si no lo está, ¿qué fuerza ejerce
+la estructura del puente grúa para mantenerlo?
+
+c) ¿Cómo cambia la resultante si el ángulo de ambos cables con la
+horizontal disminuye de $55°$ a $35°$ manteniendo la carga $W$ constante?
+Discutir la implicancia para el diseño del gancho.
+
+---
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.3cm}
+
+\begin{center}
+\textit{Todos los ejercicios deben presentar: planteo, desarrollo, resultado y verificación.}
+\end{center}
