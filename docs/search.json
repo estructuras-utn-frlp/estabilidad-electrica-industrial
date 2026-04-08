@@ -53,7 +53,7 @@
     "href": "clase1/clase1_presentacion.html#principios-fundamentales-de-la-estática",
     "title": "Fuerzas Concurrentes en el Plano",
     "section": "Principios fundamentales de la Estática",
-    "text": "Principios fundamentales de la Estática\n\nParalelogramo: el efecto de dos fuerzas concurrentes es equivalente al de su resultante\nDeslizamiento: una fuerza puede desplazarse sobre su recta de acción sin alterar su efecto\nSistema nulo: dos fuerzas iguales y de sentido contrario en la misma recta se equilibran\nAdición de sistema nulo: agregar o suprimir un sistema nulo no altera el equilibrio\nResultante única: un sistema de fuerzas admite una única resultante\nDescomposición: una fuerza puede reemplazarse por componentes\nAcción y reacción: fuerzas de acción y reacción son iguales, colineales y opuestas"
+    "text": "Principios fundamentales de la Estática\n\n\nParalelogramo: el efecto de dos fuerzas concurrentes es equivalente al de su resultante\nDeslizamiento: una fuerza puede desplazarse sobre su recta de acción sin alterar su efecto\nSistema nulo: dos fuerzas iguales y de sentido contrario en la misma recta se equilibran\nAdición de sistema nulo: agregar o suprimir un sistema nulo no altera el equilibrio\nResultante única: un sistema de fuerzas admite una única resultante\nDescomposición: una fuerza puede reemplazarse por componentes\nAcción y reacción: fuerzas de acción y reacción son iguales, colineales y opuestas"
   },
   {
     "objectID": "clase1/clase1_presentacion.html#principio-del-paralelogramo",
@@ -102,7 +102,7 @@
     "href": "clase1/clase1_presentacion.html#pares-de-fuerzas",
     "title": "Fuerzas Concurrentes en el Plano",
     "section": "Pares de fuerzas",
-    "text": "Pares de fuerzas\n\\[M_{par} = P \\times d\\]\n\nResultante nula → no produce traslación, solo rotación\nLibre: puede trasladarse y girar en el plano\n\\(M = P_1 d_1 = P_2 d_2\\) — invariante\n\\(M_R = \\sum M_i\\)"
+    "text": "Pares de fuerzas\n\\[M_{par} = P \\times d\\]\n\n\nResultante nula → no produce traslación, solo rotación\nLibre: puede trasladarse y girar en el plano\n\\(M = P_1 d_1 = P_2 d_2\\) — invariante\n\\(M_R = \\sum M_i\\)"
   },
   {
     "objectID": "clase1/clase1_presentacion.html#par-de-fuerzas-diagrama",
@@ -186,14 +186,14 @@
     "href": "clase1/clase1_presentacion.html#síntesis",
     "title": "Fuerzas Concurrentes en el Plano",
     "section": "Síntesis",
-    "text": "Síntesis\n\nLa hipótesis de rigidez permite deslizar fuerzas sobre su recta de acción\nUna fuerza necesita 4 características para quedar completamente definida\nLa resultante se obtiene por polígono vectorial o \\(\\sum P_x\\), \\(\\sum P_y\\)\nEl momento \\(M = P \\times d\\) mide el efecto rotacional\nEl par produce solo rotación; su resultante es nula\nLa terna local rota el sistema de referencia; el módulo se conserva\nEquilibrio: \\(\\sum P_x = 0\\) y \\(\\sum P_y = 0\\)"
+    "text": "Síntesis\n\n\nLa hipótesis de rigidez permite deslizar fuerzas sobre su recta de acción\nUna fuerza necesita 4 características para quedar completamente definida\nLa resultante se obtiene por polígono vectorial o \\(\\sum P_x\\), \\(\\sum P_y\\)\nEl momento \\(M = P \\times d\\) mide el efecto rotacional\nEl par produce solo rotación; su resultante es nula\nLa terna local rota el sistema de referencia; el módulo se conserva\nEquilibrio: \\(\\sum P_x = 0\\) y \\(\\sum P_y = 0\\)"
   },
   {
     "objectID": "clase1/clase1_presentacion.html#para-el-hogar",
     "href": "clase1/clase1_presentacion.html#para-el-hogar",
     "title": "Fuerzas Concurrentes en el Plano",
     "section": "Para el hogar",
-    "text": "Para el hogar\n\n\n\n\n\n\n\n\n#\nConsigna\nNivel\n\n\n\n\n1\nRepresentar 4 fuerzas en distintos cuadrantes con \\(EF\\) libre\n★☆☆\n\n\n2\nComponer 4 fuerzas por los tres métodos analíticos\n★★☆\n\n\n3\nDescomponer una fuerza en dos direcciones oblicuas\n★★☆\n\n\n4\nTerna rotada \\(\\theta = 50°\\): calcular componentes locales de 3 fuerzas\n★★★\n\n\n\n\n\n\n\n\n\nTip\n\n\nInstalar FTOOL antes de la Semana 3: https://webstructural.software/ftool/"
+    "text": "Para el hogar\n\n\n\n\n\n\n\n\n#\nConsigna\nNivel\n\n\n\n\n1\nRepresentar 4 fuerzas en distintos cuadrantes con \\(EF\\) libre\n★☆☆\n\n\n2\nComponer 4 fuerzas por los tres métodos analíticos\n★★☆\n\n\n3\nDescomponer una fuerza en dos direcciones oblicuas\n★★☆\n\n\n4\nTerna rotada \\(\\theta = 50°\\): calcular componentes locales de 3 fuerzas\n★★★\n\n\n\n\n\n\n\n\n\nTip\n\n\nInstalar FTOOL antes de la Semana 3: https://webstructural.software/ftool/\n\n\n\n\n\n\nEstabilidad / Estática y Resistencia · UT1 · Semana 1"
   },
   {
     "objectID": "clase1/clase1_documento.html",
@@ -249,6 +249,6 @@
     "href": "clase1/index.html",
     "title": "Clase 1 — Fuerzas y Vectores",
     "section": "",
-    "text": "Material correspondiente a la primera semana de cursada.\n\n\n\nRecurso\nDescripción\n\n\n\n\nDocumento teórico\nDesarrollo completo de los contenidos\n\n\nPresentación\nSlides de clase (RevealJS)\n\n\nEnunciado TP1\nEjercicios para resolver - Electrica\n\n\nEnunciado TP1\nEjercicios para resolver - Industrial\n\n\n\nContenidos: definición de fuerza, escala de fuerzas, sistemas coplanares, representación analítica, componentes cartesianas."
+    "text": "Material correspondiente a la primera semana de cursada.\n\n\n\nRecurso\nDescripción\n\n\n\n\nDocumento teórico\nDesarrollo completo de los contenidos\n\n\nPresentación\nSlides de clase (RevealJS)\n\n\nEnunciado TP1\nEjercicios para resolver\n\n\n\nContenidos: definición de fuerza, escala de fuerzas, sistemas coplanares, representación analítica, componentes cartesianas."
   }
 ]

@@ -10,8 +10,7 @@ Material correspondiente a la primera semana de cursada.
 |---|---|
 | [Documento teórico](clase1_documento.qmd) | Desarrollo completo de los contenidos |
 | [Presentación](clase1_presentacion.qmd) | Slides de clase (RevealJS) |
-| [Enunciado TP1](clase1_enunciado_e.qmd) | Ejercicios para resolver - Electrica|
-| [Enunciado TP1](clase1_enunciado_i.qmd) | Ejercicios para resolver - Industrial|
+| [Enunciado TP1](clase1_enunciado.qmd) | Ejercicios para resolver |
 
 **Contenidos:** definición de fuerza, escala de fuerzas, sistemas coplanares,
 representación analítica, componentes cartesianas.

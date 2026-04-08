@@ -29,9 +29,7 @@ format:
 
 **Ejercicio 1**
 
-Las siguientes fuerzas actúan sobre estructuras de un sistema eléctrico.
-Para cada una, indicar el cuadrante, calcular las componentes cartesianas
-y verificar el resultado reconstruyendo el módulo.
+Las siguientes fuerzas actúan sobre estructuras. Para cada una, indicar el cuadrante, calcular las componentes cartesianas y verificar el resultado reconstruyendo el módulo.
 
 | Fuerza | $P$ (kN) | $\varphi$ |
 |--------|---------|-----------|
@@ -46,8 +44,7 @@ y verificar el resultado reconstruyendo el módulo.
 
 **Ejercicio 2**
 
-Dadas las siguientes componentes, determinar módulo y argumento $\varphi$
-de cada fuerza. Indicar cuadrante y representar gráficamente.
+Dadas las siguientes componentes, determinar módulo y argumento $\varphi$ de cada fuerza. Indicar cuadrante y representar gráficamente.
 
 a) $P_x = +380\,\text{kN}$, $\quad P_y = +380\,\text{kN}$
 
@@ -65,8 +62,7 @@ e) $P_x = 0\,\text{kN}$,     $\quad P_y = -740\,\text{kN}$
 
 **Ejercicio 3**
 
-Una fuerza $P = 600\,\text{kN}$ con argumento $\varphi = 40°$ está aplicada
-en el punto $A = (2{,}0;\; 1{,}0)\,\text{m}$.
+Una fuerza $P = 600\,\text{kN}$ con argumento $\varphi = 40°$ está aplicada en el punto $A = (2{,}0;\; 1{,}0)\,\text{m}$.
 
 a) Calcular el momento respecto al origen $O = (0;\,0)$.
 
@@ -78,9 +74,7 @@ c) ¿En qué punto sobre el eje $x$ el momento de $P$ es nulo? Justificar.
 
 **Ejercicio 4**
 
-Aplicar el **Teorema de Varignon** para calcular el momento de la fuerza
-$P = 850\,\text{kN}$ a $\varphi = 55°$, aplicada en $A = (1{,}5;\; 0{,}5)\,\text{m}$,
-respecto al punto $O = (4{,}0;\; 3{,}0)\,\text{m}$.
+Aplicar el **Teorema de Varignon** para calcular el momento de la fuerza $P = 850\,\text{kN}$ a $\varphi = 55°$, aplicada en $A = (1{,}5;\; 0{,}5)\,\text{m}$, respecto al punto $O = (4{,}0;\; 3{,}0)\,\text{m}$.
 
 a) Calcular directamente: $M = P \times d$ (hallar $d$ geométricamente).
 
@@ -92,13 +86,16 @@ c) Verificar que ambos resultados coinciden.
 
 **Ejercicio 5**
 
-Dos fuerzas actúan sobre una ménsula de soporte de transformador:
+Dos fuerzas actúan sobre un marco rigido:
 
 - $P_1 = 400\,\text{kN}$ a $\varphi_1 = 0°$, aplicada en $A_1 = (0;\; 2{,}0)\,\text{m}$
 - $P_2 = 300\,\text{kN}$ a $\varphi_2 = 270°$, aplicada en $A_2 = (3{,}0;\; 0)\,\text{m}$
 
 Calcular el momento de cada fuerza respecto al punto $O = (0;\; 0)$.
 ¿Cuál tiende a hacer girar la estructura en sentido horario?
+
+![Diagrama de fuerzas en marco rígido](./img/tp/eje_5.png)
+
 
 ---
 
@@ -112,18 +109,15 @@ están separadas $d = 1{,}8\,\text{m}$.
 
 a) Calcular el momento del par.
 
-b) Si se desea mantener el mismo momento pero con $P' = 400\,\text{kN}$,
-¿cuál debe ser la nueva separación $d'$?
+b) Si se desea mantener el mismo momento pero con $P' = 400\,\text{kN}$, ¿cuál debe ser la nueva separación $d'$?
 
-c) ¿Cambia el efecto del par si se traslada a otra posición de la placa?
-Justificar con las propiedades del par.
+c) ¿Cambia el efecto del par si se traslada a otra posición de la placa? Justificar con las propiedades del par.
 
 ---
 
 **Ejercicio 7**
 
-Identificar cuáles de los siguientes sistemas constituyen un par de fuerzas
-y calcular su momento. Indicar signo según la convención antihoraria positiva.
+Identificar cuáles de los siguientes sistemas constituyen un par de fuerzas y calcular su momento. Indicar signo según la convención antihoraria positiva.
 
 a) $P_1 = 180\,\text{kN}$ ↑ en $x = 0$; $\quad P_2 = 180\,\text{kN}$ ↓ en $x = 2{,}5\,\text{m}$
 
@@ -139,7 +133,7 @@ d) $P_1 = 200\,\text{kN}$ → en $y = 1{,}0$; $\quad P_2 = 150\,\text{kN}$ ← e
 
 **Ejercicio 8**
 
-En el nudo de una torre de alta tensión concurren las siguientes fuerzas:
+En el siguiente sistema de fuerzas:
 
 | Fuerza | $P$ (kN) | $\varphi$ |
 |--------|---------|-----------|
@@ -152,8 +146,7 @@ a) Calcular la resultante por el método analítico (dos ecuaciones de proyecci�
 
 b) Verificar trazando el polígono de fuerzas gráficamente con escala libre.
 
-c) Indicar en qué cuadrante se ubica la resultante y qué significa físicamente
-para el nudo.
+c) Indicar en qué cuadrante se ubica la resultante y qué significa físicamente para el nudo.
 
 ---
 
@@ -166,10 +159,9 @@ Las tensiones en los cables son:
 - $T_2 = 420\,\text{kN}$ a $\varphi_2 = 150°$
 - $T_3 = 380\,\text{kN}$ a $\varphi_3 = 270°$
 
-a) Calcular la resultante $R$ por dos ecuaciones de proyección.
+a) Calcular la resultante $R$ por dos ecuaciones de momento.
 
-b) Recalcular usando una ecuación de proyección y una de momentos
-respecto a $O = (2{,}0;\; 1{,}5)\,\text{m}$. Verificar que coincide.
+b) Recalcular usando una ecuación de proyección y una de momentos respecto a $O = (2{,}0;\; 1{,}5)\,\text{m}$. Verificar que coincide.
 
 c) ¿El sistema está en equilibrio? ¿Qué fuerza habría que agregar para lograrlo?
 
@@ -179,20 +171,20 @@ c) ¿El sistema está en equilibrio? ¿Qué fuerza habría que agregar para logr
 
 **Ejercicio 10**
 
-Una fuerza $P = 720\,\text{kN}$ a $\varphi = 50°$ debe descomponerse en
-dos direcciones concurrentes: $\varphi_1 = 10°$ y $\varphi_2 = 110°$.
+Una fuerza $P = 720\,\text{kN}$ a $\varphi = 50°$ debe descomponerse en dos direcciones concurrentes: $\varphi_1 = 10°$ y $\varphi_2 = 110°$.
 
-a) Resolver analíticamente por dos ecuaciones de proyección.
-Hallar $P_1$ y $P_2$.
+a) Resolver analíticamente por dos ecuaciones de proyección. Hallar $P_1$ y $P_2$.
 
 b) Verificar que $P_1$ y $P_2$ tienen como resultante el vector $P$ original.
+
+![Diagrama de fuerzas en marco rígido](./img/tp/eje_10.png)
+
 
 ---
 
 **Ejercicio 11**
 
-Una fuerza $P = 900\,\text{kN}$ debe descomponerse en dos direcciones
-oblicuas que forman ángulos $\alpha = 25°$ y $\beta = 40°$ con $P$.
+Una fuerza $P = 900\,\text{kN}$ debe descomponerse en dos direcciones oblicuas que forman ángulos $\alpha = 25°$ y $\beta = 40°$ con $P$.
 
 a) Aplicar la regla del seno para hallar las componentes $P_1$ y $P_2$.
 
@@ -200,6 +192,9 @@ b) ¿Por qué no se puede usar Pitágoras en este caso?
 
 c) ¿Qué ocurre si $\alpha + \beta = 90°$? Demostrar que la regla del seno
 se reduce al caso cartesiano.
+
+![Diagrama de fuerzas en marco rígido](./img/tp/eje_11.png)
+
 
 ---
 
@@ -217,8 +212,7 @@ a) Calcular las componentes en la terna local $(P_{x'}, P_{y'})$.
 
 b) Verificar que el módulo se conserva: $|P'| = |P|$.
 
-c) Interpretar físicamente: ¿cuál componente produce esfuerzo axial en la barra?
-¿Cuál produce esfuerzo de corte?
+c) Interpretar físicamente: ¿cuál componente produce esfuerzo axial en la barra? ¿Cuál produce esfuerzo de corte?
 
 ---
 
@@ -250,20 +244,17 @@ Determinar módulo y argumento de la fuerza $P_4$ que pone el sistema en equilib
 
 **Ejercicio 15**
 
-Un poste de distribución eléctrica está sometido a tres fuerzas en su punto superior:
+Un poste esta sometido a tres fuerzas en su punto superior:
 
 - Tensión del cable izquierdo: $T_1 = 480\,\text{kN}$ a $\varphi_1 = 145°$
 - Tensión del cable derecho: $T_2 = 480\,\text{kN}$ a $\varphi_2 = 35°$
-- Peso propio del conductor: $W = 120\,\text{kN}$ a $\varphi_3 = 270°$
+- Peso propio del soporte: $W = 120\,\text{kN}$ a $\varphi_3 = 270°$
 
 a) Calcular la resultante sobre el punto de anclaje.
 
-b) ¿El sistema está en equilibrio? Si no lo está, ¿qué fuerza ejerce
-la estructura del poste para mantener el equilibrio?
+b) ¿El sistema está en equilibrio? Si no lo está, ¿qué fuerza ejerce la estructura del poste para mantener el equilibrio?
 
-c) ¿Cómo cambia la resultante si $T_1 = T_2$ y el ángulo de ambos cables
-con la horizontal disminuye de $35°$ a $20°$? Discutir la implicancia
-para el diseño del poste.
+c) ¿Cómo cambia la resultante si $T_1 = T_2$ y el ángulo de ambos cables con la horizontal disminuye de $35°$ a $20°$? Discutir la implicancia para el diseño del poste.
 
 ---
 
