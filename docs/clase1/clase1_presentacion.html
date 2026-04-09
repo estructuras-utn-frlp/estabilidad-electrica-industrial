@@ -46,6 +46,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -249,7 +250,7 @@ RONCONI, Jorge Ernesto
 <h2>Clasificación según la recta de acción</h2>
 
 <img data-src="img/02_clasificacion_fuerzas.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
-<section id="principios-fundamentales-de-la-estática" class="slide level2">
+<section id="principios-fundamentales-de-la-estática" class="slide level2 scrollable">
 <h2>Principios fundamentales de la Estática</h2>
 <ol type="a">
 <li class="fragment"><strong>Paralelogramo:</strong> el efecto de dos fuerzas concurrentes es equivalente al de su resultante</li>
@@ -261,14 +262,13 @@ RONCONI, Jorge Ernesto
 <li class="fragment"><strong>Acción y reacción:</strong> fuerzas de acción y reacción son iguales, colineales y opuestas</li>
 </ol>
 </section>
-<section id="principio-del-paralelogramo" class="slide level2">
-<h2>Principio del paralelogramo</h2>
-
-<img data-src="img/03_paralelogramo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="representación-analítica-argumento-varphi" class="slide level2">
 <h2>Representación analítica — argumento <span class="math inline">\(\varphi\)</span></h2>
 <p><span class="math display">\[\boxed{P_x = P\cos\varphi} \qquad \boxed{P_y = P\sin\varphi}\]</span></p>
 <p><span class="math display">\[|P| = \sqrt{P_x^2 + P_y^2} \qquad \tan\varphi = \frac{P_y}{P_x}\]</span></p>
+</section>
+<section id="cuadrantes-argumento-varphi" class="slide level2">
+<h2>Cuadrantes — argumento <span class="math inline">\(\varphi\)</span></h2>
 <div class="fragment">
 <table class="caption-top">
 <thead>
@@ -648,9 +648,9 @@ RONCONI, Jorge Ernesto
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1280,
 
-        height: 700,
+        height: 720,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
