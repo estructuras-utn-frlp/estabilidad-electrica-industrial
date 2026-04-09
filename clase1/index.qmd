@@ -1,5 +1,5 @@
 ---
-title: "Clase 1 — Fuerzas y Vectores"
+title: "Clase 1 — Fuerzas Concurrentes en el Plano"
 subtitle: "UT1 · Semana 1"
 lang: es
 ---
@@ -10,8 +10,9 @@ Material correspondiente a la primera semana de cursada.
 |---|---|
 | [Documento teórico](clase1_documento.qmd) | Desarrollo completo de los contenidos |
 | [Presentación](clase1_presentacion.qmd) | Slides de clase (RevealJS) |
-| [Enunciado TP1](clase1_enunciado.qmd) | Ejercicios para resolver |
+| [Guía de ejercicios](clase1_enunciado.qmd) | Ejercicios para resolver |
 
-**Contenidos:** definición de fuerza, escala de fuerzas, sistemas coplanares,
-representación analítica, componentes cartesianas.
+**Contenidos:** representación de fuerzas, principios de la estática,
+momento estático, pares de fuerzas, composición, descomposición, equilibrio.
 
+**Bibliografía:** Ballario, L. — *La Estática Aplicada* (UTN FRLP).

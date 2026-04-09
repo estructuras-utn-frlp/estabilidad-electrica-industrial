@@ -10,7 +10,7 @@ website:
         href: index.qmd
       - text: "Clases"
         menu:
-          - text: "Clase 1 — Fuerzas y Vectores"
+          - text: "Clase 1 — Fuerzas Concurrentes"
             href: clase1/index.qmd
   page-footer:
     center: "Ing. Ronconi · UTN FRLP · 2026"

@@ -7,8 +7,8 @@ subtitle: "Ing. Eléctrica · Ing. Industrial · UTN FRLP · 2026"
 
 ---
 
-## Clases
+## Programa
 
-| Clase | Unidad | Tema | |
+| Clase | Semana | Unidad | Tema |
 |---|---|---|---|
-| 1 | UT1 | Fuerzas y Vectores | [Ver](clase1/index.qmd) |
+| [1](clase1/index.qmd) | 1 | UT1 | Fuerzas concurrentes en el plano |

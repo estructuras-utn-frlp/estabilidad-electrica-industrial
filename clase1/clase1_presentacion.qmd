@@ -103,17 +103,15 @@ g. **Acción y reacción:** fuerzas de acción y reacción son iguales, colineal
 
 ---
 
-## Principio del paralelogramo
-
-![](img/03_paralelogramo.png){width=80% fig-align="center"}
-
----
-
 ## Representación analítica — argumento $\varphi$
 
 $$\boxed{P_x = P\cos\varphi} \qquad \boxed{P_y = P\sin\varphi}$$
 
 $$|P| = \sqrt{P_x^2 + P_y^2} \qquad \tan\varphi = \frac{P_y}{P_x}$$
+
+---
+
+## Cuadrantes — argumento $\varphi$
 
 . . .
 
@@ -265,93 +263,3 @@ El módulo de la fuerza **no cambia** al rotar la terna.
 
 **Condición analítica:**
 $$\sum P_i \cos\varphi_i = 0 \qquad \sum P_i \sin\varphi_i = 0$$
-
----
-
-## Práctica — Parte 1 (25 min)
-
-Con $EF = 100\,\text{kN/cm}$, representar gráficamente y calcular componentes:
-
-| Fuerza | $P$ (kN) | $\varphi$ |
-|---|---|---|
-| $P_1$ | 350 | 0° |
-| $P_2$ | 500 | 45° |
-| $P_3$ | 200 | 270° |
-| $P_4$ | 400 | 150° |
-| $P_5$ | 300 | 210° |
-
-Verificar cada resultado reconstruyendo el módulo. Identificar cuadrante.
-
----
-
-## Solución Parte 1
-
-| Fuerza | $\varphi$ | $P_x$ (kN) | $P_y$ (kN) | Cuadrante |
-|---|---|---|---|---|
-| $P_1$ | 0° | $+350{,}0$ | $0{,}0$ | eje $x^+$ |
-| $P_2$ | 45° | $+353{,}6$ | $+353{,}6$ | I |
-| $P_3$ | 270° | $0{,}0$ | $-200{,}0$ | eje $y^-$ |
-| $P_4$ | 150° | $-346{,}4$ | $+200{,}0$ | II |
-| $P_5$ | 210° | $-259{,}8$ | $-150{,}0$ | III |
-
----
-
-## Práctica — Parte 2 (25 min)
-
-**Problema 1 ★★☆**  
-Componer las 5 fuerzas de la Parte 1 analítica y gráficamente.
-
-. . .
-
-**Problema 2 ★★☆**  
-$P = 800\,\text{kN}$ a $\varphi = 25°$. Descomponer en dos direcciones:
-una a $10°$ respecto a $P$ y otra a $60°$ respecto a $P$.
-
-. . .
-
-**Problema 3 ★★★**  
-Una terna local está rotada $\theta = 35°$ respecto a la global.  
-$P_x = 300\,\text{kN}$, $P_y = -150\,\text{kN}$. Calcular componentes locales y verificar módulo.
-
----
-
-## Solución Parte 2
-
-**Problema 1:**
-$$R_x = +97{,}4\,\text{kN} \qquad R_y = +203{,}6\,\text{kN}$$
-$$R = 225{,}8\,\text{kN} \qquad \varphi_R = 64{,}4°$$
-
-. . .
-
-**Problema 3:**
-$$P_{x'} = 159{,}7\,\text{kN} \qquad P_{y'} = -295{,}0\,\text{kN}$$
-$$|P'| \approx 335{,}5\,\text{kN} = \sqrt{300^2+150^2} \checkmark$$
-
----
-
-## Síntesis
-
-::: {.incremental}
-- La **hipótesis de rigidez** permite deslizar fuerzas sobre su recta de acción
-- Una fuerza necesita **4 características** para quedar completamente definida
-- La **resultante** se obtiene por polígono vectorial o $\sum P_x$, $\sum P_y$
-- El **momento** $M = P \times d$ mide el efecto rotacional
-- El **par** produce solo rotación; su resultante es nula
-- La **terna local** rota el sistema de referencia; el módulo se conserva
-- Equilibrio: $\sum P_x = 0$ y $\sum P_y = 0$
-:::
-
----
-
-## Para el hogar
-
-| # | Consigna | Nivel |
-|---|---|---|
-| 1 | Representar 4 fuerzas en distintos cuadrantes con $EF$ libre | ★☆☆ |
-| 2 | Componer 4 fuerzas por los tres métodos analíticos | ★★☆ |
-| 3 | Descomponer una fuerza en dos direcciones oblicuas | ★★☆ |
-| 4 | Terna rotada $\theta = 50°$: calcular componentes locales de 3 fuerzas | ★★★ |
-
-::: {.callout-tip}
-Instalar **FTOOL** antes de la Semana 3: <https://webstructural.software/ftool/>
-:::
