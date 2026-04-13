@@ -12,6 +12,8 @@ website:
         menu:
           - text: "Clase 1 — Fuerzas Concurrentes"
             href: clase1/index.qmd
+          - text: "Clase 2 — Fuerzas No Concurrentes"
+            href: clase2/index.qmd
   page-footer:
     center: "Ing. Ronconi · UTN FRLP · 2026"
 

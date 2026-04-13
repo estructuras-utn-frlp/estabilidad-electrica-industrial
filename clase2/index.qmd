@@ -1,0 +1,19 @@
+---
+title: "Clase 2 — Fuerzas No Concurrentes en el Plano"
+subtitle: "UT1 · Semana 2"
+lang: es
+---
+
+Material correspondiente a la segunda semana de cursada.
+
+| Recurso | Descripción |
+|---|---|
+| [Documento teórico](clase2_documento.qmd) | Desarrollo completo de los contenidos |
+| [Presentación](clase2_presentacion.qmd) | Slides de clase (RevealJS) |
+| [Guía de ejercicios](clase2_enunciado.qmd) | Ejercicios para resolver |
+
+**Contenidos:** momento estático, Teorema de Varignon, par de fuerzas,
+traslación de fuerzas, composición de fuerzas no concurrentes, polígono
+funicular, fuerzas distribuidas, equilibrio.
+
+**Bibliografía:** Ballario, L. — *La Estática Aplicada* (UTN FRLP).
