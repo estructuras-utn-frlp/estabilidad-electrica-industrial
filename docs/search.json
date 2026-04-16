@@ -156,9 +156,9 @@
   {
     "objectID": "clase1/clase1_documento.html",
     "href": "clase1/clase1_documento.html",
-    "title": "Fuerzas y Vectores",
+    "title": "Unidad Temática 1: Estática Aplicada",
     "section": "",
-    "text": "Toda fuerza queda completamente definida cuando se conocen sus cuatro características:\n\nRecta de acción (\\(a\\)): línea sobre la que actúa la fuerza.\nMagnitud (\\(|AB|\\)): intensidad expresada en kN o t.\nSentido: orientación sobre la recta, indicada por una flecha.\nPunto de aplicación (\\(A\\)): punto donde se aplica la fuerza.\n\nDecir únicamente “la fuerza es 500 kN” es una descripción incompleta. Sin dirección y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura."
+    "text": "La Estática es la base del diseño estructural en Ingeniería Civil. Su objetivo es definir las condiciones de equilibrio para que un sistema permanezca sin desplazamientos bajo la acción de cargas.\n\n\nEl análisis varía según el espacio de trabajo:\n\nEstática Plana: Las fuerzas actúan en un plano de simetría (denominado “chapa”). Un punto material en este plano posee dos grados de libertad.\nEstática Espacial: Los cuerpos se refieren a una terna ortogonal \\((X, Y, Z)\\). Un punto material posee tres grados de libertad, mientras que un cuerpo rígido en el espacio posee seis grados de libertad (tres traslaciones y tres rotaciones).\n\n\n\n\nPara la Estática, adoptamos la hipótesis de rigidez: el cuerpo es un sólido ideal donde la distancia relativa entre sus partículas es invariable. A diferencia de la Resistencia de Materiales, aquí no consideramos deformaciones ni rupturas; el sólido es ilimitadamente resistente."
   },
   {
     "objectID": "clase1/clase1_documento.html#la-fuerza-como-vector",
@@ -495,5 +495,75 @@
     "title": "Fuerzas No Concurrentes en el Plano",
     "section": "Equilibrio — condición analítica (2/2)",
     "text": "Equilibrio — condición analítica (2/2)\nc) Tres momentos respecto a puntos no alineados:\n\\[\\sum M_i^O = 0 \\qquad \\sum M_i^N = 0 \\qquad \\sum M_i^S = 0\\]\n\n\n\n\n\n\nAdvertencia\n\n\nEn todos los casos, los centros de momentos no deben estar alineados entre sí ni con la dirección de las fuerzas.\n\n\n\n\nSi los puntos están alineados, dos de las tres ecuaciones son linealmente dependientes y el sistema queda indeterminado."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#introducción-y-conceptos-fundamentales",
+    "href": "clase1/clase1_documento.html#introducción-y-conceptos-fundamentales",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "",
+    "text": "La Estática es la base del diseño estructural en Ingeniería Civil. Su objetivo es definir las condiciones de equilibrio para que un sistema permanezca sin desplazamientos bajo la acción de cargas.\n\n\nEl análisis varía según el espacio de trabajo:\n\nEstática Plana: Las fuerzas actúan en un plano de simetría (denominado “chapa”). Un punto material en este plano posee dos grados de libertad.\nEstática Espacial: Los cuerpos se refieren a una terna ortogonal \\((X, Y, Z)\\). Un punto material posee tres grados de libertad, mientras que un cuerpo rígido en el espacio posee seis grados de libertad (tres traslaciones y tres rotaciones).\n\n\n\n\nPara la Estática, adoptamos la hipótesis de rigidez: el cuerpo es un sólido ideal donde la distancia relativa entre sus partículas es invariable. A diferencia de la Resistencia de Materiales, aquí no consideramos deformaciones ni rupturas; el sólido es ilimitadamente resistente."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#la-fuerza-magnitud-vectorial",
+    "href": "clase1/clase1_documento.html#la-fuerza-magnitud-vectorial",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "2 La Fuerza: Magnitud Vectorial",
+    "text": "2 La Fuerza: Magnitud Vectorial\nLa fuerza es el ente físico capaz de producir traslaciones. Se define unívocamente mediante cuatro parámetros:\n\nMódulo (Intensidad): Valor numérico en unidades de fuerza (\\(kgf\\), \\(Tn\\), \\(kN\\)).\nDirección (Recta de Acción): La línea infinita sobre la cual se desplaza el vector.\nSentido: Orientación indicada por la flecha.\nPunto de Aplicación: Punto exacto de contacto. Según el Principio de Transmisibilidad, en cuerpos rígidos, la fuerza puede desplazarse sobre su recta de acción sin alterar el efecto externo.\n\n\nRecomendación de Imagen: Insertar aquí un diagrama de un vector fuerza aplicado a una viga simple, señalando sus 4 elementos.\n\n\n2.1 Representación Analítica\nReferida a un sistema de ejes \\((x, y)\\), una fuerza \\(P\\) con argumento \\(\\phi\\) (ángulo respecto a \\(x\\)) se descompone como: \\[P_x = P \\cdot \\cos(\\phi)\\] \\[P_y = P \\cdot \\sin(\\phi)\\]"
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática",
+    "href": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "3 Principios Fundamentales de la Estática",
+    "text": "3 Principios Fundamentales de la Estática\nEl equilibrio se sustenta en tres postulados clásicos:\n\nPrincipio del Paralelogramo: Dos fuerzas concurrentes pueden sustituirse por una única resultante \\(R\\), equivalente a la diagonal del paralelogramo formado por ellas.\nPrincipio de Superposición: Agregar o quitar un sistema nulo (en equilibrio) a un cuerpo no altera su estado original.\nAcción y Reacción: A toda fuerza se le opone otra de igual intensidad y recta de acción, pero sentido contrario."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#sistemas-de-fuerzas-concurrentes",
+    "href": "clase1/clase1_documento.html#sistemas-de-fuerzas-concurrentes",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "4 Sistemas de Fuerzas Concurrentes",
+    "text": "4 Sistemas de Fuerzas Concurrentes\nSon aquellos donde todas las rectas de acción convergen en un punto común.\n\n4.1 Resolución Analítica\nLa resultante se halla mediante la suma de proyecciones: \\[R_x = \\sum P_{ix} \\quad ; \\quad R_y = \\sum P_{iy}\\] \\[|R| = \\sqrt{R_x^2 + R_y^2}\\]\n\nRecomendación de Imagen: Esquema de tres fuerzas concurrentes en un punto \\(O\\), mostrando la construcción de la poligonal de fuerzas para hallar la resultante gráfica."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#momento-y-teorema-de-varignon",
+    "href": "clase1/clase1_documento.html#momento-y-teorema-de-varignon",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "5 Momento y Teorema de Varignon",
+    "text": "5 Momento y Teorema de Varignon\nEl Momento Estático (\\(M\\)) mide la capacidad de una fuerza para producir una rotación respecto a un punto \\(O\\). \\[M = P \\cdot d\\] Donde \\(d\\) es el “brazo de palanca”.\n\n5.1 Teorema de Varignon\nEste teorema es el pilar para el cálculo de reacciones: \\[M_O(R) = \\sum M_O(P_i)\\] “El momento de la resultante es igual a la suma de los momentos de las componentes.”"
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#pares-de-fuerzas-cuplas",
+    "href": "clase1/clase1_documento.html#pares-de-fuerzas-cuplas",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "6 Pares de Fuerzas (Cuplas)",
+    "text": "6 Pares de Fuerzas (Cuplas)\nUn par está formado por dos fuerzas paralelas de igual módulo y sentido contrario. * Resultante: Es nula (\\(R = 0\\)). * Efecto: Produce exclusivamente rotación (\\(M = P \\cdot a\\)). * Propiedad: El momento de una cupla es un vector libre (constante para cualquier punto del plano)."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#sistemas-no-concurrentes-y-polígono-funicular",
+    "href": "clase1/clase1_documento.html#sistemas-no-concurrentes-y-polígono-funicular",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "7 Sistemas No Concurrentes y Polígono Funicular",
+    "text": "7 Sistemas No Concurrentes y Polígono Funicular\nCuando las fuerzas no convergen, la poligonal de fuerzas nos da la intensidad de \\(R\\), pero no su posición. Para ubicarla, recurrimos al Polígono Funicular.\n\nRecomendación de Imagen: Dibujar un sistema de 3 fuerzas no concurrentes, su polígono de fuerzas con polo \\(O\\) y rayos, y el correspondiente polígono funicular en el esquema de posición."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#métodos-de-descomposición",
+    "href": "clase1/clase1_documento.html#métodos-de-descomposición",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "8 Métodos de Descomposición",
+    "text": "8 Métodos de Descomposición\n\n8.1 Método de Cullmann (Gráfico)\nPermite descomponer una fuerza conocida (o resultante) en tres direcciones no concurrentes. Se basa en agrupar dos de las direcciones en una “recta auxiliar de Cullmann”.\n\n\n8.2 Método de Ritter (Analítico-Gráfico)\nConsiste en realizar un corte en la estructura y plantear ecuaciones de momentos en puntos estratégicos (nudos de la estructura) donde se anulen dos de las tres incógnitas."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#fuerzas-paralelas-y-distribuidas",
+    "href": "clase1/clase1_documento.html#fuerzas-paralelas-y-distribuidas",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "9 Fuerzas Paralelas y Distribuidas",
+    "text": "9 Fuerzas Paralelas y Distribuidas\n\n9.1 Fuerzas Paralelas\nUn caso particular de fuerzas concurrentes en el infinito. La resultante es la suma algebraica de intensidades. El Centro de Fuerzas Paralelas es el punto por donde pasa \\(R\\) independientemente de la rotación del sistema.\n\n\n9.2 Fuerzas Distribuidas\nSon cargas que actúan sobre una longitud \\(L\\) con una intensidad \\(q\\). * Intensidad de la Resultante: Equivale al área del diagrama de carga. * Punto de aplicación: Se ubica en el baricentro del diagrama.\n\nRecomendación de Imagen: Tabla comparativa con un diagrama de carga rectangular (\\(R=q \\cdot L\\) en \\(L/2\\)) y uno triangular (\\(R = \\frac{q \\cdot L}{2}\\) en \\(L/3\\) desde la base)."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#resumen-de-condiciones-de-equilibrio",
+    "href": "clase1/clase1_documento.html#resumen-de-condiciones-de-equilibrio",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "10 Resumen de Condiciones de Equilibrio",
+    "text": "10 Resumen de Condiciones de Equilibrio\nPara que una chapa en el plano esté en equilibrio, se deben anular las posibilidades de traslación y rotación:\n\\[\\sum F_x = 0 \\quad ; \\quad \\sum F_y = 0 \\quad ; \\quad \\sum M_O = 0\\]"
   }
 ]

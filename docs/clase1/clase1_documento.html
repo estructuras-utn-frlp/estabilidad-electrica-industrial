@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="RONCONI, Jorge Ernesto">
+<meta name="author" content="Ing. Jorge">
 
-<title>Fuerzas y Vectores – Estabilidad / Estática y Resistencia</title>
+<title>Unidad Temática 1: Estática Aplicada – Estabilidad / Estática y Resistencia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5c49dcdaa1dd0040e71953adad602abc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -132,6 +132,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../clase1/index.html">
  <span class="dropdown-text">Clase 1 — Fuerzas Concurrentes</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../clase2/index.html">
+ <span class="dropdown-text">Clase 2 — Fuerzas No Concurrentes</span></a>
+  </li>  
     </ul>
   </li>
 </ul>
@@ -150,16 +154,37 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#la-fuerza-como-vector" id="toc-la-fuerza-como-vector" class="nav-link active" data-scroll-target="#la-fuerza-como-vector"><span class="header-section-number">1</span> La fuerza como vector</a></li>
-  <li><a href="#escala-de-fuerzas" id="toc-escala-de-fuerzas" class="nav-link" data-scroll-target="#escala-de-fuerzas"><span class="header-section-number">2</span> Escala de fuerzas</a></li>
-  <li><a href="#elementos-fundamentales-de-la-estática" id="toc-elementos-fundamentales-de-la-estática" class="nav-link" data-scroll-target="#elementos-fundamentales-de-la-estática"><span class="header-section-number">3</span> Elementos fundamentales de la estática</a></li>
-  <li><a href="#sistemas-de-fuerzas-coplanares" id="toc-sistemas-de-fuerzas-coplanares" class="nav-link" data-scroll-target="#sistemas-de-fuerzas-coplanares"><span class="header-section-number">4</span> Sistemas de fuerzas coplanares</a></li>
-  <li><a href="#representación-analítica" id="toc-representación-analítica" class="nav-link" data-scroll-target="#representación-analítica"><span class="header-section-number">5</span> Representación analítica</a>
+  <li><a href="#introducción-y-conceptos-fundamentales" id="toc-introducción-y-conceptos-fundamentales" class="nav-link active" data-scroll-target="#introducción-y-conceptos-fundamentales"><span class="header-section-number">1</span> Introducción y Conceptos Fundamentales</a>
   <ul class="collapse">
-  <li><a href="#convención-de-signos" id="toc-convención-de-signos" class="nav-link" data-scroll-target="#convención-de-signos"><span class="header-section-number">5.1</span> Convención de signos</a></li>
-  <li><a href="#ejemplo" id="toc-ejemplo" class="nav-link" data-scroll-target="#ejemplo"><span class="header-section-number">5.2</span> Ejemplo</a></li>
+  <li><a href="#estática-plana-y-espacial" id="toc-estática-plana-y-espacial" class="nav-link" data-scroll-target="#estática-plana-y-espacial"><span class="header-section-number">1.1</span> Estática Plana y Espacial</a></li>
+  <li><a href="#hipótesis-del-cuerpo-rígido" id="toc-hipótesis-del-cuerpo-rígido" class="nav-link" data-scroll-target="#hipótesis-del-cuerpo-rígido"><span class="header-section-number">1.2</span> Hipótesis del Cuerpo Rígido</a></li>
   </ul></li>
-  <li><a href="#errores-frecuentes" id="toc-errores-frecuentes" class="nav-link" data-scroll-target="#errores-frecuentes"><span class="header-section-number">6</span> Errores frecuentes</a></li>
+  <li><a href="#la-fuerza-magnitud-vectorial" id="toc-la-fuerza-magnitud-vectorial" class="nav-link" data-scroll-target="#la-fuerza-magnitud-vectorial"><span class="header-section-number">2</span> La Fuerza: Magnitud Vectorial</a>
+  <ul class="collapse">
+  <li><a href="#representación-analítica" id="toc-representación-analítica" class="nav-link" data-scroll-target="#representación-analítica"><span class="header-section-number">2.1</span> Representación Analítica</a></li>
+  </ul></li>
+  <li><a href="#principios-fundamentales-de-la-estática" id="toc-principios-fundamentales-de-la-estática" class="nav-link" data-scroll-target="#principios-fundamentales-de-la-estática"><span class="header-section-number">3</span> Principios Fundamentales de la Estática</a></li>
+  <li><a href="#sistemas-de-fuerzas-concurrentes" id="toc-sistemas-de-fuerzas-concurrentes" class="nav-link" data-scroll-target="#sistemas-de-fuerzas-concurrentes"><span class="header-section-number">4</span> Sistemas de Fuerzas Concurrentes</a>
+  <ul class="collapse">
+  <li><a href="#resolución-analítica" id="toc-resolución-analítica" class="nav-link" data-scroll-target="#resolución-analítica"><span class="header-section-number">4.1</span> Resolución Analítica</a></li>
+  </ul></li>
+  <li><a href="#momento-y-teorema-de-varignon" id="toc-momento-y-teorema-de-varignon" class="nav-link" data-scroll-target="#momento-y-teorema-de-varignon"><span class="header-section-number">5</span> Momento y Teorema de Varignon</a>
+  <ul class="collapse">
+  <li><a href="#teorema-de-varignon" id="toc-teorema-de-varignon" class="nav-link" data-scroll-target="#teorema-de-varignon"><span class="header-section-number">5.1</span> Teorema de Varignon</a></li>
+  </ul></li>
+  <li><a href="#pares-de-fuerzas-cuplas" id="toc-pares-de-fuerzas-cuplas" class="nav-link" data-scroll-target="#pares-de-fuerzas-cuplas"><span class="header-section-number">6</span> Pares de Fuerzas (Cuplas)</a></li>
+  <li><a href="#sistemas-no-concurrentes-y-polígono-funicular" id="toc-sistemas-no-concurrentes-y-polígono-funicular" class="nav-link" data-scroll-target="#sistemas-no-concurrentes-y-polígono-funicular"><span class="header-section-number">7</span> Sistemas No Concurrentes y Polígono Funicular</a></li>
+  <li><a href="#métodos-de-descomposición" id="toc-métodos-de-descomposición" class="nav-link" data-scroll-target="#métodos-de-descomposición"><span class="header-section-number">8</span> Métodos de Descomposición</a>
+  <ul class="collapse">
+  <li><a href="#método-de-cullmann-gráfico" id="toc-método-de-cullmann-gráfico" class="nav-link" data-scroll-target="#método-de-cullmann-gráfico"><span class="header-section-number">8.1</span> Método de Cullmann (Gráfico)</a></li>
+  <li><a href="#método-de-ritter-analítico-gráfico" id="toc-método-de-ritter-analítico-gráfico" class="nav-link" data-scroll-target="#método-de-ritter-analítico-gráfico"><span class="header-section-number">8.2</span> Método de Ritter (Analítico-Gráfico)</a></li>
+  </ul></li>
+  <li><a href="#fuerzas-paralelas-y-distribuidas" id="toc-fuerzas-paralelas-y-distribuidas" class="nav-link" data-scroll-target="#fuerzas-paralelas-y-distribuidas"><span class="header-section-number">9</span> Fuerzas Paralelas y Distribuidas</a>
+  <ul class="collapse">
+  <li><a href="#fuerzas-paralelas" id="toc-fuerzas-paralelas" class="nav-link" data-scroll-target="#fuerzas-paralelas"><span class="header-section-number">9.1</span> Fuerzas Paralelas</a></li>
+  <li><a href="#fuerzas-distribuidas" id="toc-fuerzas-distribuidas" class="nav-link" data-scroll-target="#fuerzas-distribuidas"><span class="header-section-number">9.2</span> Fuerzas Distribuidas</a></li>
+  </ul></li>
+  <li><a href="#resumen-de-condiciones-de-equilibrio" id="toc-resumen-de-condiciones-de-equilibrio" class="nav-link" data-scroll-target="#resumen-de-condiciones-de-equilibrio"><span class="header-section-number">10</span> Resumen de Condiciones de Equilibrio</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="clase1_documento.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -168,8 +193,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Fuerzas y Vectores</h1>
-<p class="subtitle lead">UT1 — Semana 1</p>
+<h1 class="title">Unidad Temática 1: Estática Aplicada</h1>
+<p class="subtitle lead">Cátedra de Estabilidad - UTN FRLP</p>
 </div>
 
 
@@ -179,14 +204,14 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
     <div class="quarto-title-meta-contents">
-             <p>RONCONI, Jorge Ernesto </p>
+             <p>Ing. Jorge </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">9 de abril de 2026</p>
+      <p class="date">15 de abril de 2026</p>
     </div>
   </div>
   
@@ -198,143 +223,116 @@ window.Quarto = {
 </header>
 
 
-<section id="la-fuerza-como-vector" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="la-fuerza-como-vector"><span class="header-section-number">1</span> La fuerza como vector</h2>
-<p>Toda fuerza queda completamente definida cuando se conocen sus <strong>cuatro características</strong>:</p>
+<section id="introducción-y-conceptos-fundamentales" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introducción-y-conceptos-fundamentales"><span class="header-section-number">1</span> Introducción y Conceptos Fundamentales</h2>
+<p>La <strong>Estática</strong> es la base del diseño estructural en Ingeniería Civil. Su objetivo es definir las condiciones de equilibrio para que un sistema permanezca sin desplazamientos bajo la acción de cargas.</p>
+<section id="estática-plana-y-espacial" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="estática-plana-y-espacial"><span class="header-section-number">1.1</span> Estática Plana y Espacial</h3>
+<p>El análisis varía según el espacio de trabajo:</p>
 <ul>
-<li><strong>Recta de acción</strong> (<span class="math inline">\(a\)</span>): línea sobre la que actúa la fuerza.</li>
-<li><strong>Magnitud</strong> (<span class="math inline">\(|AB|\)</span>): intensidad expresada en kN o t.</li>
-<li><strong>Sentido</strong>: orientación sobre la recta, indicada por una flecha.</li>
-<li><strong>Punto de aplicación</strong> (<span class="math inline">\(A\)</span>): punto donde se aplica la fuerza.</li>
-</ul>
-<p>Decir únicamente “la fuerza es 500 kN” es una descripción incompleta. Sin dirección y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura.</p>
-</section>
-<section id="escala-de-fuerzas" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="escala-de-fuerzas"><span class="header-section-number">2</span> Escala de fuerzas</h2>
-<p>Para representar gráficamente una fuerza se utiliza una <strong>escala de fuerzas</strong> (<span class="math inline">\(EF\)</span>), definida como la relación entre la magnitud de la fuerza y la longitud con que se la representa en el papel:</p>
-<p><span class="math display">\[EF = \frac{\text{fuerza (kN)}}{\text{longitud (cm)}}\]</span></p>
-<p><strong>Ejemplo.</strong> Con <span class="math inline">\(EF = 500\,\text{kN/cm}\)</span>, una fuerza de <span class="math inline">\(P = 1300\,\text{kN}\)</span> se representa con un segmento de:</p>
-<p><span class="math display">\[x = \frac{1300 \times 1}{500} = 2{,}6\,\text{cm}\]</span></p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Advertencia
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>La escala de fuerzas es independiente de la escala geométrica del dibujo. Ambas coexisten en el mismo gráfico sin interferirse.</p>
-</div>
-</div>
-</section>
-<section id="elementos-fundamentales-de-la-estática" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="elementos-fundamentales-de-la-estática"><span class="header-section-number">3</span> Elementos fundamentales de la estática</h2>
-<p>La estática opera con dos elementos irreductibles:</p>
-<ul>
-<li><strong>Fuerza</strong>: produce efecto de traslación sobre el cuerpo.</li>
-<li><strong>Par o Cupla</strong>: produce efecto de rotación. Es un par de fuerzas iguales, paralelas y de sentido opuesto.</li>
-</ul>
-<p>Esta distinción resulta esencial al estudiar el equilibrio de cuerpos rígidos, donde tanto la resultante de fuerzas como la resultante de momentos deben ser nulas.</p>
-</section>
-<section id="sistemas-de-fuerzas-coplanares" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="sistemas-de-fuerzas-coplanares"><span class="header-section-number">4</span> Sistemas de fuerzas coplanares</h2>
-<p>Un sistema de fuerzas es <strong>coplanar</strong> cuando todas las fuerzas actúan en un mismo plano. Se clasifican según la disposición de sus rectas de acción:</p>
-<ul>
-<li><strong>Concurrentes</strong>: todas las rectas de acción pasan por un mismo punto.</li>
-<li><strong>No concurrentes paralelas</strong>: rectas de acción paralelas entre sí.</li>
-<li><strong>No concurrentes no paralelas</strong>: rectas de acción que no convergen en un punto común.</li>
+<li><strong>Estática Plana:</strong> Las fuerzas actúan en un plano de simetría (denominado “chapa”). Un punto material en este plano posee <strong>dos grados de libertad</strong>.</li>
+<li><strong>Estática Espacial:</strong> Los cuerpos se refieren a una terna ortogonal <span class="math inline">\((X, Y, Z)\)</span>. Un punto material posee <strong>tres grados de libertad</strong>, mientras que un cuerpo rígido en el espacio posee <strong>seis grados de libertad</strong> (tres traslaciones y tres rotaciones).</li>
 </ul>
 </section>
-<section id="representación-analítica" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="representación-analítica"><span class="header-section-number">5</span> Representación analítica</h2>
-<p>Dada una fuerza <span class="math inline">\(F\)</span> con ángulo <span class="math inline">\(\alpha\)</span> medido desde el eje <span class="math inline">\(x\)</span> positivo en sentido antihorario, sus <strong>componentes cartesianas</strong> son:</p>
-<p><span class="math display">\[F_x = F\cos\alpha \qquad F_y = F\sin\alpha\]</span></p>
-<p>La operación inversa permite reconstruir la fuerza a partir de sus componentes:</p>
-<p><span class="math display">\[F = \sqrt{F_x^2 + F_y^2} \qquad \alpha = \arctan\!\left(\frac{F_y}{F_x}\right)\]</span></p>
-<section id="convención-de-signos" class="level3" data-number="5.1">
-<h3 data-number="5.1" class="anchored" data-anchor-id="convención-de-signos"><span class="header-section-number">5.1</span> Convención de signos</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Cuadrante</th>
-<th><span class="math inline">\(\alpha\)</span></th>
-<th><span class="math inline">\(F_x\)</span></th>
-<th><span class="math inline">\(F_y\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>I ↗</td>
-<td><span class="math inline">\(0°\)</span>–<span class="math inline">\(90°\)</span></td>
-<td><span class="math inline">\(+\)</span></td>
-<td><span class="math inline">\(+\)</span></td>
-</tr>
-<tr class="even">
-<td>II ↖</td>
-<td><span class="math inline">\(90°\)</span>–<span class="math inline">\(180°\)</span></td>
-<td><span class="math inline">\(-\)</span></td>
-<td><span class="math inline">\(+\)</span></td>
-</tr>
-<tr class="odd">
-<td>III ↙</td>
-<td><span class="math inline">\(180°\)</span>–<span class="math inline">\(270°\)</span></td>
-<td><span class="math inline">\(-\)</span></td>
-<td><span class="math inline">\(-\)</span></td>
-</tr>
-<tr class="even">
-<td>IV ↘</td>
-<td><span class="math inline">\(270°\)</span>–<span class="math inline">\(360°\)</span></td>
-<td><span class="math inline">\(+\)</span></td>
-<td><span class="math inline">\(-\)</span></td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Advertencia
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Antes de calcular, dibujar siempre los ejes y marcar el ángulo. La mayoría de los errores de signo se evitan con este paso previo.</p>
-</div>
-</div>
-</section>
-<section id="ejemplo" class="level3" data-number="5.2">
-<h3 data-number="5.2" class="anchored" data-anchor-id="ejemplo"><span class="header-section-number">5.2</span> Ejemplo</h3>
-<p><span class="math inline">\(F = 600\,\text{kN}\)</span> a <span class="math inline">\(53°\)</span> sobre la horizontal:</p>
-<p><span class="math display">\[F_x = 600\cos53° = 600 \times 0{,}602 = 361{,}2\,\text{kN}\]</span> <span class="math display">\[F_y = 600\sin53° = 600 \times 0{,}799 = 479{,}4\,\text{kN}\]</span></p>
-<p><strong>Verificación:</strong></p>
-<p><span class="math display">\[\sqrt{361{,}2^2 + 479{,}4^2} = \sqrt{360\,289} \approx 600\,\text{kN} \checkmark\]</span></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>La verificación por reconstrucción es obligatoria. Si no cierra, hay un error de cálculo o de signo.</p>
-</div>
-</div>
+<section id="hipótesis-del-cuerpo-rígido" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="hipótesis-del-cuerpo-rígido"><span class="header-section-number">1.2</span> Hipótesis del Cuerpo Rígido</h3>
+<p>Para la Estática, adoptamos la <strong>hipótesis de rigidez</strong>: el cuerpo es un sólido ideal donde la distancia relativa entre sus partículas es invariable. A diferencia de la <em>Resistencia de Materiales</em>, aquí no consideramos deformaciones ni rupturas; el sólido es ilimitadamente resistente.</p>
+<hr>
 </section>
 </section>
-<section id="errores-frecuentes" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="errores-frecuentes"><span class="header-section-number">6</span> Errores frecuentes</h2>
+<section id="la-fuerza-magnitud-vectorial" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="la-fuerza-magnitud-vectorial"><span class="header-section-number">2</span> La Fuerza: Magnitud Vectorial</h2>
+<p>La fuerza es el ente físico capaz de producir traslaciones. Se define unívocamente mediante cuatro parámetros:</p>
 <ol type="1">
-<li><strong>Describir la fuerza solo por su magnitud</strong> — omitir dirección y sentido invalida el análisis.</li>
-<li><strong>Error en el ángulo de referencia</strong> — medir desde el eje incorrecto o usar el ángulo complementario.</li>
-<li><strong>Signo incorrecto en las componentes</strong> — olvidar el negativo para fuerzas en el III° o IV° cuadrante.</li>
-<li><strong>No verificar</strong> — calcular <span class="math inline">\(F_x\)</span> y <span class="math inline">\(F_y\)</span> sin reconstruir <span class="math inline">\(F\)</span>.</li>
-<li><strong>Confundir <span class="math inline">\(EF\)</span> con escala geométrica</strong> — son escalas independientes.</li>
+<li><strong>Módulo (Intensidad):</strong> Valor numérico en unidades de fuerza (<span class="math inline">\(kgf\)</span>, <span class="math inline">\(Tn\)</span>, <span class="math inline">\(kN\)</span>).</li>
+<li><strong>Dirección (Recta de Acción):</strong> La línea infinita sobre la cual se desplaza el vector.</li>
+<li><strong>Sentido:</strong> Orientación indicada por la flecha.</li>
+<li><strong>Punto de Aplicación:</strong> Punto exacto de contacto. Según el <strong>Principio de Transmisibilidad</strong>, en cuerpos rígidos, la fuerza puede desplazarse sobre su recta de acción sin alterar el efecto externo.</li>
 </ol>
+<blockquote class="blockquote">
+<p><strong>Recomendación de Imagen:</strong> Insertar aquí un diagrama de un vector fuerza aplicado a una viga simple, señalando sus 4 elementos.</p>
+</blockquote>
+<section id="representación-analítica" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="representación-analítica"><span class="header-section-number">2.1</span> Representación Analítica</h3>
+<p>Referida a un sistema de ejes <span class="math inline">\((x, y)\)</span>, una fuerza <span class="math inline">\(P\)</span> con argumento <span class="math inline">\(\phi\)</span> (ángulo respecto a <span class="math inline">\(x\)</span>) se descompone como: <span class="math display">\[P_x = P \cdot \cos(\phi)\]</span> <span class="math display">\[P_y = P \cdot \sin(\phi)\]</span></p>
+<hr>
+</section>
+</section>
+<section id="principios-fundamentales-de-la-estática" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="principios-fundamentales-de-la-estática"><span class="header-section-number">3</span> Principios Fundamentales de la Estática</h2>
+<p>El equilibrio se sustenta en tres postulados clásicos:</p>
+<ol type="1">
+<li><strong>Principio del Paralelogramo:</strong> Dos fuerzas concurrentes pueden sustituirse por una única resultante <span class="math inline">\(R\)</span>, equivalente a la diagonal del paralelogramo formado por ellas.</li>
+<li><strong>Principio de Superposición:</strong> Agregar o quitar un sistema nulo (en equilibrio) a un cuerpo no altera su estado original.</li>
+<li><strong>Acción y Reacción:</strong> A toda fuerza se le opone otra de igual intensidad y recta de acción, pero sentido contrario.</li>
+</ol>
+<hr>
+</section>
+<section id="sistemas-de-fuerzas-concurrentes" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="sistemas-de-fuerzas-concurrentes"><span class="header-section-number">4</span> Sistemas de Fuerzas Concurrentes</h2>
+<p>Son aquellos donde todas las rectas de acción convergen en un punto común.</p>
+<section id="resolución-analítica" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="resolución-analítica"><span class="header-section-number">4.1</span> Resolución Analítica</h3>
+<p>La resultante se halla mediante la suma de proyecciones: <span class="math display">\[R_x = \sum P_{ix} \quad ; \quad R_y = \sum P_{iy}\]</span> <span class="math display">\[|R| = \sqrt{R_x^2 + R_y^2}\]</span></p>
+<blockquote class="blockquote">
+<p><strong>Recomendación de Imagen:</strong> Esquema de tres fuerzas concurrentes en un punto <span class="math inline">\(O\)</span>, mostrando la construcción de la poligonal de fuerzas para hallar la resultante gráfica.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="momento-y-teorema-de-varignon" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="momento-y-teorema-de-varignon"><span class="header-section-number">5</span> Momento y Teorema de Varignon</h2>
+<p>El <strong>Momento Estático (<span class="math inline">\(M\)</span>)</strong> mide la capacidad de una fuerza para producir una rotación respecto a un punto <span class="math inline">\(O\)</span>. <span class="math display">\[M = P \cdot d\]</span> Donde <span class="math inline">\(d\)</span> es el “brazo de palanca”.</p>
+<section id="teorema-de-varignon" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="teorema-de-varignon"><span class="header-section-number">5.1</span> Teorema de Varignon</h3>
+<p>Este teorema es el pilar para el cálculo de reacciones: <span class="math display">\[M_O(R) = \sum M_O(P_i)\]</span> <em>“El momento de la resultante es igual a la suma de los momentos de las componentes.”</em></p>
+<hr>
+</section>
+</section>
+<section id="pares-de-fuerzas-cuplas" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="pares-de-fuerzas-cuplas"><span class="header-section-number">6</span> Pares de Fuerzas (Cuplas)</h2>
+<p>Un par está formado por dos fuerzas paralelas de igual módulo y sentido contrario. * <strong>Resultante:</strong> Es nula (<span class="math inline">\(R = 0\)</span>). * <strong>Efecto:</strong> Produce exclusivamente rotación (<span class="math inline">\(M = P \cdot a\)</span>). * <strong>Propiedad:</strong> El momento de una cupla es un vector libre (constante para cualquier punto del plano).</p>
+<hr>
+</section>
+<section id="sistemas-no-concurrentes-y-polígono-funicular" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="sistemas-no-concurrentes-y-polígono-funicular"><span class="header-section-number">7</span> Sistemas No Concurrentes y Polígono Funicular</h2>
+<p>Cuando las fuerzas no convergen, la poligonal de fuerzas nos da la intensidad de <span class="math inline">\(R\)</span>, pero no su posición. Para ubicarla, recurrimos al <strong>Polígono Funicular</strong>.</p>
+<blockquote class="blockquote">
+<p><strong>Recomendación de Imagen:</strong> Dibujar un sistema de 3 fuerzas no concurrentes, su polígono de fuerzas con polo <span class="math inline">\(O\)</span> y rayos, y el correspondiente polígono funicular en el esquema de posición.</p>
+</blockquote>
+<hr>
+</section>
+<section id="métodos-de-descomposición" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="métodos-de-descomposición"><span class="header-section-number">8</span> Métodos de Descomposición</h2>
+<section id="método-de-cullmann-gráfico" class="level3" data-number="8.1">
+<h3 data-number="8.1" class="anchored" data-anchor-id="método-de-cullmann-gráfico"><span class="header-section-number">8.1</span> Método de Cullmann (Gráfico)</h3>
+<p>Permite descomponer una fuerza conocida (o resultante) en tres direcciones no concurrentes. Se basa en agrupar dos de las direcciones en una “recta auxiliar de Cullmann”.</p>
+</section>
+<section id="método-de-ritter-analítico-gráfico" class="level3" data-number="8.2">
+<h3 data-number="8.2" class="anchored" data-anchor-id="método-de-ritter-analítico-gráfico"><span class="header-section-number">8.2</span> Método de Ritter (Analítico-Gráfico)</h3>
+<p>Consiste en realizar un corte en la estructura y plantear ecuaciones de momentos en puntos estratégicos (nudos de la estructura) donde se anulen dos de las tres incógnitas.</p>
+<hr>
+</section>
+</section>
+<section id="fuerzas-paralelas-y-distribuidas" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="fuerzas-paralelas-y-distribuidas"><span class="header-section-number">9</span> Fuerzas Paralelas y Distribuidas</h2>
+<section id="fuerzas-paralelas" class="level3" data-number="9.1">
+<h3 data-number="9.1" class="anchored" data-anchor-id="fuerzas-paralelas"><span class="header-section-number">9.1</span> Fuerzas Paralelas</h3>
+<p>Un caso particular de fuerzas concurrentes en el infinito. La resultante es la suma algebraica de intensidades. El <strong>Centro de Fuerzas Paralelas</strong> es el punto por donde pasa <span class="math inline">\(R\)</span> independientemente de la rotación del sistema.</p>
+</section>
+<section id="fuerzas-distribuidas" class="level3" data-number="9.2">
+<h3 data-number="9.2" class="anchored" data-anchor-id="fuerzas-distribuidas"><span class="header-section-number">9.2</span> Fuerzas Distribuidas</h3>
+<p>Son cargas que actúan sobre una longitud <span class="math inline">\(L\)</span> con una intensidad <span class="math inline">\(q\)</span>. * <strong>Intensidad de la Resultante:</strong> Equivale al área del diagrama de carga. * <strong>Punto de aplicación:</strong> Se ubica en el <strong>baricentro</strong> del diagrama.</p>
+<blockquote class="blockquote">
+<p><strong>Recomendación de Imagen:</strong> Tabla comparativa con un diagrama de carga rectangular (<span class="math inline">\(R=q \cdot L\)</span> en <span class="math inline">\(L/2\)</span>) y uno triangular (<span class="math inline">\(R = \frac{q \cdot L}{2}\)</span> en <span class="math inline">\(L/3\)</span> desde la base).</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="resumen-de-condiciones-de-equilibrio" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="resumen-de-condiciones-de-equilibrio"><span class="header-section-number">10</span> Resumen de Condiciones de Equilibrio</h2>
+<p>Para que una chapa en el plano esté en equilibrio, se deben anular las posibilidades de traslación y rotación:</p>
+<p><span class="math display">\[\sum F_x = 0 \quad ; \quad \sum F_y = 0 \quad ; \quad \sum M_O = 0\]</span></p>
 
 
 </section>
