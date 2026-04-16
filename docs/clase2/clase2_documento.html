@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="RONCONI, Jorge Ernesto">
 
-<title>Estabilidad / Estática y Resistencia de Materiales – Estabilidad / Estática y Resistencia</title>
+<title>Fuerzas y Vectores – Estabilidad / Estática y Resistencia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -79,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Estabilidad / Estática y Resistencia</span>
     </a>
   </div>
@@ -90,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -99,11 +129,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-clases">    
         <li>
-    <a class="dropdown-item" href="./clase1/index.html">
+    <a class="dropdown-item" href="../clase1/index.html">
  <span class="dropdown-text">Clase 1 — Fuerzas Concurrentes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./clase2/index.html">
+    <a class="dropdown-item" href="../clase2/index.html">
  <span class="dropdown-text">Clase 2 — Fuerzas No Concurrentes</span></a>
   </li>  
     </ul>
@@ -124,24 +154,45 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#programa" id="toc-programa" class="nav-link active" data-scroll-target="#programa"><span class="header-section-number">1</span> Programa</a></li>
+  <li><a href="#la-fuerza-como-vector" id="toc-la-fuerza-como-vector" class="nav-link active" data-scroll-target="#la-fuerza-como-vector"><span class="header-section-number">1</span> La fuerza como vector</a></li>
+  <li><a href="#escala-de-fuerzas" id="toc-escala-de-fuerzas" class="nav-link" data-scroll-target="#escala-de-fuerzas"><span class="header-section-number">2</span> Escala de fuerzas</a></li>
+  <li><a href="#elementos-fundamentales-de-la-estática" id="toc-elementos-fundamentales-de-la-estática" class="nav-link" data-scroll-target="#elementos-fundamentales-de-la-estática"><span class="header-section-number">3</span> Elementos fundamentales de la estática</a></li>
+  <li><a href="#sistemas-de-fuerzas-coplanares" id="toc-sistemas-de-fuerzas-coplanares" class="nav-link" data-scroll-target="#sistemas-de-fuerzas-coplanares"><span class="header-section-number">4</span> Sistemas de fuerzas coplanares</a></li>
+  <li><a href="#representación-analítica" id="toc-representación-analítica" class="nav-link" data-scroll-target="#representación-analítica"><span class="header-section-number">5</span> Representación analítica</a>
+  <ul class="collapse">
+  <li><a href="#convención-de-signos" id="toc-convención-de-signos" class="nav-link" data-scroll-target="#convención-de-signos"><span class="header-section-number">5.1</span> Convención de signos</a></li>
+  <li><a href="#ejemplo" id="toc-ejemplo" class="nav-link" data-scroll-target="#ejemplo"><span class="header-section-number">5.2</span> Ejemplo</a></li>
+  </ul></li>
+  <li><a href="#errores-frecuentes" id="toc-errores-frecuentes" class="nav-link" data-scroll-target="#errores-frecuentes"><span class="header-section-number">6</span> Errores frecuentes</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="clase2_documento.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Estabilidad / Estática y Resistencia de Materiales</h1>
-<p class="subtitle lead">Ing. Eléctrica · Ing. Industrial · UTN FRLP · 2026</p>
+<h1 class="title">Fuerzas y Vectores</h1>
+<p class="subtitle lead">UT1 — Semana 1</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>RONCONI, Jorge Ernesto </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">16 de abril de 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -151,34 +202,143 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Docente:</strong> Ing. Jorge Ronconi</p>
-<hr>
-<section id="programa" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="programa"><span class="header-section-number">1</span> Programa</h2>
+<section id="la-fuerza-como-vector" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="la-fuerza-como-vector"><span class="header-section-number">1</span> La fuerza como vector</h2>
+<p>Toda fuerza queda completamente definida cuando se conocen sus <strong>cuatro características</strong>:</p>
+<ul>
+<li><strong>Recta de acción</strong> (<span class="math inline">\(a\)</span>): línea sobre la que actúa la fuerza.</li>
+<li><strong>Magnitud</strong> (<span class="math inline">\(|AB|\)</span>): intensidad expresada en kN o t.</li>
+<li><strong>Sentido</strong>: orientación sobre la recta, indicada por una flecha.</li>
+<li><strong>Punto de aplicación</strong> (<span class="math inline">\(A\)</span>): punto donde se aplica la fuerza.</li>
+</ul>
+<p>Decir únicamente “la fuerza es 500 kN” es una descripción incompleta. Sin dirección y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura.</p>
+</section>
+<section id="escala-de-fuerzas" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="escala-de-fuerzas"><span class="header-section-number">2</span> Escala de fuerzas</h2>
+<p>Para representar gráficamente una fuerza se utiliza una <strong>escala de fuerzas</strong> (<span class="math inline">\(EF\)</span>), definida como la relación entre la magnitud de la fuerza y la longitud con que se la representa en el papel:</p>
+<p><span class="math display">\[EF = \frac{\text{fuerza (kN)}}{\text{longitud (cm)}}\]</span></p>
+<p><strong>Ejemplo.</strong> Con <span class="math inline">\(EF = 500\,\text{kN/cm}\)</span>, una fuerza de <span class="math inline">\(P = 1300\,\text{kN}\)</span> se representa con un segmento de:</p>
+<p><span class="math display">\[x = \frac{1300 \times 1}{500} = 2{,}6\,\text{cm}\]</span></p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Advertencia
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La escala de fuerzas es independiente de la escala geométrica del dibujo. Ambas coexisten en el mismo gráfico sin interferirse.</p>
+</div>
+</div>
+</section>
+<section id="elementos-fundamentales-de-la-estática" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="elementos-fundamentales-de-la-estática"><span class="header-section-number">3</span> Elementos fundamentales de la estática</h2>
+<p>La estática opera con dos elementos irreductibles:</p>
+<ul>
+<li><strong>Fuerza</strong>: produce efecto de traslación sobre el cuerpo.</li>
+<li><strong>Par o Cupla</strong>: produce efecto de rotación. Es un par de fuerzas iguales, paralelas y de sentido opuesto.</li>
+</ul>
+<p>Esta distinción resulta esencial al estudiar el equilibrio de cuerpos rígidos, donde tanto la resultante de fuerzas como la resultante de momentos deben ser nulas.</p>
+</section>
+<section id="sistemas-de-fuerzas-coplanares" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="sistemas-de-fuerzas-coplanares"><span class="header-section-number">4</span> Sistemas de fuerzas coplanares</h2>
+<p>Un sistema de fuerzas es <strong>coplanar</strong> cuando todas las fuerzas actúan en un mismo plano. Se clasifican según la disposición de sus rectas de acción:</p>
+<ul>
+<li><strong>Concurrentes</strong>: todas las rectas de acción pasan por un mismo punto.</li>
+<li><strong>No concurrentes paralelas</strong>: rectas de acción paralelas entre sí.</li>
+<li><strong>No concurrentes no paralelas</strong>: rectas de acción que no convergen en un punto común.</li>
+</ul>
+</section>
+<section id="representación-analítica" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="representación-analítica"><span class="header-section-number">5</span> Representación analítica</h2>
+<p>Dada una fuerza <span class="math inline">\(F\)</span> con ángulo <span class="math inline">\(\alpha\)</span> medido desde el eje <span class="math inline">\(x\)</span> positivo en sentido antihorario, sus <strong>componentes cartesianas</strong> son:</p>
+<p><span class="math display">\[F_x = F\cos\alpha \qquad F_y = F\sin\alpha\]</span></p>
+<p>La operación inversa permite reconstruir la fuerza a partir de sus componentes:</p>
+<p><span class="math display">\[F = \sqrt{F_x^2 + F_y^2} \qquad \alpha = \arctan\!\left(\frac{F_y}{F_x}\right)\]</span></p>
+<section id="convención-de-signos" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="convención-de-signos"><span class="header-section-number">5.1</span> Convención de signos</h3>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Clase</th>
-<th>Semana</th>
-<th>Unidad</th>
-<th>Tema</th>
+<th>Cuadrante</th>
+<th><span class="math inline">\(\alpha\)</span></th>
+<th><span class="math inline">\(F_x\)</span></th>
+<th><span class="math inline">\(F_y\)</span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="./clase1/index.html">Clase 1</a></td>
-<td>1</td>
-<td>UT1</td>
-<td>Fuerzas concurrentes en el plano</td>
+<td>I ↗</td>
+<td><span class="math inline">\(0°\)</span>–<span class="math inline">\(90°\)</span></td>
+<td><span class="math inline">\(+\)</span></td>
+<td><span class="math inline">\(+\)</span></td>
 </tr>
 <tr class="even">
-<td><a href="./clase2/index.html">Clase 2</a></td>
-<td>2</td>
-<td>UT1</td>
-<td>Fuerzas no concurrentes en el plano</td>
+<td>II ↖</td>
+<td><span class="math inline">\(90°\)</span>–<span class="math inline">\(180°\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(+\)</span></td>
+</tr>
+<tr class="odd">
+<td>III ↙</td>
+<td><span class="math inline">\(180°\)</span>–<span class="math inline">\(270°\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
+</tr>
+<tr class="even">
+<td>IV ↘</td>
+<td><span class="math inline">\(270°\)</span>–<span class="math inline">\(360°\)</span></td>
+<td><span class="math inline">\(+\)</span></td>
+<td><span class="math inline">\(-\)</span></td>
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Advertencia
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Antes de calcular, dibujar siempre los ejes y marcar el ángulo. La mayoría de los errores de signo se evitan con este paso previo.</p>
+</div>
+</div>
+</section>
+<section id="ejemplo" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="ejemplo"><span class="header-section-number">5.2</span> Ejemplo</h3>
+<p><span class="math inline">\(F = 600\,\text{kN}\)</span> a <span class="math inline">\(53°\)</span> sobre la horizontal:</p>
+<p><span class="math display">\[F_x = 600\cos53° = 600 \times 0{,}602 = 361{,}2\,\text{kN}\]</span> <span class="math display">\[F_y = 600\sin53° = 600 \times 0{,}799 = 479{,}4\,\text{kN}\]</span></p>
+<p><strong>Verificación:</strong></p>
+<p><span class="math display">\[\sqrt{361{,}2^2 + 479{,}4^2} = \sqrt{360\,289} \approx 600\,\text{kN} \checkmark\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La verificación por reconstrucción es obligatoria. Si no cierra, hay un error de cálculo o de signo.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="errores-frecuentes" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="errores-frecuentes"><span class="header-section-number">6</span> Errores frecuentes</h2>
+<ol type="1">
+<li><strong>Describir la fuerza solo por su magnitud</strong> — omitir dirección y sentido invalida el análisis.</li>
+<li><strong>Error en el ángulo de referencia</strong> — medir desde el eje incorrecto o usar el ángulo complementario.</li>
+<li><strong>Signo incorrecto en las componentes</strong> — olvidar el negativo para fuerzas en el III° o IV° cuadrante.</li>
+<li><strong>No verificar</strong> — calcular <span class="math inline">\(F_x\)</span> y <span class="math inline">\(F_y\)</span> sin reconstruir <span class="math inline">\(F\)</span>.</li>
+<li><strong>Confundir <span class="math inline">\(EF\)</span> con escala geométrica</strong> — son escalas independientes.</li>
+</ol>
 
 
 </section>

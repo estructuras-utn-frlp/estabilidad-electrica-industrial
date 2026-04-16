@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Estabilidad / Estática y Resistencia de Materiales – Estabilidad / Estática y Resistencia</title>
+<title>Clase 2 — Fuerzas No Concurrentes en el Plano – Estabilidad / Estática y Resistencia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Estabilidad / Estática y Resistencia</span>
     </a>
   </div>
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -99,11 +99,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-clases">    
         <li>
-    <a class="dropdown-item" href="./clase1/index.html">
+    <a class="dropdown-item" href="../clase1/index.html">
  <span class="dropdown-text">Clase 1 — Fuerzas Concurrentes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./clase2/index.html">
+    <a class="dropdown-item" href="../clase2/index.html">
  <span class="dropdown-text">Clase 2 — Fuerzas No Concurrentes</span></a>
   </li>  
     </ul>
@@ -119,22 +119,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
-  <li><a href="#programa" id="toc-programa" class="nav-link active" data-scroll-target="#programa"><span class="header-section-number">1</span> Programa</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Estabilidad / Estática y Resistencia de Materiales</h1>
-<p class="subtitle lead">Ing. Eléctrica · Ing. Industrial · UTN FRLP · 2026</p>
+<h1 class="title">Clase 2 — Fuerzas No Concurrentes en el Plano</h1>
+<p class="subtitle lead">UT1 · Semana 2</p>
 </div>
 
 
@@ -151,37 +145,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Docente:</strong> Ing. Jorge Ronconi</p>
-<hr>
-<section id="programa" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="programa"><span class="header-section-number">1</span> Programa</h2>
+<p>Material correspondiente a la segunda semana de cursada.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Clase</th>
-<th>Semana</th>
-<th>Unidad</th>
-<th>Tema</th>
+<th>Recurso</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="./clase1/index.html">Clase 1</a></td>
-<td>1</td>
-<td>UT1</td>
-<td>Fuerzas concurrentes en el plano</td>
+<td><a href="../clase2/clase2_documento.html">Documento teórico</a></td>
+<td>Desarrollo completo de los contenidos</td>
 </tr>
 <tr class="even">
-<td><a href="./clase2/index.html">Clase 2</a></td>
-<td>2</td>
-<td>UT1</td>
-<td>Fuerzas no concurrentes en el plano</td>
+<td><a href="../clase2/clase2_presentacion.html">Presentación</a></td>
+<td>Slides de clase (RevealJS)</td>
+</tr>
+<tr class="odd">
+<td><a href="../clase2/clase2_enunciado.pdf">Guía de ejercicios</a></td>
+<td>Ejercicios para resolver</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Contenidos:</strong> momento estático, Teorema de Varignon, par de fuerzas, traslación de fuerzas, composición de fuerzas no concurrentes, polígono funicular, fuerzas distribuidas, equilibrio.</p>
+<p><strong>Bibliografía:</strong> Ballario, L. — <em>La Estática Aplicada</em> (UTN FRLP).</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

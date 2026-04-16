@@ -11,7 +11,287 @@
     "href": "index.html#programa",
     "title": "Estabilidad / Estática y Resistencia de Materiales",
     "section": "1 Programa",
-    "text": "1 Programa\n\n\n\nClase\nSemana\nUnidad\nTema\n\n\n\n\n1\n1\nUT1\nFuerzas concurrentes en el plano"
+    "text": "1 Programa\n\n\n\nClase\nSemana\nUnidad\nTema\n\n\n\n\nClase 1\n1\nUT1\nFuerzas concurrentes en el plano\n\n\nClase 2\n2\nUT1\nFuerzas no concurrentes en el plano"
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#repaso-semana-1",
+    "href": "clase2/clase2_presentacion.html#repaso-semana-1",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Repaso Semana 1",
+    "text": "Repaso Semana 1\n\nFuerzas concurrentes: 4 características, argumento \\(\\varphi\\)\nComponentes: \\(P_x = P\\cos\\varphi\\), \\(P_y = P\\sin\\varphi\\)\nComposición analítica: \\(R_x = \\sum P_i\\cos\\varphi_i\\), \\(R_y = \\sum P_i\\sin\\varphi_i\\)\nDescomposición: cartesiana y oblicua (regla del seno)\nEquilibrio: \\(\\sum P_x = 0\\), \\(\\sum P_y = 0\\)\n\n\nPreguntar: ¿cuántas ecuaciones necesitaban para definir la resultante de fuerzas concurrentes? La respuesta es 2. Hoy van a ver por qué para no concurrentes necesitamos 3."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#qué-cambia-hoy",
+    "href": "clase2/clase2_presentacion.html#qué-cambia-hoy",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "¿Qué cambia hoy?",
+    "text": "¿Qué cambia hoy?\nPara fuerzas concurrentes: la resultante pasa por el punto de concurrencia → 2 ecuaciones alcanzan.\n\nPara fuerzas no concurrentes: la recta de acción de la resultante es desconocida → necesitamos 3 ecuaciones.\n\n\n\\[R_x = \\sum P_i\\cos\\varphi_i \\qquad R_y = \\sum P_i\\sin\\varphi_i \\qquad M_R^O = \\sum M_i^O\\]\n\nLa tercera ecuación (momento) es la que ubica la recta de acción. Sin ella sabemos módulo y dirección de R, pero no dónde está."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#momento-estático-definición",
+    "href": "clase2/clase2_presentacion.html#momento-estático-definición",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Momento estático — definición",
+    "text": "Momento estático — definición\n\\[\\boxed{M = P \\times d} \\quad [\\text{kN·m}]\\]\n\n\\(d\\): distancia perpendicular entre \\(O\\) y la recta de acción\nPositivo si gira en sentido antihorario \\((+\\circlearrowleft)\\)\n\n\nInsistir: d no es la distancia de O a A, sino la distancia perpendicular a la recta de acción. Error muy frecuente en los primeros ejercicios."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#momento-estático-diagrama",
+    "href": "clase2/clase2_presentacion.html#momento-estático-diagrama",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Momento estático — diagrama",
+    "text": "Momento estático — diagrama\n\n\nSeñalar el ángulo recto en el pie de la perpendicular. Mostrar que si O estuviera sobre la recta de acción, d=0 y M=0."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#momento-estático-expresión-analítica",
+    "href": "clase2/clase2_presentacion.html#momento-estático-expresión-analítica",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Momento estático — expresión analítica",
+    "text": "Momento estático — expresión analítica\nDada la fuerza \\(P\\) aplicada en \\((x_i,\\,y_i)\\) y centro de momentos \\(O = (x_O,\\,y_O)\\):\n\\[M^O = P_x \\cdot |y_O - y_i| - P_y \\cdot |x_O - x_i|\\]\n\nEjemplo: \\(P = 600\\,\\text{kN}\\) a \\(\\varphi = 40°\\), \\(A = (2{,}0;\\;1{,}0)\\), \\(O = (0;\\;0)\\)\n\\[P_x = 459{,}6\\,\\text{kN} \\qquad P_y = 385{,}7\\,\\text{kN}\\]\n\\[M^O = 459{,}6 \\times 1{,}0 - 385{,}7 \\times 2{,}0 = -311{,}8\\,\\text{kN·m}\\]\n\nEl signo negativo indica sentido horario. Preguntar a los alumnos: ¿qué sentido tiene físicamente ese momento?"
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#teorema-de-varignon",
+    "href": "clase2/clase2_presentacion.html#teorema-de-varignon",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Teorema de Varignon",
+    "text": "Teorema de Varignon\n\nEl momento de la resultante respecto a un punto es igual a la suma algebraica de los momentos de las componentes.\n\n\\[M_R^O = \\sum M_{P_i}^O \\qquad R \\cdot d_R = P_1 d_1 + P_2 d_2\\]\n\nVarignon es la base del cálculo analítico de momentos. Permite reemplazar el cálculo geométrico del brazo d por la suma de dos productos con las componentes cartesianas."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#teorema-de-varignon-diagrama",
+    "href": "clase2/clase2_presentacion.html#teorema-de-varignon-diagrama",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Teorema de Varignon — diagrama",
+    "text": "Teorema de Varignon — diagrama\n\n\nMostrar que los brazos d1 y d2 son fáciles de calcular como diferencias de coordenadas, mientras que dR requeriría geometría más compleja."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas-definición",
+    "href": "clase2/clase2_presentacion.html#par-de-fuerzas-definición",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Par de fuerzas — definición",
+    "text": "Par de fuerzas — definición\nDos fuerzas de igual intensidad, sentidos contrarios y rectas de acción paralelas:\n\\[M_{par} = P \\times d\\]\n\nLa resultante de un par es nula → no produce traslación, solo rotación.\n\nPreguntar: si la resultante es nula, ¿está el sistema en equilibrio? No necesariamente — el par produce rotación aunque no haya traslación."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas-propiedades",
+    "href": "clase2/clase2_presentacion.html#par-de-fuerzas-propiedades",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Par de fuerzas — propiedades",
+    "text": "Par de fuerzas — propiedades\n\nEs libre: puede trasladarse y girar en el plano manteniendo \\(M\\)\n\\(M = P_1 d_1 = P_2 d_2\\) — el momento es invariante\nPara sumar pares: \\(M_R = \\sum M_i\\)\nDos pares son iguales si tienen igual momento\n\n\nLa libertad del par es fundamental para la traslación de fuerzas que viene después. Dar un ejemplo concreto: el par que produce el volante de una máquina puede representarse en cualquier punto del plano."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas-diagrama",
+    "href": "clase2/clase2_presentacion.html#par-de-fuerzas-diagrama",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Par de fuerzas — diagrama",
+    "text": "Par de fuerzas — diagrama\n\n\nSeñalar en el panel derecho que aunque P2 &lt; P1, el momento es el mismo porque d2 &gt; d1 en proporción inversa."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#traslación-de-fuerzas",
+    "href": "clase2/clase2_presentacion.html#traslación-de-fuerzas",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Traslación de fuerzas",
+    "text": "Traslación de fuerzas\nPara trasladar \\(P\\) de \\(A\\) a \\(B\\) (cambia su recta de acción):\n\nAgregar en \\(B\\) un sistema nulo: \\(P'\\) y \\(-P'\\) paralelas a \\(P\\)\n\\(P\\) en \\(A\\) y \\(-P'\\) en \\(B\\) forman un par \\(M = P \\cdot d\\)\nSistema equivalente: \\(P'\\) en \\(B\\) + par \\(M\\)\n\n\\[\\boxed{d = \\frac{M}{P}}\\]\n\nEnfatizar que el sistema nulo no altera el efecto (principio d). Este resultado es la base para reducir sistemas no concurrentes."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#traslación-de-fuerzas-diagrama",
+    "href": "clase2/clase2_presentacion.html#traslación-de-fuerzas-diagrama",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Traslación de fuerzas — diagrama",
+    "text": "Traslación de fuerzas — diagrama\n\n\nRecorrer los tres paneles de izquierda a derecha. Preguntar: ¿qué pasaría si d=0? El par sería nulo y la fuerza se traslada sin efecto adicional, lo que confirma el principio de deslizamiento sobre la recta de acción."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-13",
+    "href": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-13",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Reducción no concurrente — método analítico (1/3)",
+    "text": "Reducción no concurrente — método analítico (1/3)\na) Dos proyecciones + un momento (más usada)\n\\[R_x = \\sum P_i\\cos\\varphi_i \\qquad R_y = \\sum P_i\\sin\\varphi_i\\]\n\\[M_R^O = \\sum M_i^O\\]\nLa tercera ecuación fija un punto de la recta de acción de \\(R\\):\n\\[x_R = \\frac{M_R^O}{R_y} \\quad \\text{(si } R_y \\neq 0\\text{)} \\qquad y_R = \\frac{M_R^O}{R_x} \\quad \\text{(si } R_x \\neq 0\\text{)}\\]\n\nAclarar que se elige xR o yR según cuál componente sea no nula. Si ambas son no nulas, cualquiera de las dos determina la recta de acción."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-23",
+    "href": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-23",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Reducción no concurrente — método analítico (2/3)",
+    "text": "Reducción no concurrente — método analítico (2/3)\nb) Una proyección + dos momentos\n\\[R_x = \\sum P_i\\cos\\varphi_i\\]\n\\[M_R^O = \\sum M_i^O \\qquad M_R^N = \\sum M_i^N\\]\n\n\n\n\n\n\nAdvertencia\n\n\nLos centros \\(O\\) y \\(N\\) no pueden estar sobre una recta perpendicular al eje de proyección elegido.\n\n\n\n\nSi la condición no se cumple, el sistema es indeterminado porque las dos ecuaciones de momento dan la misma información."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-33",
+    "href": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-33",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Reducción no concurrente — método analítico (3/3)",
+    "text": "Reducción no concurrente — método analítico (3/3)\nc) Tres momentos respecto a tres puntos no alineados\n\\[M_R^O = \\sum M_i^O \\qquad M_R^N = \\sum M_i^N \\qquad M_R^S = \\sum M_i^S\\]\n\n\n\n\n\n\nAdvertencia\n\n\nLos puntos \\(O\\), \\(N\\) y \\(S\\) no deben estar alineados.\n\n\n\n\nLos tres métodos son equivalentes. En la práctica se usa a) por ser el más directo.\n\nEl método c) tiene valor teórico y aparece en verificaciones. Para resolver problemas, siempre recomendar el método a)."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#ejemplo-composición-no-concurrente",
+    "href": "clase2/clase2_presentacion.html#ejemplo-composición-no-concurrente",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Ejemplo — composición no concurrente",
+    "text": "Ejemplo — composición no concurrente\nDos fuerzas sobre una viga de \\(4\\,\\text{m}\\):\n\n\\(P_1 = 400\\,\\text{kN}\\) ↑ en \\(x = 0\\)\n\\(P_2 = 300\\,\\text{kN}\\) ↑ en \\(x = 4\\,\\text{m}\\)\n\n\nPaso 1 — resultante: \\[R = 400 + 300 = 700\\,\\text{kN} \\uparrow \\qquad \\varphi_R = 90°\\]\n\n\nPaso 2 — recta de acción (momento respecto a \\(O = (0;\\;0)\\)): \\[M_R^O = 400 \\times 0 + 300 \\times 4 = 1200\\,\\text{kN·m}\\] \\[x_R = \\frac{1200}{700} = 1{,}71\\,\\text{m}\\]\n\nPreguntar antes de resolver: ¿dónde esperan que caiga la resultante? Entre 0 y 4m, más cerca de P2 porque es menor… ¿o más cerca de P1? La resultante se acerca a la fuerza mayor."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#polígono-funicular-construcción-12",
+    "href": "clase2/clase2_presentacion.html#polígono-funicular-construcción-12",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Polígono funicular — construcción (1/2)",
+    "text": "Polígono funicular — construcción (1/2)\nPara fuerzas no concurrentes, el polígono de fuerzas da módulo y dirección de \\(R\\) pero no su recta de acción. El polígono funicular la ubica.\n\nPasos:\n\nTrazar el polígono de fuerzas con escala \\(EF\\)\nElegir un polo \\(O\\) arbitrario\nTrazar los rayos polares de \\(O\\) a cada vértice del polígono\n\n\nEl polo O puede elegirse en cualquier lugar. Su posición afecta la forma del funicular pero no el resultado final (la recta de acción de R)."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#polígono-funicular-construcción-22",
+    "href": "clase2/clase2_presentacion.html#polígono-funicular-construcción-22",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Polígono funicular — construcción (2/2)",
+    "text": "Polígono funicular — construcción (2/2)\n\nTrazar los lados del funicular paralelos a cada rayo polar, comenzando por un punto arbitrario sobre \\(P_1\\)\nCada lado se extiende hasta la recta de acción de la fuerza siguiente\nProlongar el primer y último lado hasta que se corten\nPor ese punto pasa la recta de acción de \\(R\\)\n\n\nInsistir: cada lado del funicular es paralelo al rayo polar correspondiente. El punto de cruce del primer y último lado es la clave — ahí pasa R."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#polígono-funicular-diagrama",
+    "href": "clase2/clase2_presentacion.html#polígono-funicular-diagrama",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Polígono funicular — diagrama",
+    "text": "Polígono funicular — diagrama\n\n\nSeñalar: polígono de fuerzas a la derecha, polo O, rayos polares punteados, lados del funicular sobre el sistema de fuerzas, intersección marcada con estrella."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#casos-del-polígono-funicular",
+    "href": "clase2/clase2_presentacion.html#casos-del-polígono-funicular",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Casos del polígono funicular",
+    "text": "Casos del polígono funicular\n\n\n\nPolígono de fuerzas\n1° y último lado del funicular\nResultado\n\n\n\n\nAbierto\nSe cortan en un punto\nResultante única\n\n\nCerrado\nParalelos\nSistema reduce a un par\n\n\nCerrado\nCoinciden\nEquilibrio\n\n\n\n\nEste cuadro es uno de los más importantes del curso. Pedir a los alumnos que lo copien y lo recuerden para el parcial."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#fuerzas-paralelas",
+    "href": "clase2/clase2_presentacion.html#fuerzas-paralelas",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Fuerzas paralelas",
+    "text": "Fuerzas paralelas\nCaso particular de no concurrentes: todas las rectas de acción son paralelas.\n\\[R = \\sum P_i \\qquad x_R = \\frac{\\sum P_i \\cdot x_i}{R}\\]\n\nEjemplo: \\(P_1 = 200\\,\\text{kN}\\) en \\(x=0\\); \\(P_2 = 350\\,\\text{kN}\\) en \\(x=3\\,\\text{m}\\); \\(P_3 = 150\\,\\text{kN}\\) en \\(x=7\\,\\text{m}\\)\n\\[R = 700\\,\\text{kN} \\qquad x_R = \\frac{0 + 1050 + 1050}{700} = 3{,}0\\,\\text{m}\\]\n\nVerificar que xR está entre 0 y 7m. Si cae fuera de ese rango hay un error. Notar que xR = 3m coincide con la posición de P2 — es una coincidencia numérica en este ejemplo."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#fuerzas-distribuidas-concepto",
+    "href": "clase2/clase2_presentacion.html#fuerzas-distribuidas-concepto",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Fuerzas distribuidas — concepto",
+    "text": "Fuerzas distribuidas — concepto\nUna carga distribuida \\(q(x)\\) [] se reemplaza por su resultante puntual:\n\\[R = \\int_0^L q(x)\\,dx \\qquad x_R = \\frac{\\int_0^L x\\,q(x)\\,dx}{R}\\]\n\nAclarar que q(x) es una densidad de fuerza por unidad de longitud. En estructuras aparece como peso propio, presión del viento, carga de nieve, etc."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#carga-uniforme",
+    "href": "clase2/clase2_presentacion.html#carga-uniforme",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Carga uniforme",
+    "text": "Carga uniforme\n\\[q(x) = q = \\text{cte}\\]\n\\[R = q \\cdot L \\qquad x_R = \\frac{L}{2}\\]\nLa resultante actúa en el centro del tramo.\n\nCaso más frecuente en vigas. El peso propio de una viga uniforme es una carga distribuida uniforme."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#carga-triangular",
+    "href": "clase2/clase2_presentacion.html#carga-triangular",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Carga triangular",
+    "text": "Carga triangular\n\\[q(x) = q_0 \\cdot \\frac{x}{L}\\]\n\\[R = \\frac{q_0 \\cdot L}{2} \\qquad x_R = \\frac{2L}{3}\\]\nLa resultante actúa a dos tercios del extremo de menor carga.\n\nPedir que deduzcan xR = 2L/3 integrando x·q(x) antes de mostrarlo. Este resultado aparece en vigas con presión hidrostática o viento variable."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#fuerzas-distribuidas-diagrama",
+    "href": "clase2/clase2_presentacion.html#fuerzas-distribuidas-diagrama",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Fuerzas distribuidas — diagrama",
+    "text": "Fuerzas distribuidas — diagrama\n\n\nSeñalar en cada panel la forma del diagrama de carga, la posición de la resultante y las cotas de L/2 y 2L/3."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-12",
+    "href": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-12",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Equilibrio — condición analítica (1/2)",
+    "text": "Equilibrio — condición analítica (1/2)\na) Dos proyecciones + un momento:\n\\[\\sum P_i\\cos\\varphi_i = 0 \\qquad \\sum P_i\\sin\\varphi_i = 0 \\qquad \\sum M_i^O = 0\\]\n\nb) Una proyección + dos momentos:\n\\[\\sum P_i\\cos\\varphi_i = 0 \\qquad \\sum M_i^O = 0 \\qquad \\sum M_i^N = 0\\]\n\nEn los problemas de equilibrio de vigas (Semana 7-8) se usará casi siempre la forma a). Conviene elegir O en el punto de aplicación de una reacción desconocida para eliminarla."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-22",
+    "href": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-22",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Equilibrio — condición analítica (2/2)",
+    "text": "Equilibrio — condición analítica (2/2)\nc) Tres momentos respecto a puntos no alineados:\n\\[\\sum M_i^O = 0 \\qquad \\sum M_i^N = 0 \\qquad \\sum M_i^S = 0\\]\n\n\n\n\n\n\nAdvertencia\n\n\nEn todos los casos, los centros de momentos no deben estar alineados entre sí ni con la dirección de las fuerzas.\n\n\n\n\nSi los puntos están alineados, dos de las tres ecuaciones son linealmente dependientes y el sistema queda indeterminado."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#práctica-parte-1-25-min",
+    "href": "clase2/clase2_presentacion.html#práctica-parte-1-25-min",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Práctica — Parte 1 (25 min)",
+    "text": "Práctica — Parte 1 (25 min)\nProblema 1 ★☆☆\n\\(P = 550\\,\\text{kN}\\) a \\(\\varphi = 35°\\), aplicada en \\(A = (2{,}0;\\;1{,}5)\\,\\text{m}\\).\n\nCalcular \\(M\\) respecto a \\(O_1 = (0;\\;0)\\) y \\(O_2 = (5{,}0;\\;3{,}0)\\,\\text{m}\\)\nVerificar por Varignon en ambos casos\n\n\nProblema 2 ★★☆\nTres fuerzas verticales sobre una viga: \\(P_1 = 180\\,\\text{kN}\\) en \\(x=0\\); \\(P_2 = 260\\,\\text{kN}\\) en \\(x=3\\,\\text{m}\\); \\(P_3 = 140\\,\\text{kN}\\) en \\(x=7\\,\\text{m}\\)\nDeterminar resultante y posición de su recta de acción.\n\nCircular por los bancos durante los primeros 5 min. El error más frecuente en P1 es olvidar el signo de Py al aplicar Varignon."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#práctica-parte-2-25-min",
+    "href": "clase2/clase2_presentacion.html#práctica-parte-2-25-min",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Práctica — Parte 2 (25 min)",
+    "text": "Práctica — Parte 2 (25 min)\nProblema 3 ★★☆\nViga de \\(8\\,\\text{m}\\): carga uniforme \\(q = 25\\,\\text{kN/m}\\) en los primeros \\(5\\,\\text{m}\\) y carga triangular \\(q_0 = 40\\,\\text{kN/m}\\) en los \\(3\\,\\text{m}\\) restantes.\nCalcular resultante total y posición.\n\nProblema 4 ★★★\nCuatro fuerzas sobre una placa: \\(P_1 = 300\\,\\text{kN}\\) a \\(0°\\) en \\((0;\\;2{,}0)\\); \\(P_2 = 400\\,\\text{kN}\\) a \\(90°\\) en \\((3{,}0;\\;0)\\); \\(P_3 = 300\\,\\text{kN}\\) a \\(180°\\) en \\((6{,}0;\\;2{,}0)\\); \\(P_4 = 400\\,\\text{kN}\\) a \\(270°\\) en \\((3{,}0;\\;4{,}0)\\)\n¿El sistema está en equilibrio? Verificar por los tres métodos.\n\nP4 tiene simetría — anticipar que puede estar en equilibrio. Pedir que no anticipen la respuesta y que hagan el cálculo completo."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#solución-parte-1",
+    "href": "clase2/clase2_presentacion.html#solución-parte-1",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Solución — Parte 1",
+    "text": "Solución — Parte 1\nProblema 1: \\[P_x = 450{,}4\\,\\text{kN} \\qquad P_y = 315{,}4\\,\\text{kN}\\] \\[M^{O_1} = 450{,}4 \\times 1{,}5 - 315{,}4 \\times 2{,}0 = +44{,}8\\,\\text{kN·m}\\] \\[M^{O_2} = 450{,}4 \\times |3{,}0-1{,}5| - 315{,}4 \\times |5{,}0-2{,}0| = -270{,}6\\,\\text{kN·m}\\]\n\nProblema 2: \\[R = 580\\,\\text{kN} \\uparrow \\qquad x_R = \\frac{0 + 780 + 980}{580} = 3{,}03\\,\\text{m}\\]\n\nEn P1 señalar que el cambio de signo entre O1 y O2 tiene sentido físico: desde un lado la fuerza gira antihorario, desde el otro gira horario."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#solución-parte-2",
+    "href": "clase2/clase2_presentacion.html#solución-parte-2",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Solución — Parte 2",
+    "text": "Solución — Parte 2\nProblema 3:\n\\(R_1 = 25 \\times 5 = 125\\,\\text{kN}\\) en \\(x_1 = 2{,}5\\,\\text{m}\\)\n\\(R_2 = \\frac{40 \\times 3}{2} = 60\\,\\text{kN}\\) en \\(x_2 = 5 + \\frac{2 \\times 3}{3} = 7{,}0\\,\\text{m}\\)\n\\[R = 185\\,\\text{kN} \\qquad x_R = \\frac{125 \\times 2{,}5 + 60 \\times 7{,}0}{185} = 3{,}96\\,\\text{m}\\]\n\nProblema 4: \\[R_x = 300 - 300 = 0 \\qquad R_y = 400 - 400 = 0\\] \\[M^O = 300\\times2 - 400\\times3 - 300\\times2 + 400\\times3 = 0\\]\nSistema en equilibrio ✓\n\nEn P4 señalar que la verificación por los tres métodos da siempre cero porque el sistema es simétrico. Vale la pena mostrarlo para el método c)."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#síntesis",
+    "href": "clase2/clase2_presentacion.html#síntesis",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Síntesis",
+    "text": "Síntesis\n\nPara no concurrentes se necesitan 3 ecuaciones — la tercera ubica la recta de acción de \\(R\\)\nVarignon: \\(M_R^O = \\sum M_i^O\\) — simplifica el cálculo del brazo\nEl par produce solo rotación; es libre en el plano\nEl polígono funicular ubica gráficamente la recta de acción\nCargas distribuidas: uniforme → \\(x_R = L/2\\); triangular → \\(x_R = 2L/3\\)\nEquilibrio: \\(\\sum P_x = 0\\), \\(\\sum P_y = 0\\), \\(\\sum M^O = 0\\)\n\n\nConectar con la próxima semana: las condiciones de equilibrio son exactamente las ecuaciones que vamos a plantear para determinar reacciones en vínculos."
+  },
+  {
+    "objectID": "clase2/clase2_presentacion.html#para-el-hogar",
+    "href": "clase2/clase2_presentacion.html#para-el-hogar",
+    "title": "Fuerzas No Concurrentes en el Plano",
+    "section": "Para el hogar",
+    "text": "Para el hogar\n\n\n\n\n\n\n\n\n#\nConsigna\nNivel\n\n\n\n\n1\nMomento de 3 fuerzas respecto a 2 centros, verificar por Varignon\n★☆☆\n\n\n2\nComponer 4 fuerzas no concurrentes: resultante y recta de acción\n★★☆\n\n\n3\nViga con carga mixta: resultante y posición\n★★☆\n\n\n4\nSistema de fuerzas: determinar si reduce a resultante, par o equilibrio\n★★★\n\n\n\n\nEl ejercicio 4 es el más importante para conectar con el Parcial 1. Sugerir que lo intenten por los tres métodos del cuadro de casos del funicular."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html",
+    "href": "clase2/clase2_documento.html",
+    "title": "Fuerzas y Vectores",
+    "section": "",
+    "text": "Toda fuerza queda completamente definida cuando se conocen sus cuatro características:\n\nRecta de acción (\\(a\\)): línea sobre la que actúa la fuerza.\nMagnitud (\\(|AB|\\)): intensidad expresada en kN o t.\nSentido: orientación sobre la recta, indicada por una flecha.\nPunto de aplicación (\\(A\\)): punto donde se aplica la fuerza.\n\nDecir únicamente “la fuerza es 500 kN” es una descripción incompleta. Sin dirección y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html#la-fuerza-como-vector",
+    "href": "clase2/clase2_documento.html#la-fuerza-como-vector",
+    "title": "Fuerzas y Vectores",
+    "section": "",
+    "text": "Toda fuerza queda completamente definida cuando se conocen sus cuatro características:\n\nRecta de acción (\\(a\\)): línea sobre la que actúa la fuerza.\nMagnitud (\\(|AB|\\)): intensidad expresada en kN o t.\nSentido: orientación sobre la recta, indicada por una flecha.\nPunto de aplicación (\\(A\\)): punto donde se aplica la fuerza.\n\nDecir únicamente “la fuerza es 500 kN” es una descripción incompleta. Sin dirección y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html#escala-de-fuerzas",
+    "href": "clase2/clase2_documento.html#escala-de-fuerzas",
+    "title": "Fuerzas y Vectores",
+    "section": "2 Escala de fuerzas",
+    "text": "2 Escala de fuerzas\nPara representar gráficamente una fuerza se utiliza una escala de fuerzas (\\(EF\\)), definida como la relación entre la magnitud de la fuerza y la longitud con que se la representa en el papel:\n\\[EF = \\frac{\\text{fuerza (kN)}}{\\text{longitud (cm)}}\\]\nEjemplo. Con \\(EF = 500\\,\\text{kN/cm}\\), una fuerza de \\(P = 1300\\,\\text{kN}\\) se representa con un segmento de:\n\\[x = \\frac{1300 \\times 1}{500} = 2{,}6\\,\\text{cm}\\]\n\n\n\n\n\n\nAdvertencia\n\n\n\nLa escala de fuerzas es independiente de la escala geométrica del dibujo. Ambas coexisten en el mismo gráfico sin interferirse."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html#elementos-fundamentales-de-la-estática",
+    "href": "clase2/clase2_documento.html#elementos-fundamentales-de-la-estática",
+    "title": "Fuerzas y Vectores",
+    "section": "3 Elementos fundamentales de la estática",
+    "text": "3 Elementos fundamentales de la estática\nLa estática opera con dos elementos irreductibles:\n\nFuerza: produce efecto de traslación sobre el cuerpo.\nPar o Cupla: produce efecto de rotación. Es un par de fuerzas iguales, paralelas y de sentido opuesto.\n\nEsta distinción resulta esencial al estudiar el equilibrio de cuerpos rígidos, donde tanto la resultante de fuerzas como la resultante de momentos deben ser nulas."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html#sistemas-de-fuerzas-coplanares",
+    "href": "clase2/clase2_documento.html#sistemas-de-fuerzas-coplanares",
+    "title": "Fuerzas y Vectores",
+    "section": "4 Sistemas de fuerzas coplanares",
+    "text": "4 Sistemas de fuerzas coplanares\nUn sistema de fuerzas es coplanar cuando todas las fuerzas actúan en un mismo plano. Se clasifican según la disposición de sus rectas de acción:\n\nConcurrentes: todas las rectas de acción pasan por un mismo punto.\nNo concurrentes paralelas: rectas de acción paralelas entre sí.\nNo concurrentes no paralelas: rectas de acción que no convergen en un punto común."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html#representación-analítica",
+    "href": "clase2/clase2_documento.html#representación-analítica",
+    "title": "Fuerzas y Vectores",
+    "section": "5 Representación analítica",
+    "text": "5 Representación analítica\nDada una fuerza \\(F\\) con ángulo \\(\\alpha\\) medido desde el eje \\(x\\) positivo en sentido antihorario, sus componentes cartesianas son:\n\\[F_x = F\\cos\\alpha \\qquad F_y = F\\sin\\alpha\\]\nLa operación inversa permite reconstruir la fuerza a partir de sus componentes:\n\\[F = \\sqrt{F_x^2 + F_y^2} \\qquad \\alpha = \\arctan\\!\\left(\\frac{F_y}{F_x}\\right)\\]\n\n5.1 Convención de signos\n\n\n\nCuadrante\n\\(\\alpha\\)\n\\(F_x\\)\n\\(F_y\\)\n\n\n\n\nI ↗\n\\(0°\\)–\\(90°\\)\n\\(+\\)\n\\(+\\)\n\n\nII ↖\n\\(90°\\)–\\(180°\\)\n\\(-\\)\n\\(+\\)\n\n\nIII ↙\n\\(180°\\)–\\(270°\\)\n\\(-\\)\n\\(-\\)\n\n\nIV ↘\n\\(270°\\)–\\(360°\\)\n\\(+\\)\n\\(-\\)\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nAntes de calcular, dibujar siempre los ejes y marcar el ángulo. La mayoría de los errores de signo se evitan con este paso previo.\n\n\n\n\n5.2 Ejemplo\n\\(F = 600\\,\\text{kN}\\) a \\(53°\\) sobre la horizontal:\n\\[F_x = 600\\cos53° = 600 \\times 0{,}602 = 361{,}2\\,\\text{kN}\\] \\[F_y = 600\\sin53° = 600 \\times 0{,}799 = 479{,}4\\,\\text{kN}\\]\nVerificación:\n\\[\\sqrt{361{,}2^2 + 479{,}4^2} = \\sqrt{360\\,289} \\approx 600\\,\\text{kN} \\checkmark\\]\n\n\n\n\n\n\nTip\n\n\n\nLa verificación por reconstrucción es obligatoria. Si no cierra, hay un error de cálculo o de signo."
+  },
+  {
+    "objectID": "clase2/clase2_documento.html#errores-frecuentes",
+    "href": "clase2/clase2_documento.html#errores-frecuentes",
+    "title": "Fuerzas y Vectores",
+    "section": "6 Errores frecuentes",
+    "text": "6 Errores frecuentes\n\nDescribir la fuerza solo por su magnitud — omitir dirección y sentido invalida el análisis.\nError en el ángulo de referencia — medir desde el eje incorrecto o usar el ángulo complementario.\nSigno incorrecto en las componentes — olvidar el negativo para fuerzas en el III° o IV° cuadrante.\nNo verificar — calcular \\(F_x\\) y \\(F_y\\) sin reconstruir \\(F\\).\nConfundir \\(EF\\) con escala geométrica — son escalas independientes."
   },
   {
     "objectID": "clase1/clase1_presentacion.html#qué-estudia-la-estática",
@@ -161,46 +441,102 @@
     "text": "La Estática es la base del diseño estructural en Ingeniería Civil. Su objetivo es definir las condiciones de equilibrio para que un sistema permanezca sin desplazamientos bajo la acción de cargas.\n\n\nEl análisis varía según el espacio de trabajo:\n\nEstática Plana: Las fuerzas actúan en un plano de simetría (denominado “chapa”). Un punto material en este plano posee dos grados de libertad.\nEstática Espacial: Los cuerpos se refieren a una terna ortogonal \\((X, Y, Z)\\). Un punto material posee tres grados de libertad, mientras que un cuerpo rígido en el espacio posee seis grados de libertad (tres traslaciones y tres rotaciones).\n\n\n\n\nPara la Estática, adoptamos la hipótesis de rigidez: el cuerpo es un sólido ideal donde la distancia relativa entre sus partículas es invariable. A diferencia de la Resistencia de Materiales, aquí no consideramos deformaciones ni rupturas; el sólido es ilimitadamente resistente."
   },
   {
-    "objectID": "clase1/clase1_documento.html#la-fuerza-como-vector",
-    "href": "clase1/clase1_documento.html#la-fuerza-como-vector",
-    "title": "Fuerzas y Vectores",
+    "objectID": "clase1/clase1_documento.html#introducción-y-conceptos-fundamentales",
+    "href": "clase1/clase1_documento.html#introducción-y-conceptos-fundamentales",
+    "title": "Unidad Temática 1: Estática Aplicada",
     "section": "",
-    "text": "Toda fuerza queda completamente definida cuando se conocen sus cuatro características:\n\nRecta de acción (\\(a\\)): línea sobre la que actúa la fuerza.\nMagnitud (\\(|AB|\\)): intensidad expresada en kN o t.\nSentido: orientación sobre la recta, indicada por una flecha.\nPunto de aplicación (\\(A\\)): punto donde se aplica la fuerza.\n\nDecir únicamente “la fuerza es 500 kN” es una descripción incompleta. Sin dirección y sentido, no es posible analizar el efecto de esa fuerza sobre una estructura."
+    "text": "La Estática es la base del diseño estructural en Ingeniería Civil. Su objetivo es definir las condiciones de equilibrio para que un sistema permanezca sin desplazamientos bajo la acción de cargas.\n\n\nEl análisis varía según el espacio de trabajo:\n\nEstática Plana: Las fuerzas actúan en un plano de simetría (denominado “chapa”). Un punto material en este plano posee dos grados de libertad.\nEstática Espacial: Los cuerpos se refieren a una terna ortogonal \\((X, Y, Z)\\). Un punto material posee tres grados de libertad, mientras que un cuerpo rígido en el espacio posee seis grados de libertad (tres traslaciones y tres rotaciones).\n\n\n\n\nPara la Estática, adoptamos la hipótesis de rigidez: el cuerpo es un sólido ideal donde la distancia relativa entre sus partículas es invariable. A diferencia de la Resistencia de Materiales, aquí no consideramos deformaciones ni rupturas; el sólido es ilimitadamente resistente."
   },
   {
-    "objectID": "clase1/clase1_documento.html#escala-de-fuerzas",
-    "href": "clase1/clase1_documento.html#escala-de-fuerzas",
-    "title": "Fuerzas y Vectores",
-    "section": "2 Escala de fuerzas",
-    "text": "2 Escala de fuerzas\nPara representar gráficamente una fuerza se utiliza una escala de fuerzas (\\(EF\\)), definida como la relación entre la magnitud de la fuerza y la longitud con que se la representa en el papel:\n\\[EF = \\frac{\\text{fuerza (kN)}}{\\text{longitud (cm)}}\\]\nEjemplo. Con \\(EF = 500\\,\\text{kN/cm}\\), una fuerza de \\(P = 1300\\,\\text{kN}\\) se representa con un segmento de:\n\\[x = \\frac{1300 \\times 1}{500} = 2{,}6\\,\\text{cm}\\]\n\n\n\n\n\n\nAdvertencia\n\n\n\nLa escala de fuerzas es independiente de la escala geométrica del dibujo. Ambas coexisten en el mismo gráfico sin interferirse."
+    "objectID": "clase1/clase1_documento.html#modelización-de-estructuras-planas",
+    "href": "clase1/clase1_documento.html#modelización-de-estructuras-planas",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "2 Modelización de Estructuras Planas",
+    "text": "2 Modelización de Estructuras Planas\nEl análisis de sistemas físicos comienza con la modelización. Aunque los cuerpos son tridimensionales, cuando las cargas y la geometría lo permiten, simplificamos el estudio a un plano de simetría. No es un concepto netamente de la ingeniería civil; es la base para entender desde el soporte de un motor hasta la estabilidad de una torre de alta tensión.\n\n2.1 Chapas y Barras\n\nChapa: Es el modelo de un cuerpo rígido plano. En el plano, una chapa posee tres grados de libertad: dos traslaciones y una rotación.\nBarra: Es una chapa donde una dimensión (longitud) predomina sobre las otras. Se representa técnicamente por su eje baricéntrico."
   },
   {
-    "objectID": "clase1/clase1_documento.html#elementos-fundamentales-de-la-estática",
-    "href": "clase1/clase1_documento.html#elementos-fundamentales-de-la-estática",
-    "title": "Fuerzas y Vectores",
-    "section": "3 Elementos fundamentales de la estática",
-    "text": "3 Elementos fundamentales de la estática\nLa estática opera con dos elementos irreductibles:\n\nFuerza: produce efecto de traslación sobre el cuerpo.\nPar o Cupla: produce efecto de rotación. Es un par de fuerzas iguales, paralelas y de sentido opuesto.\n\nEsta distinción resulta esencial al estudiar el equilibrio de cuerpos rígidos, donde tanto la resultante de fuerzas como la resultante de momentos deben ser nulas."
+    "objectID": "clase1/clase1_documento.html#la-fuerza-magnitud-vectorial",
+    "href": "clase1/clase1_documento.html#la-fuerza-magnitud-vectorial",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "3 La Fuerza: Magnitud Vectorial",
+    "text": "3 La Fuerza: Magnitud Vectorial\nLa fuerza es el ente físico capaz de producir traslaciones. Se define unívocamente mediante cuatro parámetros:\n\nMódulo (Intensidad): Valor numérico en unidades de fuerza (\\(kgf\\), \\(Tn\\), \\(kN\\)).\nDirección (Recta de Acción): La línea infinita sobre la cual se desplaza el vector.\nSentido: Orientación indicada por la flecha.\nPunto de Aplicación: Punto exacto de contacto. Según el Principio de Transmisibilidad, en cuerpos rígidos, la fuerza puede desplazarse sobre su recta de acción sin alterar el efecto externo.\n\n\n\n\nElementos de una Fuerza"
   },
   {
-    "objectID": "clase1/clase1_documento.html#sistemas-de-fuerzas-coplanares",
-    "href": "clase1/clase1_documento.html#sistemas-de-fuerzas-coplanares",
-    "title": "Fuerzas y Vectores",
-    "section": "4 Sistemas de fuerzas coplanares",
-    "text": "4 Sistemas de fuerzas coplanares\nUn sistema de fuerzas es coplanar cuando todas las fuerzas actúan en un mismo plano. Se clasifican según la disposición de sus rectas de acción:\n\nConcurrentes: todas las rectas de acción pasan por un mismo punto.\nNo concurrentes paralelas: rectas de acción paralelas entre sí.\nNo concurrentes no paralelas: rectas de acción que no convergen en un punto común."
+    "objectID": "clase1/clase1_documento.html#el-par-de-fuerzas-elemento-de-rotación",
+    "href": "clase1/clase1_documento.html#el-par-de-fuerzas-elemento-de-rotación",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "4 El Par de Fuerzas: Elemento de Rotación",
+    "text": "4 El Par de Fuerzas: Elemento de Rotación\nAsí como la fuerza es el ente capaz de producir traslaciones, el Par de Fuerzas (o cupla) es el elemento fundamental de la estática que produce exclusivamente rotaciones.\nSe define como un sistema de dos fuerzas paralelas, de igual intensidad (módulo) y sentidos opuestos, separadas por una distancia \\(a\\) denominada brazo del par.\n\nMódulo del Momento (\\(M\\)): Es el producto de la intensidad de una de las fuerzas por la distancia perpendicular entre ellas (\\(M = P \\cdot a\\)). Se mide en unidades de fuerza por distancia (\\(kNm\\), \\(kgm\\)).\nPlano del Par: Es el plano que contiene a las rectas de acción de ambas fuerzas.\nSentido de Rotación: La tendencia al giro, que puede ser horaria o antihoraria.\nCarácter de Vector Libre: A diferencia de la fuerza, el par no tiene un punto de aplicación fijo. Su efecto sobre el cuerpo rígido es el mismo independientemente de dónde se sitúe dentro de su plano de acción.\n\n\n\n\nElementos de un Par de Fuerzas o Cupla"
   },
   {
-    "objectID": "clase1/clase1_documento.html#representación-analítica",
-    "href": "clase1/clase1_documento.html#representación-analítica",
-    "title": "Fuerzas y Vectores",
-    "section": "5 Representación analítica",
-    "text": "5 Representación analítica\nDada una fuerza \\(F\\) con ángulo \\(\\alpha\\) medido desde el eje \\(x\\) positivo en sentido antihorario, sus componentes cartesianas son:\n\\[F_x = F\\cos\\alpha \\qquad F_y = F\\sin\\alpha\\]\nLa operación inversa permite reconstruir la fuerza a partir de sus componentes:\n\\[F = \\sqrt{F_x^2 + F_y^2} \\qquad \\alpha = \\arctan\\!\\left(\\frac{F_y}{F_x}\\right)\\]\n\n5.1 Convención de signos\n\n\n\nCuadrante\n\\(\\alpha\\)\n\\(F_x\\)\n\\(F_y\\)\n\n\n\n\nI ↗\n\\(0°\\)–\\(90°\\)\n\\(+\\)\n\\(+\\)\n\n\nII ↖\n\\(90°\\)–\\(180°\\)\n\\(-\\)\n\\(+\\)\n\n\nIII ↙\n\\(180°\\)–\\(270°\\)\n\\(-\\)\n\\(-\\)\n\n\nIV ↘\n\\(270°\\)–\\(360°\\)\n\\(+\\)\n\\(-\\)\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nAntes de calcular, dibujar siempre los ejes y marcar el ángulo. La mayoría de los errores de signo se evitan con este paso previo.\n\n\n\n\n5.2 Ejemplo\n\\(F = 600\\,\\text{kN}\\) a \\(53°\\) sobre la horizontal:\n\\[F_x = 600\\cos53° = 600 \\times 0{,}602 = 361{,}2\\,\\text{kN}\\] \\[F_y = 600\\sin53° = 600 \\times 0{,}799 = 479{,}4\\,\\text{kN}\\]\nVerificación:\n\\[\\sqrt{361{,}2^2 + 479{,}4^2} = \\sqrt{360\\,289} \\approx 600\\,\\text{kN} \\checkmark\\]\n\n\n\n\n\n\nTip\n\n\n\nLa verificación por reconstrucción es obligatoria. Si no cierra, hay un error de cálculo o de signo."
+    "objectID": "clase1/clase1_documento.html#sistemas-de-fuerzas-definición-y-clasificación",
+    "href": "clase1/clase1_documento.html#sistemas-de-fuerzas-definición-y-clasificación",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "5 Sistemas de Fuerzas: Definición y Clasificación",
+    "text": "5 Sistemas de Fuerzas: Definición y Clasificación\nUn sistema de fuerzas es el conjunto de varias fuerzas que actúan simultáneamente sobre un mismo cuerpo o chapa. El objetivo de la estática es simplificar estos sistemas complejos para encontrar una única fuerza equivalente, denominada Resultante (\\(R\\)), y un momento total.\n\n5.1 Clasificación de los Sistemas\nPara facilitar su estudio, clasificamos los sistemas según la ubicación de las rectas de acción de las fuerzas que los componen:\n\n5.1.1 1. Sistemas de Fuerzas Concurrentes\nSon aquellos cuyas rectas de acción se cortan todas en un mismo punto \\(O\\). * Efecto: Solo tienden a producir traslaciones. * Resultante: Pasa obligatoriamente por el punto de concurrencia. * Ejemplo típico: Cables unidos a un único perno de anclaje.\n\n\n\nSistema de Fuerzas Concurrentes\n\n\n\n\n5.1.2 2. Sistemas de Fuerzas No Concurrentes\nLas rectas de acción de las fuerzas se encuentran en el mismo plano pero no coinciden en un único punto. * Efecto: Pueden producir tanto traslaciones como rotaciones. * Complejidad: Para definirlos no basta con conocer la intensidad de la Resultante, sino que es imperativo determinar su ubicación exacta en el espacio (usando, por ejemplo, el Polígono Funicular).\n\n\n\nSistema de Fuerzas No Concurrentes\n\n\n\n\n5.1.3 3. Sistemas de Fuerzas Paralelas\nEs un caso particular donde las rectas de acción son paralelas entre sí (el punto de concurrencia está en el infinito). * Efecto: Traslación y rotación. * Aplicación: El peso propio de los componentes de una máquina o la carga de viento uniforme sobre un panel.\n\n\n\nSistema de Fuerzas Paralelas\n\n\n\n\n\n5.2 4. Sistemas de Fuerzas Colineales\nEs el caso de mayor simplicidad geométrica, donde todas las fuerzas actúan sobre la misma recta de acción.\n\nCaracterísticas: Al compartir la misma línea, el sistema se reduce a una suma algebraica de sus intensidades.\nEfecto: Producen exclusivamente traslación a lo largo de la recta de acción.\nAplicación: Es el modelo ideal para analizar esfuerzos internos en barras (tracción y compresión) o el equilibrio de un cable tensionado.\n\n\n\n\nSistema de Fuerzas Colineales"
   },
   {
-    "objectID": "clase1/clase1_documento.html#errores-frecuentes",
-    "href": "clase1/clase1_documento.html#errores-frecuentes",
-    "title": "Fuerzas y Vectores",
-    "section": "6 Errores frecuentes",
-    "text": "6 Errores frecuentes\n\nDescribir la fuerza solo por su magnitud — omitir dirección y sentido invalida el análisis.\nError en el ángulo de referencia — medir desde el eje incorrecto o usar el ángulo complementario.\nSigno incorrecto en las componentes — olvidar el negativo para fuerzas en el III° o IV° cuadrante.\nNo verificar — calcular \\(F_x\\) y \\(F_y\\) sin reconstruir \\(F\\).\nConfundir \\(EF\\) con escala geométrica — son escalas independientes."
+    "objectID": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática",
+    "href": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "6 Principios Fundamentales de la Estática",
+    "text": "6 Principios Fundamentales de la Estática\nEl análisis de la estabilidad se sustenta en una serie de principios o axiomas que, aunque basados en la observación física, se aceptan como verdades fundamentales para el desarrollo del cálculo estructural.\n\n6.1 1. Principio del Paralelogramo\nEstablece que dos fuerzas \\(\\vec{P_1}\\) y \\(\\vec{P_2}\\) concurrentes en un punto \\(A\\) pueden ser sustituidas por una única fuerza Resultante (\\(\\vec{R}\\)). Gráficamente, esta resultante corresponde a la diagonal del paralelogramo cuyos lados son las fuerzas originales.\nEste principio es la base de la composición de fuerzas y nos permite simplificar sistemas complejos a una sola entidad vectorial.\n\n\n\nPrincipio del Paralelogramo\n\n\n\n\n6.2 2. Principio de Equilibrio (Dos fuerzas)\nDos fuerzas aplicadas sobre un cuerpo rígido están en equilibrio (el sistema es nulo) si y solo si tienen: * Igual módulo. * Misma recta de acción. * Sentidos opuestos.\nEste es el caso más elemental de equilibrio y es el que define, por ejemplo, el estado de una barra sometida a tracción o compresión pura.\n\n\n6.3 3. Principio de Superposición (Sistemas nulos)\nLa acción de un sistema de fuerzas sobre un cuerpo rígido no se altera si se le agrega o quita otro sistema de fuerzas que esté en equilibrio.\nEn la práctica, esto nos permite añadir fuerzas “ficticias” (como un par de fuerzas opuestas sobre una misma recta) para facilitar la resolución de problemas de descomposición de fuerzas sin alterar el estado estático del cuerpo.\n\n\n6.4 4. Principio de Transmisibilidad\nEl efecto de una fuerza sobre un cuerpo rígido es independiente de su punto de aplicación a lo largo de su recta de acción.\nEsto significa que podemos “deslizar” el vector fuerza sobre su línea de influencia. Es una propiedad exclusiva del cuerpo rígido; en un cuerpo deformable, cambiar el punto de aplicación alteraría las tensiones internas.\n\n\n6.5 5. Principio de Acción y Reacción\nA toda fuerza (acción) que un cuerpo ejerce sobre otro, le corresponde siempre una fuerza de igual intensidad y dirección, pero de sentido contrario (reacción) ejercida por el segundo sobre el primero.\nEn ingeniería, este principio es vital para entender las reacciones de vínculo: si una estructura de soporte (ménsula) ejerce una fuerza sobre un equipo, el equipo ejerce la misma fuerza sobre la ménsula.\n\n\n6.6 Representación Analítica\nReferida a un sistema de ejes \\((x, y)\\), una fuerza \\(P\\) con argumento \\(\\phi\\) (ángulo respecto a \\(x\\)) se descompone como: \\[P_x = P \\cdot \\cos(\\phi)\\] \\[P_y = P \\cdot \\sin(\\phi)\\]"
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática-1",
+    "href": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática-1",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "7 Principios Fundamentales de la Estática",
+    "text": "7 Principios Fundamentales de la Estática\nEl equilibrio se sustenta en tres postulados clásicos:\n\nPrincipio del Paralelogramo: Dos fuerzas concurrentes pueden sustituirse por una única resultante \\(R\\), equivalente a la diagonal del paralelogramo formado por ellas.\nPrincipio de Superposición: Agregar o quitar un sistema nulo (en equilibrio) a un cuerpo no altera su estado original.\nAcción y Reacción: A toda fuerza se le opone otra de igual intensidad y recta de acción, pero sentido contrario."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#sistemas-de-fuerzas-concurrentes-1",
+    "href": "clase1/clase1_documento.html#sistemas-de-fuerzas-concurrentes-1",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "8 Sistemas de Fuerzas Concurrentes",
+    "text": "8 Sistemas de Fuerzas Concurrentes\nSon aquellos donde todas las rectas de acción convergen en un punto común.\n\n8.1 Resolución Analítica\nLa resultante se halla mediante la suma de proyecciones: \\[R_x = \\sum P_{ix} \\quad ; \\quad R_y = \\sum P_{iy}\\] \\[|R| = \\sqrt{R_x^2 + R_y^2}\\]\n\nRecomendación de Imagen: Esquema de tres fuerzas concurrentes en un punto \\(O\\), mostrando la construcción de la poligonal de fuerzas para hallar la resultante gráfica."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#momento-y-teorema-de-varignon",
+    "href": "clase1/clase1_documento.html#momento-y-teorema-de-varignon",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "9 Momento y Teorema de Varignon",
+    "text": "9 Momento y Teorema de Varignon\nEl Momento Estático (\\(M\\)) mide la capacidad de una fuerza para producir una rotación respecto a un punto \\(O\\). \\[M = P \\cdot d\\] Donde \\(d\\) es el “brazo de palanca”.\n\n9.1 Teorema de Varignon\nEste teorema es el pilar para el cálculo de reacciones: \\[M_O(R) = \\sum M_O(P_i)\\] “El momento de la resultante es igual a la suma de los momentos de las componentes.”"
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#pares-de-fuerzas-cuplas",
+    "href": "clase1/clase1_documento.html#pares-de-fuerzas-cuplas",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "10 Pares de Fuerzas (Cuplas)",
+    "text": "10 Pares de Fuerzas (Cuplas)\nUn par está formado por dos fuerzas paralelas de igual módulo y sentido contrario. * Resultante: Es nula (\\(R = 0\\)). * Efecto: Produce exclusivamente rotación (\\(M = P \\cdot a\\)). * Propiedad: El momento de una cupla es un vector libre (constante para cualquier punto del plano)."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#sistemas-no-concurrentes-y-polígono-funicular",
+    "href": "clase1/clase1_documento.html#sistemas-no-concurrentes-y-polígono-funicular",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "11 Sistemas No Concurrentes y Polígono Funicular",
+    "text": "11 Sistemas No Concurrentes y Polígono Funicular\nCuando las fuerzas no convergen, la poligonal de fuerzas nos da la intensidad de \\(R\\), pero no su posición. Para ubicarla, recurrimos al Polígono Funicular.\n\nRecomendación de Imagen: Dibujar un sistema de 3 fuerzas no concurrentes, su polígono de fuerzas con polo \\(O\\) y rayos, y el correspondiente polígono funicular en el esquema de posición."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#métodos-de-descomposición",
+    "href": "clase1/clase1_documento.html#métodos-de-descomposición",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "12 Métodos de Descomposición",
+    "text": "12 Métodos de Descomposición\n\n12.1 Método de Cullmann (Gráfico)\nPermite descomponer una fuerza conocida (o resultante) en tres direcciones no concurrentes. Se basa en agrupar dos de las direcciones en una “recta auxiliar de Cullmann”.\n\n\n12.2 Método de Ritter (Analítico-Gráfico)\nConsiste en realizar un corte en la estructura y plantear ecuaciones de momentos en puntos estratégicos (nudos de la estructura) donde se anulen dos de las tres incógnitas."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#fuerzas-paralelas-y-distribuidas",
+    "href": "clase1/clase1_documento.html#fuerzas-paralelas-y-distribuidas",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "13 Fuerzas Paralelas y Distribuidas",
+    "text": "13 Fuerzas Paralelas y Distribuidas\n\n13.1 Fuerzas Paralelas\nUn caso particular de fuerzas concurrentes en el infinito. La resultante es la suma algebraica de intensidades. El Centro de Fuerzas Paralelas es el punto por donde pasa \\(R\\) independientemente de la rotación del sistema.\n\n\n13.2 Fuerzas Distribuidas\nSon cargas que actúan sobre una longitud \\(L\\) con una intensidad \\(q\\). * Intensidad de la Resultante: Equivale al área del diagrama de carga. * Punto de aplicación: Se ubica en el baricentro del diagrama.\n\nRecomendación de Imagen: Tabla comparativa con un diagrama de carga rectangular (\\(R=q \\cdot L\\) en \\(L/2\\)) y uno triangular (\\(R = \\frac{q \\cdot L}{2}\\) en \\(L/3\\) desde la base)."
+  },
+  {
+    "objectID": "clase1/clase1_documento.html#resumen-de-condiciones-de-equilibrio",
+    "href": "clase1/clase1_documento.html#resumen-de-condiciones-de-equilibrio",
+    "title": "Unidad Temática 1: Estática Aplicada",
+    "section": "14 Resumen de Condiciones de Equilibrio",
+    "text": "14 Resumen de Condiciones de Equilibrio\nPara que una chapa en el plano esté en equilibrio, se deben anular las posibilidades de traslación y rotación:\n\\[\\sum F_x = 0 \\quad ; \\quad \\sum F_y = 0 \\quad ; \\quad \\sum M_O = 0\\]"
   },
   {
     "objectID": "clase1/index.html",
@@ -210,360 +546,10 @@
     "text": "Material correspondiente a la primera semana de cursada.\n\n\n\nRecurso\nDescripción\n\n\n\n\nDocumento teórico\nDesarrollo completo de los contenidos\n\n\nPresentación\nSlides de clase (RevealJS)\n\n\nGuía de ejercicios\nEjercicios para resolver\n\n\n\nContenidos: representación de fuerzas, principios de la estática, momento estático, pares de fuerzas, composición, descomposición, equilibrio.\nBibliografía: Ballario, L. — La Estática Aplicada (UTN FRLP)."
   },
   {
-    "objectID": "clase2/clase2_presentacion.html#repaso-semana-1",
-    "href": "clase2/clase2_presentacion.html#repaso-semana-1",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Repaso Semana 1",
-    "text": "Repaso Semana 1\n\nFuerzas concurrentes: 4 características, argumento \\(\\varphi\\)\nComponentes: \\(P_x = P\\cos\\varphi\\), \\(P_y = P\\sin\\varphi\\)\nComposición analítica: \\(R_x = \\sum P_i\\cos\\varphi_i\\), \\(R_y = \\sum P_i\\sin\\varphi_i\\)\nDescomposición: cartesiana y oblicua (regla del seno)\nEquilibrio: \\(\\sum P_x = 0\\), \\(\\sum P_y = 0\\)\n\n\nPreguntar: ¿cuántas ecuaciones necesitaban para definir la resultante de fuerzas concurrentes? La respuesta es 2. Hoy van a ver por qué para no concurrentes necesitamos 3."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#momento-estático-de-una-fuerza",
-    "href": "clase2/clase2_presentacion.html#momento-estático-de-una-fuerza",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Momento estático de una fuerza",
-    "text": "Momento estático de una fuerza\n\\[\\boxed{M = P \\times d} \\quad [\\text{kN·m}]\\]\n\n\\(d\\): distancia perpendicular entre \\(O\\) y la recta de acción (brazo de palanca)\nPositivo si tiende a girar en sentido antihorario \\((+\\circlearrowleft)\\)\n\n\nExpresión analítica:\n\\[M^O = P_x \\cdot |y_O - y_i| - P_y \\cdot |x_O - x_i|\\]\ndonde \\((x_i, y_i)\\) es un punto de la recta de acción."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#teorema-de-varignon",
-    "href": "clase2/clase2_presentacion.html#teorema-de-varignon",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Teorema de Varignon",
-    "text": "Teorema de Varignon\n\nEl momento de la resultante respecto a un punto es igual a la suma algebraica de los momentos de las componentes.\n\n\\[M_R^O = \\sum M_{P_i}^O \\qquad R \\cdot d_R = P_1 d_1 + P_2 d_2\\]\n\nVarignon es la base del cálculo analítico de momentos. Permite reemplazar el cálculo geométrico del brazo d por la suma de dos productos con las componentes cartesianas."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas",
-    "href": "clase2/clase2_presentacion.html#par-de-fuerzas",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Par de fuerzas",
-    "text": "Par de fuerzas\nSistema de dos fuerzas de igual intensidad, sentidos contrarios y rectas de acción paralelas:\n\\[M_{par} = P \\times d\\]\n\nPropiedades:\n\nResultante nula → no produce traslación, solo rotación\nEs libre: puede trasladarse y girar en el plano manteniendo \\(M\\)\n\\(M = P_1 d_1 = P_2 d_2\\) — el momento es invariante\nPara sumar pares: \\(M_R = \\sum M_i\\)"
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas-diagrama",
-    "href": "clase2/clase2_presentacion.html#par-de-fuerzas-diagrama",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Par de fuerzas — diagrama",
-    "text": "Par de fuerzas — diagrama\n\n\nSeñalar en el panel derecho que aunque P2 &lt; P1, el momento es el mismo porque d2 &gt; d1 en proporción inversa."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#traslación-de-fuerzas",
-    "href": "clase2/clase2_presentacion.html#traslación-de-fuerzas",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Traslación de fuerzas",
-    "text": "Traslación de fuerzas\nPara trasladar \\(P\\) de \\(A\\) a \\(B\\) (cambia su recta de acción):\n\nAgregar en \\(B\\) un sistema nulo: \\(P'\\) y \\(-P'\\) paralelas a \\(P\\)\n\\(P\\) en \\(A\\) y \\(-P'\\) en \\(B\\) forman un par \\(M = P \\cdot d\\)\nSistema equivalente: \\(P'\\) en \\(B\\) + par \\(M\\)\n\n\\[\\boxed{d = \\frac{M}{P}}\\]\n\nEnfatizar que el sistema nulo no altera el efecto (principio d). Este resultado es la base para reducir sistemas no concurrentes."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#sistemas-de-fuerzas-no-concurrentes",
-    "href": "clase2/clase2_presentacion.html#sistemas-de-fuerzas-no-concurrentes",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Sistemas de fuerzas no concurrentes",
-    "text": "Sistemas de fuerzas no concurrentes\nCuando las rectas de acción no pasan por un punto común, la resultante necesita 3 condiciones para quedar definida:\n\\[R_x = \\sum P_i \\cos\\varphi_i \\qquad R_y = \\sum P_i \\sin\\varphi_i\\]\n\\[M_R^O = \\sum M_i^O \\quad \\Rightarrow \\quad \\text{ubica la recta de acción de } R\\]\n\n\n\n\n\n\n\nNota\n\n\nPara fuerzas concurrentes bastaban 2 ecuaciones (el punto de concurrencia ya era conocido). Aquí necesitamos una tercera para ubicar la recta de acción."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#reducción-analítica-no-concurrentes",
-    "href": "clase2/clase2_presentacion.html#reducción-analítica-no-concurrentes",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Reducción analítica — no concurrentes",
-    "text": "Reducción analítica — no concurrentes\nTres formas equivalentes de determinar la resultante:\n\na) Dos proyecciones + un momento\n\\[R_x = \\sum P_i \\cos\\varphi_i \\qquad R_y = \\sum P_i \\sin\\varphi_i\\] \\[M_R^O = \\sum M_i^O\\]\n\n\nb) Una proyección + dos momentos\n\\[R_x = \\sum P_i \\cos\\varphi_i \\qquad M_R^O = \\sum M_i^O \\qquad M_R^N = \\sum M_i^N\\]\n(los centros \\(O\\) y \\(N\\) no deben estar alineados perpendicularmente al eje de proyección)\n\n\nc) Tres momentos respecto a tres puntos no alineados\n\\[M_R^O = \\sum M_i^O \\qquad M_R^N = \\sum M_i^N \\qquad M_R^S = \\sum M_i^S\\]"
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#ejemplo-resuelto-composición-no-concurrente",
-    "href": "clase2/clase2_presentacion.html#ejemplo-resuelto-composición-no-concurrente",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Ejemplo resuelto — composición no concurrente",
-    "text": "Ejemplo resuelto — composición no concurrente\nDos fuerzas sobre una viga:\n\n\\(P_1 = 400\\,\\text{kN}\\) a \\(\\varphi_1 = 90°\\), aplicada en \\(A_1 = (0;\\;0)\\)\n\\(P_2 = 300\\,\\text{kN}\\) a \\(\\varphi_2 = 90°\\), aplicada en \\(A_2 = (4{,}0;\\;0)\\)\n\n\nComponentes: \\[R_x = 0 \\qquad R_y = 400 + 300 = 700\\,\\text{kN} \\qquad \\varphi_R = 90°\\]\n\n\nRecta de acción — momento respecto a \\(O = (0;\\;0)\\): \\[M_R^O = 400 \\times 0 + 300 \\times 4{,}0 = 1200\\,\\text{kN·m}\\] \\[x_R = \\frac{M_R^O}{R_y} = \\frac{1200}{700} = 1{,}71\\,\\text{m}\\]\n\n\n\n\n\n\n\n\nTip\n\n\nLa resultante es una fuerza vertical de \\(700\\,\\text{kN}\\) aplicada a \\(1{,}71\\,\\text{m}\\) del origen."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#reducción-gráfica-polígono-funicular",
-    "href": "clase2/clase2_presentacion.html#reducción-gráfica-polígono-funicular",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Reducción gráfica — polígono funicular",
-    "text": "Reducción gráfica — polígono funicular\nPara fuerzas no concurrentes, el polígono de fuerzas da módulo y dirección de \\(R\\) pero no su recta de acción. El polígono funicular la determina.\n\nConstrucción:\n\nTrazar el polígono de fuerzas y elegir un polo \\(O\\)\nTrazar los rayos polares desde \\(O\\) a cada vértice del polígono\nTrazar los lados del funicular paralelos a cada rayo polar, comenzando por un punto arbitrario de \\(P_1\\)\nProlongar el primer y último lado del funicular hasta que se corten\nPor ese punto pasa la recta de acción de la resultante"
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#polígono-funicular-diagrama",
-    "href": "clase2/clase2_presentacion.html#polígono-funicular-diagrama",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Polígono funicular — diagrama",
-    "text": "Polígono funicular — diagrama\n\n\nSeñalar: polígono de fuerzas a la derecha, polo O, rayos polares punteados, lados del funicular sobre el sistema de fuerzas, intersección marcada con estrella."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#casos-del-polígono-funicular",
-    "href": "clase2/clase2_presentacion.html#casos-del-polígono-funicular",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Casos del polígono funicular",
-    "text": "Casos del polígono funicular\n\n\n\nPolígono de fuerzas\n1° y último lado del funicular\nResultado\n\n\n\n\nAbierto\nSe cortan en un punto\nResultante única\n\n\nCerrado\nParalelos\nSistema reduce a un par\n\n\nCerrado\nCoinciden\nEquilibrio\n\n\n\n\nEste cuadro es uno de los más importantes del curso. Pedir a los alumnos que lo copien y lo recuerden para el parcial."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#fuerzas-paralelas",
-    "href": "clase2/clase2_presentacion.html#fuerzas-paralelas",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Fuerzas paralelas",
-    "text": "Fuerzas paralelas\nCaso particular de no concurrentes: todas las rectas de acción son paralelas.\n\\[R = \\sum P_i \\qquad x_R = \\frac{\\sum P_i \\cdot x_i}{R}\\]\n\nEjemplo: \\(P_1 = 200\\,\\text{kN}\\) en \\(x=0\\); \\(P_2 = 350\\,\\text{kN}\\) en \\(x=3\\,\\text{m}\\); \\(P_3 = 150\\,\\text{kN}\\) en \\(x=7\\,\\text{m}\\)\n\\[R = 700\\,\\text{kN} \\qquad x_R = \\frac{0 + 1050 + 1050}{700} = 3{,}0\\,\\text{m}\\]\n\nVerificar que xR está entre 0 y 7m. Si cae fuera de ese rango hay un error. Notar que xR = 3m coincide con la posición de P2 — es una coincidencia numérica en este ejemplo."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#fuerzas-distribuidas",
-    "href": "clase2/clase2_presentacion.html#fuerzas-distribuidas",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Fuerzas distribuidas",
-    "text": "Fuerzas distribuidas\nUna carga distribuida \\(q(x)\\) se reemplaza por su resultante:\n\\[R = \\int_0^L q(x)\\,dx \\qquad x_R = \\frac{\\int_0^L x\\,q(x)\\,dx}{R}\\]\n\nCasos más frecuentes:\n\n\nUniforme \\(q = \\text{cte}\\)\n\\[R = q \\cdot L \\qquad x_R = \\frac{L}{2}\\]\nResultante al centro del tramo.\n\nTriangular \\(q(x) = q_0 \\cdot \\frac{x}{L}\\)\n\\[R = \\frac{q_0 \\cdot L}{2} \\qquad x_R = \\frac{2L}{3}\\]\nResultante al tercio mayor."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#fuerzas-distribuidas-diagrama",
-    "href": "clase2/clase2_presentacion.html#fuerzas-distribuidas-diagrama",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Fuerzas distribuidas — diagrama",
-    "text": "Fuerzas distribuidas — diagrama\n\n\nSeñalar en cada panel la forma del diagrama de carga, la posición de la resultante y las cotas de L/2 y 2L/3."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#equilibrio-de-sistemas-no-concurrentes",
-    "href": "clase2/clase2_presentacion.html#equilibrio-de-sistemas-no-concurrentes",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Equilibrio de sistemas no concurrentes",
-    "text": "Equilibrio de sistemas no concurrentes\nCondición analítica — tres formas equivalentes:\n\na) Dos proyecciones + un momento: \\[\\sum P_i \\cos\\varphi_i = 0 \\qquad \\sum P_i \\sin\\varphi_i = 0 \\qquad \\sum M_i^O = 0\\]\n\n\nb) Una proyección + dos momentos: \\[\\sum P_i \\cos\\varphi_i = 0 \\qquad \\sum M_i^O = 0 \\qquad \\sum M_i^N = 0\\]\n\n\nc) Tres momentos respecto a puntos no alineados: \\[\\sum M_i^O = 0 \\qquad \\sum M_i^N = 0 \\qquad \\sum M_i^S = 0\\]\n\n\n\n\n\n\n\n\nAdvertencia\n\n\nEn los casos b) y c), los centros de momentos no deben estar alineados entre sí ni con la dirección de las fuerzas."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#práctica-parte-1-25-min",
-    "href": "clase2/clase2_presentacion.html#práctica-parte-1-25-min",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Práctica — Parte 1 (25 min)",
-    "text": "Práctica — Parte 1 (25 min)\nProblema 1 ★☆☆\n\\(P = 550\\,\\text{kN}\\) a \\(\\varphi = 35°\\), aplicada en \\(A = (2{,}0;\\;1{,}5)\\,\\text{m}\\).\n\nCalcular \\(M\\) respecto a \\(O_1 = (0;\\;0)\\) y \\(O_2 = (5{,}0;\\;3{,}0)\\,\\text{m}\\)\nVerificar por Varignon en ambos casos\n\n\nProblema 2 ★★☆\nTres fuerzas verticales sobre una viga: \\(P_1 = 180\\,\\text{kN}\\) en \\(x=0\\); \\(P_2 = 260\\,\\text{kN}\\) en \\(x=3\\,\\text{m}\\); \\(P_3 = 140\\,\\text{kN}\\) en \\(x=7\\,\\text{m}\\)\nDeterminar resultante y posición de su recta de acción.\n\nCircular por los bancos durante los primeros 5 min. El error más frecuente en P1 es olvidar el signo de Py al aplicar Varignon."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#práctica-parte-2-25-min",
-    "href": "clase2/clase2_presentacion.html#práctica-parte-2-25-min",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Práctica — Parte 2 (25 min)",
-    "text": "Práctica — Parte 2 (25 min)\nProblema 3 ★★☆\nViga de \\(8\\,\\text{m}\\): carga uniforme \\(q = 25\\,\\text{kN/m}\\) en los primeros \\(5\\,\\text{m}\\) y carga triangular \\(q_0 = 40\\,\\text{kN/m}\\) en los \\(3\\,\\text{m}\\) restantes.\nCalcular resultante total y posición.\n\nProblema 4 ★★★\nCuatro fuerzas sobre una placa: \\(P_1 = 300\\,\\text{kN}\\) a \\(0°\\) en \\((0;\\;2{,}0)\\); \\(P_2 = 400\\,\\text{kN}\\) a \\(90°\\) en \\((3{,}0;\\;0)\\); \\(P_3 = 300\\,\\text{kN}\\) a \\(180°\\) en \\((6{,}0;\\;2{,}0)\\); \\(P_4 = 400\\,\\text{kN}\\) a \\(270°\\) en \\((3{,}0;\\;4{,}0)\\)\n¿El sistema está en equilibrio? Verificar por los tres métodos.\n\nP4 tiene simetría — anticipar que puede estar en equilibrio. Pedir que no anticipen la respuesta y que hagan el cálculo completo."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#solución-parte-1",
-    "href": "clase2/clase2_presentacion.html#solución-parte-1",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Solución — Parte 1",
-    "text": "Solución — Parte 1\nProblema 1: \\[P_x = 450{,}4\\,\\text{kN} \\qquad P_y = 315{,}4\\,\\text{kN}\\] \\[M^{O_1} = 450{,}4 \\times 1{,}5 - 315{,}4 \\times 2{,}0 = +44{,}8\\,\\text{kN·m}\\] \\[M^{O_2} = 450{,}4 \\times |3{,}0-1{,}5| - 315{,}4 \\times |5{,}0-2{,}0| = -270{,}6\\,\\text{kN·m}\\]\n\nProblema 2: \\[R = 580\\,\\text{kN} \\uparrow \\qquad x_R = \\frac{0 + 780 + 980}{580} = 3{,}03\\,\\text{m}\\]\n\nEn P1 señalar que el cambio de signo entre O1 y O2 tiene sentido físico: desde un lado la fuerza gira antihorario, desde el otro gira horario."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#solución-parte-2",
-    "href": "clase2/clase2_presentacion.html#solución-parte-2",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Solución — Parte 2",
-    "text": "Solución — Parte 2\nProblema 3:\n\\(R_1 = 25 \\times 5 = 125\\,\\text{kN}\\) en \\(x_1 = 2{,}5\\,\\text{m}\\)\n\\(R_2 = \\frac{40 \\times 3}{2} = 60\\,\\text{kN}\\) en \\(x_2 = 5 + \\frac{2 \\times 3}{3} = 7{,}0\\,\\text{m}\\)\n\\[R = 185\\,\\text{kN} \\qquad x_R = \\frac{125 \\times 2{,}5 + 60 \\times 7{,}0}{185} = 3{,}96\\,\\text{m}\\]\n\nProblema 4: \\[R_x = 300 - 300 = 0 \\qquad R_y = 400 - 400 = 0\\] \\[M^O = 300\\times2 - 400\\times3 - 300\\times2 + 400\\times3 = 0\\]\nSistema en equilibrio ✓\n\nEn P4 señalar que la verificación por los tres métodos da siempre cero porque el sistema es simétrico. Vale la pena mostrarlo para el método c)."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#síntesis",
-    "href": "clase2/clase2_presentacion.html#síntesis",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Síntesis",
-    "text": "Síntesis\n\nPara no concurrentes se necesitan 3 ecuaciones — la tercera ubica la recta de acción de \\(R\\)\nVarignon: \\(M_R^O = \\sum M_i^O\\) — simplifica el cálculo del brazo\nEl par produce solo rotación; es libre en el plano\nEl polígono funicular ubica gráficamente la recta de acción\nCargas distribuidas: uniforme → \\(x_R = L/2\\); triangular → \\(x_R = 2L/3\\)\nEquilibrio: \\(\\sum P_x = 0\\), \\(\\sum P_y = 0\\), \\(\\sum M^O = 0\\)\n\n\nConectar con la próxima semana: las condiciones de equilibrio son exactamente las ecuaciones que vamos a plantear para determinar reacciones en vínculos."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#para-el-hogar",
-    "href": "clase2/clase2_presentacion.html#para-el-hogar",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Para el hogar",
-    "text": "Para el hogar\n\n\n\n\n\n\n\n\n#\nConsigna\nNivel\n\n\n\n\n1\nMomento de 3 fuerzas respecto a 2 centros, verificar por Varignon\n★☆☆\n\n\n2\nComponer 4 fuerzas no concurrentes: resultante y recta de acción\n★★☆\n\n\n3\nViga con carga mixta: resultante y posición\n★★☆\n\n\n4\nSistema de fuerzas: determinar si reduce a resultante, par o equilibrio\n★★★\n\n\n\n\nEl ejercicio 4 es el más importante para conectar con el Parcial 1. Sugerir que lo intenten por los tres métodos del cuadro de casos del funicular."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#qué-cambia-hoy",
-    "href": "clase2/clase2_presentacion.html#qué-cambia-hoy",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "¿Qué cambia hoy?",
-    "text": "¿Qué cambia hoy?\nPara fuerzas concurrentes: la resultante pasa por el punto de concurrencia → 2 ecuaciones alcanzan.\n\nPara fuerzas no concurrentes: la recta de acción de la resultante es desconocida → necesitamos 3 ecuaciones.\n\n\n\\[R_x = \\sum P_i\\cos\\varphi_i \\qquad R_y = \\sum P_i\\sin\\varphi_i \\qquad M_R^O = \\sum M_i^O\\]\n\nLa tercera ecuación (momento) es la que ubica la recta de acción. Sin ella sabemos módulo y dirección de R, pero no dónde está."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#momento-estático-definición",
-    "href": "clase2/clase2_presentacion.html#momento-estático-definición",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Momento estático — definición",
-    "text": "Momento estático — definición\n\\[\\boxed{M = P \\times d} \\quad [\\text{kN·m}]\\]\n\n\\(d\\): distancia perpendicular entre \\(O\\) y la recta de acción\nPositivo si gira en sentido antihorario \\((+\\circlearrowleft)\\)\n\n\nInsistir: d no es la distancia de O a A, sino la distancia perpendicular a la recta de acción. Error muy frecuente en los primeros ejercicios."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#momento-estático-diagrama",
-    "href": "clase2/clase2_presentacion.html#momento-estático-diagrama",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Momento estático — diagrama",
-    "text": "Momento estático — diagrama\n\n\nSeñalar el ángulo recto en el pie de la perpendicular. Mostrar que si O estuviera sobre la recta de acción, d=0 y M=0."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#momento-estático-expresión-analítica",
-    "href": "clase2/clase2_presentacion.html#momento-estático-expresión-analítica",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Momento estático — expresión analítica",
-    "text": "Momento estático — expresión analítica\nDada la fuerza \\(P\\) aplicada en \\((x_i,\\,y_i)\\) y centro de momentos \\(O = (x_O,\\,y_O)\\):\n\\[M^O = P_x \\cdot |y_O - y_i| - P_y \\cdot |x_O - x_i|\\]\n\nEjemplo: \\(P = 600\\,\\text{kN}\\) a \\(\\varphi = 40°\\), \\(A = (2{,}0;\\;1{,}0)\\), \\(O = (0;\\;0)\\)\n\\[P_x = 459{,}6\\,\\text{kN} \\qquad P_y = 385{,}7\\,\\text{kN}\\]\n\\[M^O = 459{,}6 \\times 1{,}0 - 385{,}7 \\times 2{,}0 = -311{,}8\\,\\text{kN·m}\\]\n\nEl signo negativo indica sentido horario. Preguntar a los alumnos: ¿qué sentido tiene físicamente ese momento?"
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#teorema-de-varignon-diagrama",
-    "href": "clase2/clase2_presentacion.html#teorema-de-varignon-diagrama",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Teorema de Varignon — diagrama",
-    "text": "Teorema de Varignon — diagrama\n\n\nMostrar que los brazos d1 y d2 son fáciles de calcular como diferencias de coordenadas, mientras que dR requeriría geometría más compleja."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas-definición",
-    "href": "clase2/clase2_presentacion.html#par-de-fuerzas-definición",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Par de fuerzas — definición",
-    "text": "Par de fuerzas — definición\nDos fuerzas de igual intensidad, sentidos contrarios y rectas de acción paralelas:\n\\[M_{par} = P \\times d\\]\n\nLa resultante de un par es nula → no produce traslación, solo rotación.\n\nPreguntar: si la resultante es nula, ¿está el sistema en equilibrio? No necesariamente — el par produce rotación aunque no haya traslación."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#par-de-fuerzas-propiedades",
-    "href": "clase2/clase2_presentacion.html#par-de-fuerzas-propiedades",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Par de fuerzas — propiedades",
-    "text": "Par de fuerzas — propiedades\n\nEs libre: puede trasladarse y girar en el plano manteniendo \\(M\\)\n\\(M = P_1 d_1 = P_2 d_2\\) — el momento es invariante\nPara sumar pares: \\(M_R = \\sum M_i\\)\nDos pares son iguales si tienen igual momento\n\n\nLa libertad del par es fundamental para la traslación de fuerzas que viene después. Dar un ejemplo concreto: el par que produce el volante de una máquina puede representarse en cualquier punto del plano."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#traslación-de-fuerzas-diagrama",
-    "href": "clase2/clase2_presentacion.html#traslación-de-fuerzas-diagrama",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Traslación de fuerzas — diagrama",
-    "text": "Traslación de fuerzas — diagrama\n\n\nRecorrer los tres paneles de izquierda a derecha. Preguntar: ¿qué pasaría si d=0? El par sería nulo y la fuerza se traslada sin efecto adicional, lo que confirma el principio de deslizamiento sobre la recta de acción."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-13",
-    "href": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-13",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Reducción no concurrente — método analítico (1/3)",
-    "text": "Reducción no concurrente — método analítico (1/3)\na) Dos proyecciones + un momento (más usada)\n\\[R_x = \\sum P_i\\cos\\varphi_i \\qquad R_y = \\sum P_i\\sin\\varphi_i\\]\n\\[M_R^O = \\sum M_i^O\\]\nLa tercera ecuación fija un punto de la recta de acción de \\(R\\):\n\\[x_R = \\frac{M_R^O}{R_y} \\quad \\text{(si } R_y \\neq 0\\text{)} \\qquad y_R = \\frac{M_R^O}{R_x} \\quad \\text{(si } R_x \\neq 0\\text{)}\\]\n\nAclarar que se elige xR o yR según cuál componente sea no nula. Si ambas son no nulas, cualquiera de las dos determina la recta de acción."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-23",
-    "href": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-23",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Reducción no concurrente — método analítico (2/3)",
-    "text": "Reducción no concurrente — método analítico (2/3)\nb) Una proyección + dos momentos\n\\[R_x = \\sum P_i\\cos\\varphi_i\\]\n\\[M_R^O = \\sum M_i^O \\qquad M_R^N = \\sum M_i^N\\]\n\n\n\n\n\n\nAdvertencia\n\n\nLos centros \\(O\\) y \\(N\\) no pueden estar sobre una recta perpendicular al eje de proyección elegido.\n\n\n\n\nSi la condición no se cumple, el sistema es indeterminado porque las dos ecuaciones de momento dan la misma información."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-33",
-    "href": "clase2/clase2_presentacion.html#reducción-no-concurrente-método-analítico-33",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Reducción no concurrente — método analítico (3/3)",
-    "text": "Reducción no concurrente — método analítico (3/3)\nc) Tres momentos respecto a tres puntos no alineados\n\\[M_R^O = \\sum M_i^O \\qquad M_R^N = \\sum M_i^N \\qquad M_R^S = \\sum M_i^S\\]\n\n\n\n\n\n\nAdvertencia\n\n\nLos puntos \\(O\\), \\(N\\) y \\(S\\) no deben estar alineados.\n\n\n\n\nLos tres métodos son equivalentes. En la práctica se usa a) por ser el más directo.\n\nEl método c) tiene valor teórico y aparece en verificaciones. Para resolver problemas, siempre recomendar el método a)."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#ejemplo-composición-no-concurrente",
-    "href": "clase2/clase2_presentacion.html#ejemplo-composición-no-concurrente",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Ejemplo — composición no concurrente",
-    "text": "Ejemplo — composición no concurrente\nDos fuerzas sobre una viga de \\(4\\,\\text{m}\\):\n\n\\(P_1 = 400\\,\\text{kN}\\) ↑ en \\(x = 0\\)\n\\(P_2 = 300\\,\\text{kN}\\) ↑ en \\(x = 4\\,\\text{m}\\)\n\n\nPaso 1 — resultante: \\[R = 400 + 300 = 700\\,\\text{kN} \\uparrow \\qquad \\varphi_R = 90°\\]\n\n\nPaso 2 — recta de acción (momento respecto a \\(O = (0;\\;0)\\)): \\[M_R^O = 400 \\times 0 + 300 \\times 4 = 1200\\,\\text{kN·m}\\] \\[x_R = \\frac{1200}{700} = 1{,}71\\,\\text{m}\\]\n\nPreguntar antes de resolver: ¿dónde esperan que caiga la resultante? Entre 0 y 4m, más cerca de P2 porque es menor… ¿o más cerca de P1? La resultante se acerca a la fuerza mayor."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#polígono-funicular-construcción-12",
-    "href": "clase2/clase2_presentacion.html#polígono-funicular-construcción-12",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Polígono funicular — construcción (1/2)",
-    "text": "Polígono funicular — construcción (1/2)\nPara fuerzas no concurrentes, el polígono de fuerzas da módulo y dirección de \\(R\\) pero no su recta de acción. El polígono funicular la ubica.\n\nPasos:\n\nTrazar el polígono de fuerzas con escala \\(EF\\)\nElegir un polo \\(O\\) arbitrario\nTrazar los rayos polares de \\(O\\) a cada vértice del polígono\n\n\nEl polo O puede elegirse en cualquier lugar. Su posición afecta la forma del funicular pero no el resultado final (la recta de acción de R)."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#polígono-funicular-construcción-22",
-    "href": "clase2/clase2_presentacion.html#polígono-funicular-construcción-22",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Polígono funicular — construcción (2/2)",
-    "text": "Polígono funicular — construcción (2/2)\n\nTrazar los lados del funicular paralelos a cada rayo polar, comenzando por un punto arbitrario sobre \\(P_1\\)\nCada lado se extiende hasta la recta de acción de la fuerza siguiente\nProlongar el primer y último lado hasta que se corten\nPor ese punto pasa la recta de acción de \\(R\\)\n\n\nInsistir: cada lado del funicular es paralelo al rayo polar correspondiente. El punto de cruce del primer y último lado es la clave — ahí pasa R."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#fuerzas-distribuidas-concepto",
-    "href": "clase2/clase2_presentacion.html#fuerzas-distribuidas-concepto",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Fuerzas distribuidas — concepto",
-    "text": "Fuerzas distribuidas — concepto\nUna carga distribuida \\(q(x)\\) [] se reemplaza por su resultante puntual:\n\\[R = \\int_0^L q(x)\\,dx \\qquad x_R = \\frac{\\int_0^L x\\,q(x)\\,dx}{R}\\]\n\nAclarar que q(x) es una densidad de fuerza por unidad de longitud. En estructuras aparece como peso propio, presión del viento, carga de nieve, etc."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#carga-uniforme",
-    "href": "clase2/clase2_presentacion.html#carga-uniforme",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Carga uniforme",
-    "text": "Carga uniforme\n\\[q(x) = q = \\text{cte}\\]\n\\[R = q \\cdot L \\qquad x_R = \\frac{L}{2}\\]\nLa resultante actúa en el centro del tramo.\n\nCaso más frecuente en vigas. El peso propio de una viga uniforme es una carga distribuida uniforme."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#carga-triangular",
-    "href": "clase2/clase2_presentacion.html#carga-triangular",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Carga triangular",
-    "text": "Carga triangular\n\\[q(x) = q_0 \\cdot \\frac{x}{L}\\]\n\\[R = \\frac{q_0 \\cdot L}{2} \\qquad x_R = \\frac{2L}{3}\\]\nLa resultante actúa a dos tercios del extremo de menor carga.\n\nPedir que deduzcan xR = 2L/3 integrando x·q(x) antes de mostrarlo. Este resultado aparece en vigas con presión hidrostática o viento variable."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-12",
-    "href": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-12",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Equilibrio — condición analítica (1/2)",
-    "text": "Equilibrio — condición analítica (1/2)\na) Dos proyecciones + un momento:\n\\[\\sum P_i\\cos\\varphi_i = 0 \\qquad \\sum P_i\\sin\\varphi_i = 0 \\qquad \\sum M_i^O = 0\\]\n\nb) Una proyección + dos momentos:\n\\[\\sum P_i\\cos\\varphi_i = 0 \\qquad \\sum M_i^O = 0 \\qquad \\sum M_i^N = 0\\]\n\nEn los problemas de equilibrio de vigas (Semana 7-8) se usará casi siempre la forma a). Conviene elegir O en el punto de aplicación de una reacción desconocida para eliminarla."
-  },
-  {
-    "objectID": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-22",
-    "href": "clase2/clase2_presentacion.html#equilibrio-condición-analítica-22",
-    "title": "Fuerzas No Concurrentes en el Plano",
-    "section": "Equilibrio — condición analítica (2/2)",
-    "text": "Equilibrio — condición analítica (2/2)\nc) Tres momentos respecto a puntos no alineados:\n\\[\\sum M_i^O = 0 \\qquad \\sum M_i^N = 0 \\qquad \\sum M_i^S = 0\\]\n\n\n\n\n\n\nAdvertencia\n\n\nEn todos los casos, los centros de momentos no deben estar alineados entre sí ni con la dirección de las fuerzas.\n\n\n\n\nSi los puntos están alineados, dos de las tres ecuaciones son linealmente dependientes y el sistema queda indeterminado."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#introducción-y-conceptos-fundamentales",
-    "href": "clase1/clase1_documento.html#introducción-y-conceptos-fundamentales",
-    "title": "Unidad Temática 1: Estática Aplicada",
+    "objectID": "clase2/index.html",
+    "href": "clase2/index.html",
+    "title": "Clase 2 — Fuerzas No Concurrentes en el Plano",
     "section": "",
-    "text": "La Estática es la base del diseño estructural en Ingeniería Civil. Su objetivo es definir las condiciones de equilibrio para que un sistema permanezca sin desplazamientos bajo la acción de cargas.\n\n\nEl análisis varía según el espacio de trabajo:\n\nEstática Plana: Las fuerzas actúan en un plano de simetría (denominado “chapa”). Un punto material en este plano posee dos grados de libertad.\nEstática Espacial: Los cuerpos se refieren a una terna ortogonal \\((X, Y, Z)\\). Un punto material posee tres grados de libertad, mientras que un cuerpo rígido en el espacio posee seis grados de libertad (tres traslaciones y tres rotaciones).\n\n\n\n\nPara la Estática, adoptamos la hipótesis de rigidez: el cuerpo es un sólido ideal donde la distancia relativa entre sus partículas es invariable. A diferencia de la Resistencia de Materiales, aquí no consideramos deformaciones ni rupturas; el sólido es ilimitadamente resistente."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#la-fuerza-magnitud-vectorial",
-    "href": "clase1/clase1_documento.html#la-fuerza-magnitud-vectorial",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "2 La Fuerza: Magnitud Vectorial",
-    "text": "2 La Fuerza: Magnitud Vectorial\nLa fuerza es el ente físico capaz de producir traslaciones. Se define unívocamente mediante cuatro parámetros:\n\nMódulo (Intensidad): Valor numérico en unidades de fuerza (\\(kgf\\), \\(Tn\\), \\(kN\\)).\nDirección (Recta de Acción): La línea infinita sobre la cual se desplaza el vector.\nSentido: Orientación indicada por la flecha.\nPunto de Aplicación: Punto exacto de contacto. Según el Principio de Transmisibilidad, en cuerpos rígidos, la fuerza puede desplazarse sobre su recta de acción sin alterar el efecto externo.\n\n\nRecomendación de Imagen: Insertar aquí un diagrama de un vector fuerza aplicado a una viga simple, señalando sus 4 elementos.\n\n\n2.1 Representación Analítica\nReferida a un sistema de ejes \\((x, y)\\), una fuerza \\(P\\) con argumento \\(\\phi\\) (ángulo respecto a \\(x\\)) se descompone como: \\[P_x = P \\cdot \\cos(\\phi)\\] \\[P_y = P \\cdot \\sin(\\phi)\\]"
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática",
-    "href": "clase1/clase1_documento.html#principios-fundamentales-de-la-estática",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "3 Principios Fundamentales de la Estática",
-    "text": "3 Principios Fundamentales de la Estática\nEl equilibrio se sustenta en tres postulados clásicos:\n\nPrincipio del Paralelogramo: Dos fuerzas concurrentes pueden sustituirse por una única resultante \\(R\\), equivalente a la diagonal del paralelogramo formado por ellas.\nPrincipio de Superposición: Agregar o quitar un sistema nulo (en equilibrio) a un cuerpo no altera su estado original.\nAcción y Reacción: A toda fuerza se le opone otra de igual intensidad y recta de acción, pero sentido contrario."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#sistemas-de-fuerzas-concurrentes",
-    "href": "clase1/clase1_documento.html#sistemas-de-fuerzas-concurrentes",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "4 Sistemas de Fuerzas Concurrentes",
-    "text": "4 Sistemas de Fuerzas Concurrentes\nSon aquellos donde todas las rectas de acción convergen en un punto común.\n\n4.1 Resolución Analítica\nLa resultante se halla mediante la suma de proyecciones: \\[R_x = \\sum P_{ix} \\quad ; \\quad R_y = \\sum P_{iy}\\] \\[|R| = \\sqrt{R_x^2 + R_y^2}\\]\n\nRecomendación de Imagen: Esquema de tres fuerzas concurrentes en un punto \\(O\\), mostrando la construcción de la poligonal de fuerzas para hallar la resultante gráfica."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#momento-y-teorema-de-varignon",
-    "href": "clase1/clase1_documento.html#momento-y-teorema-de-varignon",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "5 Momento y Teorema de Varignon",
-    "text": "5 Momento y Teorema de Varignon\nEl Momento Estático (\\(M\\)) mide la capacidad de una fuerza para producir una rotación respecto a un punto \\(O\\). \\[M = P \\cdot d\\] Donde \\(d\\) es el “brazo de palanca”.\n\n5.1 Teorema de Varignon\nEste teorema es el pilar para el cálculo de reacciones: \\[M_O(R) = \\sum M_O(P_i)\\] “El momento de la resultante es igual a la suma de los momentos de las componentes.”"
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#pares-de-fuerzas-cuplas",
-    "href": "clase1/clase1_documento.html#pares-de-fuerzas-cuplas",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "6 Pares de Fuerzas (Cuplas)",
-    "text": "6 Pares de Fuerzas (Cuplas)\nUn par está formado por dos fuerzas paralelas de igual módulo y sentido contrario. * Resultante: Es nula (\\(R = 0\\)). * Efecto: Produce exclusivamente rotación (\\(M = P \\cdot a\\)). * Propiedad: El momento de una cupla es un vector libre (constante para cualquier punto del plano)."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#sistemas-no-concurrentes-y-polígono-funicular",
-    "href": "clase1/clase1_documento.html#sistemas-no-concurrentes-y-polígono-funicular",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "7 Sistemas No Concurrentes y Polígono Funicular",
-    "text": "7 Sistemas No Concurrentes y Polígono Funicular\nCuando las fuerzas no convergen, la poligonal de fuerzas nos da la intensidad de \\(R\\), pero no su posición. Para ubicarla, recurrimos al Polígono Funicular.\n\nRecomendación de Imagen: Dibujar un sistema de 3 fuerzas no concurrentes, su polígono de fuerzas con polo \\(O\\) y rayos, y el correspondiente polígono funicular en el esquema de posición."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#métodos-de-descomposición",
-    "href": "clase1/clase1_documento.html#métodos-de-descomposición",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "8 Métodos de Descomposición",
-    "text": "8 Métodos de Descomposición\n\n8.1 Método de Cullmann (Gráfico)\nPermite descomponer una fuerza conocida (o resultante) en tres direcciones no concurrentes. Se basa en agrupar dos de las direcciones en una “recta auxiliar de Cullmann”.\n\n\n8.2 Método de Ritter (Analítico-Gráfico)\nConsiste en realizar un corte en la estructura y plantear ecuaciones de momentos en puntos estratégicos (nudos de la estructura) donde se anulen dos de las tres incógnitas."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#fuerzas-paralelas-y-distribuidas",
-    "href": "clase1/clase1_documento.html#fuerzas-paralelas-y-distribuidas",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "9 Fuerzas Paralelas y Distribuidas",
-    "text": "9 Fuerzas Paralelas y Distribuidas\n\n9.1 Fuerzas Paralelas\nUn caso particular de fuerzas concurrentes en el infinito. La resultante es la suma algebraica de intensidades. El Centro de Fuerzas Paralelas es el punto por donde pasa \\(R\\) independientemente de la rotación del sistema.\n\n\n9.2 Fuerzas Distribuidas\nSon cargas que actúan sobre una longitud \\(L\\) con una intensidad \\(q\\). * Intensidad de la Resultante: Equivale al área del diagrama de carga. * Punto de aplicación: Se ubica en el baricentro del diagrama.\n\nRecomendación de Imagen: Tabla comparativa con un diagrama de carga rectangular (\\(R=q \\cdot L\\) en \\(L/2\\)) y uno triangular (\\(R = \\frac{q \\cdot L}{2}\\) en \\(L/3\\) desde la base)."
-  },
-  {
-    "objectID": "clase1/clase1_documento.html#resumen-de-condiciones-de-equilibrio",
-    "href": "clase1/clase1_documento.html#resumen-de-condiciones-de-equilibrio",
-    "title": "Unidad Temática 1: Estática Aplicada",
-    "section": "10 Resumen de Condiciones de Equilibrio",
-    "text": "10 Resumen de Condiciones de Equilibrio\nPara que una chapa en el plano esté en equilibrio, se deben anular las posibilidades de traslación y rotación:\n\\[\\sum F_x = 0 \\quad ; \\quad \\sum F_y = 0 \\quad ; \\quad \\sum M_O = 0\\]"
+    "text": "Material correspondiente a la segunda semana de cursada.\n\n\n\nRecurso\nDescripción\n\n\n\n\nDocumento teórico\nDesarrollo completo de los contenidos\n\n\nPresentación\nSlides de clase (RevealJS)\n\n\nGuía de ejercicios\nEjercicios para resolver\n\n\n\nContenidos: momento estático, Teorema de Varignon, par de fuerzas, traslación de fuerzas, composición de fuerzas no concurrentes, polígono funicular, fuerzas distribuidas, equilibrio.\nBibliografía: Ballario, L. — La Estática Aplicada (UTN FRLP)."
   }
 ]
