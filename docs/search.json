@@ -11,7 +11,7 @@
     "href": "index.html#programa",
     "title": "Estabilidad / Estática y Resistencia de Materiales",
     "section": "1 Programa",
-    "text": "1 Programa\n\n\n\nClase\nSemana\nUnidad\nTema\n\n\n\n\nClase 1\n1\nUT1\nFuerzas concurrentes en el plano\n\n\nClase 2\n2\nUT1\nFuerzas no concurrentes en el plano"
+    "text": "1 Programa\n\n\n\nClase\nSemana\nUnidad\nTema\n\n\n\n\nClase 1\n1\nUT1\nFuerzas concurrentes en el plano\n\n\nClase 2\n2\nUT1\nFuerzas no concurrentes en el plano\n\n\nClase 3\n2\nUT1\nFuerzas no concurrentes en el plano"
   },
   {
     "objectID": "clase2/clase2_presentacion.html#repaso-semana-1",
@@ -551,5 +551,12 @@
     "title": "Clase 2 — Fuerzas No Concurrentes en el Plano",
     "section": "",
     "text": "Material correspondiente a la segunda semana de cursada.\n\n\n\nRecurso\nDescripción\n\n\n\n\nDocumento teórico\nDesarrollo completo de los contenidos\n\n\nPresentación\nSlides de clase (RevealJS)\n\n\nGuía de ejercicios\nEjercicios para resolver\n\n\n\nContenidos: momento estático, Teorema de Varignon, par de fuerzas, traslación de fuerzas, composición de fuerzas no concurrentes, polígono funicular, fuerzas distribuidas, equilibrio.\nBibliografía: Ballario, L. — La Estática Aplicada (UTN FRLP)."
+  },
+  {
+    "objectID": "clase3/index.html",
+    "href": "clase3/index.html",
+    "title": "Clase 3 — Análisis de Cargas en Pasarela Industrial",
+    "section": "",
+    "text": "Material correspondiente a la segunda semana de cursada (continuación).\n\n\n\nRecurso\nDescripción\n\n\n\n\nTrabajo Extra Clase N°1\nAnálisis de cargas en pasarela industrial\n\n\nCIRSOC 101\nReglamento Argentino de Cargas — Cap. 3 y 4\n\n\n\nContenidos: determinación de cargas según reglamento, modelo de cargas, reacciones en apoyos, momento en empotramiento de columnas.\nBibliografía: Ballario, L. — La Estática Aplicada (UTN FRLP) · CIRSOC 101 — Reglamento Argentino de Cargas Permanentes y Sobrecargas Mínimas de Diseño (INTI, 2005)."
   }
 ]

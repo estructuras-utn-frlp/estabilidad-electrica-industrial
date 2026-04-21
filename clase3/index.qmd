@@ -1,0 +1,19 @@
+---
+title: "Clase 3 — Análisis de Cargas en Pasarela Industrial"
+subtitle: "UT1 · Semana 2"
+lang: es
+---
+
+Material correspondiente a la segunda semana de cursada (continuación).
+
+| Recurso | Descripción |
+|---|---|
+| [Trabajo Extra Clase N°1](clase3_enunciado.qmd) | Análisis de cargas en pasarela industrial |
+| [CIRSOC 101](http://contenidos.inpres.gob.ar/docs/Reglamentos/CIRSOC-101-Reglamento.pdf) | Reglamento Argentino de Cargas — Cap. 3 y 4 |
+
+**Contenidos:** determinación de cargas según reglamento, modelo de cargas,
+reacciones en apoyos, momento en empotramiento de columnas.
+
+**Bibliografía:** Ballario, L. — *La Estática Aplicada* (UTN FRLP) ·
+CIRSOC 101 — *Reglamento Argentino de Cargas Permanentes y Sobrecargas
+Mínimas de Diseño* (INTI, 2005).
